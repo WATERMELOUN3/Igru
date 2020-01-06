@@ -14,6 +14,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1W1sgyVr14xF8AfKbJZIEojMe2g" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -22,6 +25,8 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Igru" />
   </component>
   <component name="ServiceViewManager">
     <option name="viewStates">
@@ -49,6 +54,14 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
+    <state x="763" y="251" width="424" height="570" key="FileChooserDialogImpl" timestamp="1578329864680">
+      <screen x="40" y="0" width="1880" height="1080" />
+    </state>
+    <state x="763" y="251" width="424" height="570" key="FileChooserDialogImpl/40.0.1880.1080@40.0.1880.1080" timestamp="1578329864680" />
+    <state x="618" y="241" width="713" height="591" key="NewModule_or_Project.wizard" timestamp="1578329872429">
+      <screen x="40" y="0" width="1880" height="1080" />
+    </state>
+    <state x="618" y="241" width="713" height="591" key="NewModule_or_Project.wizard/40.0.1880.1080@40.0.1880.1080" timestamp="1578329872429" />
     <state x="396" y="162" width="1157" height="748" key="new project wizard" timestamp="1578328589089">
       <screen x="40" y="0" width="1880" height="1080" />
     </state>
