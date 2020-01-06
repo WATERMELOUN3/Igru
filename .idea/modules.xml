@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/Client/Client.iml" filepath="$PROJECT_DIR$/Client/Client.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Ecran/Ecran.iml" filepath="$PROJECT_DIR$/Ecran/Ecran.iml" />
       <module fileurl="file://$PROJECT_DIR$/Igru.iml" filepath="$PROJECT_DIR$/Igru.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Serveur/Serveur.iml" filepath="$PROJECT_DIR$/Serveur/Serveur.iml" />
     </modules>
   </component>
 </project>
