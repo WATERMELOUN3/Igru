@@ -1,4 +1,4 @@
-package windows;
+package fr.igru.windows;
 
 import javax.swing.*;
 import java.awt.event.*;
