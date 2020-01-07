@@ -5,27 +5,57 @@ new FormModel {
 	root: new FormRoot {
 		add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class net.miginfocom.swing.MigLayout ) {
 			"$layoutConstraints": "hidemode 3"
-			"$columnConstraints": "[260,fill][260,fill][fill]"
+			"$columnConstraints": "[235:260,fill]unrel[282:293,fill][177,right]"
 			"$rowConstraints": "[][][][][][][][][][][][]"
 		} ) {
 			name: "this"
 			add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class net.miginfocom.swing.MigLayout ) {
 				"$layoutConstraints": "fillx,hidemode 3"
 				"$columnConstraints": "[fill]"
-				"$rowConstraints": "[225]"
+				"$rowConstraints": "0[][199]"
 			} ) {
 				name: "panel13"
 				"border": &SoftBevelBorder0 new javax.swing.border.SoftBevelBorder( 1, null, null, null, null )
+				add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class net.miginfocom.swing.MigLayout ) {
+					"$layoutConstraints": "fillx,hidemode 3"
+					"$columnConstraints": "[fill]"
+					"$rowConstraints": "0[]0"
+				} ) {
+					name: "panel20"
+					add( new FormComponent( "javax.swing.JTextField" ) {
+						name: "textField1"
+						"text": "                       Groupes                  "
+					}, new FormLayoutConstraints( class net.miginfocom.layout.CC ) {
+						"value": "cell 0 0,growx"
+					} )
+				}, new FormLayoutConstraints( class net.miginfocom.layout.CC ) {
+					"value": "cell 0 0"
+				} )
 			}, new FormLayoutConstraints( class net.miginfocom.layout.CC ) {
 				"value": "cell 0 0 1 12,aligny top,growy 0"
 			} )
 			add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class net.miginfocom.swing.MigLayout ) {
 				"$layoutConstraints": "fill,hidemode 3"
-				"$columnConstraints": "[fill]"
-				"$rowConstraints": "[179]"
+				"$columnConstraints": "[229:234,fill]"
+				"$rowConstraints": "0[][155:154]"
 			} ) {
 				name: "panel14"
 				"border": #SoftBevelBorder0
+				add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class net.miginfocom.swing.MigLayout ) {
+					"$layoutConstraints": "fillx,hidemode 3"
+					"$columnConstraints": "[fill]"
+					"$rowConstraints": "0[]"
+				} ) {
+					name: "panel21"
+					add( new FormComponent( "javax.swing.JTextField" ) {
+						name: "textField2"
+						"text": "                             Utilisateurs              "
+					}, new FormLayoutConstraints( class net.miginfocom.layout.CC ) {
+						"value": "cell 0 0"
+					} )
+				}, new FormLayoutConstraints( class net.miginfocom.layout.CC ) {
+					"value": "cell 0 0"
+				} )
 			}, new FormLayoutConstraints( class net.miginfocom.layout.CC ) {
 				"value": "cell 1 0 1 12,aligny top,growy 0"
 			} )
@@ -37,13 +67,13 @@ new FormModel {
 				name: "panel16"
 				add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class net.miginfocom.swing.MigLayout ) {
 					"$layoutConstraints": "fillx,hidemode 3"
-					"$columnConstraints": "[fill]"
+					"$columnConstraints": "[139:146,fill]"
 					"$rowConstraints": "[]"
 				} ) {
 					name: "panel17"
 					add( new FormComponent( "javax.swing.JButton" ) {
 						name: "button9"
-						"text": "text"
+						"text": "Client Administrateur"
 					}, new FormLayoutConstraints( class net.miginfocom.layout.CC ) {
 						"value": "cell 0 0"
 					} )
@@ -58,7 +88,7 @@ new FormModel {
 					name: "panel19"
 					add( new FormComponent( "javax.swing.JButton" ) {
 						name: "button10"
-						"text": "text"
+						"text": "Sauvegarder Données"
 					}, new FormLayoutConstraints( class net.miginfocom.layout.CC ) {
 						"value": "cell 0 0"
 					} )
@@ -73,7 +103,7 @@ new FormModel {
 					name: "panel18"
 					add( new FormComponent( "javax.swing.JButton" ) {
 						name: "button11"
-						"text": "text"
+						"text": "Visualisateur des tables"
 					}, new FormLayoutConstraints( class net.miginfocom.layout.CC ) {
 						"value": "cell 0 0"
 					} )
@@ -85,25 +115,26 @@ new FormModel {
 			} )
 			add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class net.miginfocom.swing.MigLayout ) {
 				"$layoutConstraints": "hidemode 3"
-				"$columnConstraints": "[260,fill][261,fill][260,fill]"
+				"$columnConstraints": "[227:237,fill]unrel[274:297,fill][260,fill]"
 				"$rowConstraints": "[]0[]0"
 			} ) {
 				name: "panel1"
 				add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class net.miginfocom.swing.MigLayout ) {
-					"$layoutConstraints": "fillx,hidemode 3"
-					"$columnConstraints": "[fill][fill]"
+					"$layoutConstraints": "hidemode 3"
+					"$columnConstraints": "0[134:129,fill]unrel[fill]"
 					"$rowConstraints": "0[]0"
 				} ) {
 					name: "panel2"
 					add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class net.miginfocom.swing.MigLayout ) {
 						"$layoutConstraints": "fillx,hidemode 3"
-						"$columnConstraints": "[fill]"
+						"$columnConstraints": "0[120:n,fill]0"
 						"$rowConstraints": "0[]0"
 					} ) {
 						name: "panel4"
 						add( new FormComponent( "javax.swing.JButton" ) {
 							name: "button1"
-							"text": "text"
+							"text": "Ajouter au groupe"
+							"iconTextGap": 3
 						}, new FormLayoutConstraints( class net.miginfocom.layout.CC ) {
 							"value": "cell 0 0,growx"
 						} )
@@ -112,13 +143,13 @@ new FormModel {
 					} )
 					add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class net.miginfocom.swing.MigLayout ) {
 						"$layoutConstraints": "fillx,hidemode 3"
-						"$columnConstraints": "[fill]"
+						"$columnConstraints": "0[137,fill]0"
 						"$rowConstraints": "0[]0"
 					} ) {
 						name: "panel5"
 						add( new FormComponent( "javax.swing.JButton" ) {
 							name: "button2"
-							"text": "text"
+							"text": "Enlever du groupe"
 						}, new FormLayoutConstraints( class net.miginfocom.layout.CC ) {
 							"value": "cell 0 0"
 						} )
@@ -136,13 +167,13 @@ new FormModel {
 					name: "panel10"
 					add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class net.miginfocom.swing.MigLayout ) {
 						"$layoutConstraints": "fillx,hidemode 3"
-						"$columnConstraints": "[fill]"
+						"$columnConstraints": "0[91,fill]0"
 						"$rowConstraints": "[]"
 					} ) {
 						name: "panel11"
 						add( new FormComponent( "javax.swing.JButton" ) {
 							name: "button8"
-							"text": "text"
+							"text": "Ajouter"
 						}, new FormLayoutConstraints( class net.miginfocom.layout.CC ) {
 							"value": "cell 0 0"
 						} )
@@ -157,7 +188,7 @@ new FormModel {
 						name: "panel12"
 						add( new FormComponent( "javax.swing.JButton" ) {
 							name: "button7"
-							"text": "text"
+							"text": "Supprimer"
 						}, new FormLayoutConstraints( class net.miginfocom.layout.CC ) {
 							"value": "cell 0 0"
 						} )
@@ -169,34 +200,34 @@ new FormModel {
 				} )
 				add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class net.miginfocom.swing.MigLayout ) {
 					"$layoutConstraints": "fillx,hidemode 3"
-					"$columnConstraints": "[fill][fill]"
+					"$columnConstraints": "0[fill]unrel[127:124,fill]0"
 					"$rowConstraints": "0[]0"
 				} ) {
 					name: "panel7"
 					add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class net.miginfocom.swing.MigLayout ) {
 						"$layoutConstraints": "fillx,hidemode 3"
-						"$columnConstraints": "[fill]"
+						"$columnConstraints": "0[133:118,left]0"
 						"$rowConstraints": "[]"
 					} ) {
 						name: "panel8"
 						add( new FormComponent( "javax.swing.JButton" ) {
 							name: "button5"
-							"text": "text"
+							"text": "Ajouter"
 						}, new FormLayoutConstraints( class net.miginfocom.layout.CC ) {
-							"value": "cell 0 0"
+							"value": "cell 0 0,growx"
 						} )
 					}, new FormLayoutConstraints( class net.miginfocom.layout.CC ) {
 						"value": "cell 0 0"
 					} )
 					add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class net.miginfocom.swing.MigLayout ) {
-						"$layoutConstraints": "fillx,hidemode 3"
-						"$columnConstraints": "[fill]"
+						"$layoutConstraints": "hidemode 3"
+						"$columnConstraints": "0[132:126,fill]0"
 						"$rowConstraints": "[]"
 					} ) {
 						name: "panel9"
 						add( new FormComponent( "javax.swing.JButton" ) {
 							name: "button6"
-							"text": "text"
+							"text": "Supprimer"
 						}, new FormLayoutConstraints( class net.miginfocom.layout.CC ) {
 							"value": "cell 0 0"
 						} )
@@ -211,7 +242,7 @@ new FormModel {
 			} )
 		}, new FormLayoutConstraints( null ) {
 			"location": new java.awt.Point( 5, 0 )
-			"size": new java.awt.Dimension( 780, 305 )
+			"size": new java.awt.Dimension( 725, 320 )
 		} )
 	}
 }
