@@ -2,11 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="58d67246-922a-4d2d-a1d0-7b772984c9e2" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../Igru/src/fr/igru/windows/ConnectionDialog.form" beforeDir="false" afterPath="$PROJECT_DIR$/../Igru/src/fr/igru/windows/ConnectionDialog.form" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Igru/src/fr/igru/windows/MainWindow.form" beforeDir="false" afterPath="$PROJECT_DIR$/../Igru/src/fr/igru/windows/MainWindow.form" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Igru/src/fr/igru/windows/MainWindow.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Igru/src/fr/igru/windows/MainWindow.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Igru/src/fr/igru/client/NetworkHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Igru/src/fr/igru/client/NetworkHelper.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/fr/igruserver/server/Server.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fr/igruserver/server/Server.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -115,7 +114,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
@@ -127,10 +128,15 @@
     <option name="LAST_COMMIT_MESSAGE" value="Mise en place UI (commit pré-changement de plugin UI)" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="648" y="319" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1578350951568">
-      <screen x="0" y="0" width="1600" height="860" />
+    <state x="788" y="245" width="374" height="582" key="#com.intellij.ide.util.MemberChooser" timestamp="1578358910450">
+      <screen x="40" y="0" width="1880" height="1080" />
+    </state>
+    <state x="788" y="245" width="374" height="582" key="#com.intellij.ide.util.MemberChooser/40.0.1880.1080@40.0.1880.1080" timestamp="1578358910450" />
+    <state x="801" y="401" width="302" height="211" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1578421972058">
+      <screen x="40" y="0" width="1880" height="1080" />
     </state>
     <state x="648" y="319" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.0.1600.860@0.0.1600.860" timestamp="1578350951568" />
+    <state x="801" y="401" width="302" height="211" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/40.0.1880.1080@40.0.1880.1080" timestamp="1578421972058" />
     <state x="788" y="467" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1578330266843">
       <screen x="40" y="0" width="1880" height="1080" />
     </state>
@@ -144,6 +150,10 @@
     </state>
     <state x="492" y="50" key="CommitChangelistDialog2/0.0.1600.860@0.0.1600.860" timestamp="1578351877573" />
     <state x="618" y="137" width="714" height="798" key="CommitChangelistDialog2/40.0.1880.1080@40.0.1880.1080" timestamp="1578329899430" />
+    <state x="140" y="99" width="1680" height="880" key="DiffContextDialog" timestamp="1578358078345">
+      <screen x="40" y="0" width="1880" height="1080" />
+    </state>
+    <state x="140" y="99" width="1680" height="880" key="DiffContextDialog/40.0.1880.1080@40.0.1880.1080" timestamp="1578358078345" />
     <state x="763" y="251" width="424" height="570" key="FileChooserDialogImpl" timestamp="1578329864680">
       <screen x="40" y="0" width="1880" height="1080" />
     </state>
@@ -161,6 +171,10 @@
     </state>
     <state x="455" y="219" key="Vcs.Push.Dialog.v2/0.0.1600.860@0.0.1600.860" timestamp="1578350768820" />
     <state x="575" y="275" width="800" height="523" key="Vcs.Push.Dialog.v2/40.0.1880.1080@40.0.1880.1080" timestamp="1578329915903" />
+    <state x="690" y="315" width="570" height="442" key="git4idea.merge.GitPullDialog" timestamp="1578437829157">
+      <screen x="40" y="0" width="1880" height="1080" />
+    </state>
+    <state x="690" y="315" width="570" height="442" key="git4idea.merge.GitPullDialog/40.0.1880.1080@40.0.1880.1080" timestamp="1578437829157" />
     <state x="396" y="162" width="1157" height="748" key="new project wizard" timestamp="1578328589089">
       <screen x="40" y="0" width="1880" height="1080" />
     </state>
