@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="58d67246-922a-4d2d-a1d0-7b772984c9e2" name="Default Changelist" comment="Retouche MainWindow : tout se redimensionne bien si on chane la taille de la fenêtre, mise en place des actionListener des boutons (avant implémentation)&#10;# Conflicts (supprimé):&#10;#&#9;src/fr/igru/windows/ConnectionDialog.form&#10;#&#9;src/fr/igru/windows/MainWindow.form&#10;#&#9;src/fr/igru/windows/MainWindow.java">
-      <change beforePath="$PROJECT_DIR$/../Igru/src/fr/igru/windows/MainWindow/MainWindow.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Igru/src/fr/igru/windows/MainWindow/MainWindow.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Igru/src/fr/igru/windows/MainWindow/MainWindow.jfd" beforeDir="false" afterPath="$PROJECT_DIR$/../Igru/src/fr/igru/windows/MainWindow/MainWindow.jfd" afterDir="false" />
+    <list default="true" id="58d67246-922a-4d2d-a1d0-7b772984c9e2" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../Igru/src/fr/igru/client/NetworkHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Igru/src/fr/igru/client/NetworkHelper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/fr/igruserver/server/Server.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fr/igruserver/server/Server.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,7 +35,6 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../Igru" />
-    <option name="UPDATE_TYPE" value="MERGE" />
   </component>
   <component name="ProjectId" id="1W1sgyVr14xF8AfKbJZIEojMe2g" />
   <component name="ProjectLevelVcsManager">
@@ -50,23 +50,10 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="node.js.detected.package.eslint" value="true" />
-    <property name="node.js.detected.package.tslint" value="true" />
-    <property name="node.js.path.for.package.eslint" value="project" />
-    <property name="node.js.path.for.package.tslint" value="project" />
-    <property name="node.js.selected.package.eslint" value="(autodetect)" />
-    <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Igru" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\Guillaume DELBOULBES\IdeaProjects\Igru\src\fr\igru\windows\MainWindow" />
-      <recent name="C:\Users\Guillaume DELBOULBES\IdeaProjects\Igru\src\fr\igru\windows/ConnectionDialog" />
-      <recent name="C:\Users\Guillaume DELBOULBES\IdeaProjects\Igru\src\fr\igru\windows" />
       <recent name="$PROJECT_DIR$/src/fr/igruserver/windows" />
       <recent name="$PROJECT_DIR$/src/fr/igruserver" />
     </key>
@@ -93,11 +80,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1578328550821</updated>
-      <workItem from="1578335320646" duration="10673000" />
-      <workItem from="1578416541491" duration="225000" />
-      <workItem from="1578417145179" duration="989000" />
-      <workItem from="1578418415044" duration="160000" />
-      <workItem from="1578418594409" duration="12182000" />
+      <workItem from="1578335320646" duration="9893000" />
     </task>
     <task id="LOCAL-00001" summary="Encore tentative de fusion + efficace">
       <created>1578329899467</created>
@@ -120,28 +103,7 @@
       <option name="project" value="LOCAL" />
       <updated>1578350758739</updated>
     </task>
-    <task id="LOCAL-00004" summary="Essai ajout bouton">
-      <created>1578351922056</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1578351922056</updated>
-    </task>
-    <task id="LOCAL-00005" summary="Changement pluggin GUI (JFormDesiner)&#10;# Conflicts (supprimé):&#10;#&#9;src/fr/igru/windows/ConnectionDialog.form&#10;#&#9;src/fr/igru/windows/MainWindow.form&#10;#&#9;src/fr/igru/windows/MainWindow.java">
-      <created>1578420763293</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1578420763293</updated>
-    </task>
-    <task id="LOCAL-00006" summary="Finalisation UI Main Window (non cliquable)&#10;# Conflicts (supprimé):&#10;#&#9;src/fr/igru/windows/ConnectionDialog.form&#10;#&#9;src/fr/igru/windows/MainWindow.form&#10;#&#9;src/fr/igru/windows/MainWindow.java">
-      <created>1578422244262</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1578422244262</updated>
-    </task>
-    <option name="localTasksCounter" value="7" />
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -163,28 +125,18 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Mise en place UI (commit pré-changement de plugin UI)" />
     <MESSAGE value="Mise en place UI (commit pré-changement de plugin UI)" />
-    <MESSAGE value="Essai ajout bouton" />
-    <MESSAGE value="Essai ajout bouton&#10;&#10;(cherry picked from commit 2bdb1cf4bf944269e9d1ed8e0bcfc93e00a92667)&#10;&#10;# Conflicts:&#10;#&#9;src/fr/igru/windows/ConnectionDialog.form&#10;#&#9;src/fr/igru/windows/MainWindow.form&#10;#&#9;src/fr/igru/windows/MainWindow.java" />
-    <MESSAGE value="Changement pluggin GUI (JFormDesiner)&#10;# Conflicts (supprimé):&#10;#&#9;src/fr/igru/windows/ConnectionDialog.form&#10;#&#9;src/fr/igru/windows/MainWindow.form&#10;#&#9;src/fr/igru/windows/MainWindow.java" />
-    <MESSAGE value="Finalisation UI Main Window (non cliquable)&#10;# Conflicts (supprimé):&#10;#&#9;src/fr/igru/windows/ConnectionDialog.form&#10;#&#9;src/fr/igru/windows/MainWindow.form&#10;#&#9;src/fr/igru/windows/MainWindow.java" />
-    <MESSAGE value="Retouche MainWindow : tout se redimensionne bien si on chane la taille de la fenêtre&#10;# Conflicts (supprimé):&#10;#&#9;src/fr/igru/windows/ConnectionDialog.form&#10;#&#9;src/fr/igru/windows/MainWindow.form&#10;#&#9;src/fr/igru/windows/MainWindow.java" />
-    <MESSAGE value="Retouche MainWindow : tout se redimensionne bien si on chane la taille de la fenêtre, mise en place des actionListener des boutons (avant implémentation)&#10;# Conflicts (supprimé):&#10;#&#9;src/fr/igru/windows/ConnectionDialog.form&#10;#&#9;src/fr/igru/windows/MainWindow.form&#10;#&#9;src/fr/igru/windows/MainWindow.java" />
-    <option name="LAST_COMMIT_MESSAGE" value="Retouche MainWindow : tout se redimensionne bien si on chane la taille de la fenêtre, mise en place des actionListener des boutons (avant implémentation)&#10;# Conflicts (supprimé):&#10;#&#9;src/fr/igru/windows/ConnectionDialog.form&#10;#&#9;src/fr/igru/windows/MainWindow.form&#10;#&#9;src/fr/igru/windows/MainWindow.java" />
+    <option name="LAST_COMMIT_MESSAGE" value="Mise en place UI (commit pré-changement de plugin UI)" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="552" y="179" key="#Project_Structure" timestamp="1578417150450">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="788" y="245" width="374" height="582" key="#com.intellij.ide.util.MemberChooser" timestamp="1578358910450">
+      <screen x="40" y="0" width="1880" height="1080" />
     </state>
-    <state x="552" y="179" key="#Project_Structure/0.0.1920.1040@0.0.1920.1040" timestamp="1578417150450" />
-    <state x="778" y="386" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1578420479688">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="788" y="245" width="374" height="582" key="#com.intellij.ide.util.MemberChooser/40.0.1880.1080@40.0.1880.1080" timestamp="1578358910450" />
+    <state x="801" y="401" width="302" height="211" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1578421972058">
+      <screen x="40" y="0" width="1880" height="1080" />
     </state>
     <state x="648" y="319" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.0.1600.860@0.0.1600.860" timestamp="1578350951568" />
-    <state x="778" y="386" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1578420479688" />
-    <state x="510" y="152" key="#com.intellij.openapi.projectRoots.ui.ProjectJdksEditor" timestamp="1578420297866">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="510" y="152" key="#com.intellij.openapi.projectRoots.ui.ProjectJdksEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1578420297866" />
+    <state x="801" y="401" width="302" height="211" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/40.0.1880.1080@40.0.1880.1080" timestamp="1578421972058" />
     <state x="788" y="467" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1578330266843">
       <screen x="40" y="0" width="1880" height="1080" />
     </state>
@@ -193,12 +145,15 @@
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="103" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1600.860@0.0.1600.860" timestamp="1578343483816" />
-    <state x="475" y="60" width="714" height="798" key="CommitChangelistDialog2" timestamp="1578494617472">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="492" y="50" width="714" height="798" key="CommitChangelistDialog2" timestamp="1578351877573">
+      <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="492" y="50" key="CommitChangelistDialog2/0.0.1600.860@0.0.1600.860" timestamp="1578351918682" />
-    <state x="475" y="60" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1578494617472" />
+    <state x="492" y="50" key="CommitChangelistDialog2/0.0.1600.860@0.0.1600.860" timestamp="1578351877573" />
     <state x="618" y="137" width="714" height="798" key="CommitChangelistDialog2/40.0.1880.1080@40.0.1880.1080" timestamp="1578329899430" />
+    <state x="140" y="99" width="1680" height="880" key="DiffContextDialog" timestamp="1578358078345">
+      <screen x="40" y="0" width="1880" height="1080" />
+    </state>
+    <state x="140" y="99" width="1680" height="880" key="DiffContextDialog/40.0.1880.1080@40.0.1880.1080" timestamp="1578358078345" />
     <state x="763" y="251" width="424" height="570" key="FileChooserDialogImpl" timestamp="1578329864680">
       <screen x="40" y="0" width="1880" height="1080" />
     </state>
@@ -211,25 +166,15 @@
       <screen x="40" y="0" width="1880" height="1080" />
     </state>
     <state x="618" y="241" width="713" height="591" key="NewModule_or_Project.wizard/40.0.1880.1080@40.0.1880.1080" timestamp="1578329872429" />
-    <state x="461" y="163" key="SettingsEditor" timestamp="1578418398323">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="455" y="219" width="800" height="523" key="Vcs.Push.Dialog.v2" timestamp="1578350768820">
+      <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="461" y="163" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1578418398323" />
-    <state x="546" y="265" width="800" height="523" key="Vcs.Push.Dialog.v2" timestamp="1578422246050">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="455" y="219" key="Vcs.Push.Dialog.v2/0.0.1600.860@0.0.1600.860" timestamp="1578351925801" />
-    <state x="546" y="265" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1578422246050" />
+    <state x="455" y="219" key="Vcs.Push.Dialog.v2/0.0.1600.860@0.0.1600.860" timestamp="1578350768820" />
     <state x="575" y="275" width="800" height="523" key="Vcs.Push.Dialog.v2/40.0.1880.1080@40.0.1880.1080" timestamp="1578329915903" />
-    <state x="595" y="307" key="com.intellij.ide.util.TipDialog" timestamp="1578418603758">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="690" y="315" width="570" height="442" key="git4idea.merge.GitPullDialog" timestamp="1578437829157">
+      <screen x="40" y="0" width="1880" height="1080" />
     </state>
-    <state x="496" y="254" key="com.intellij.ide.util.TipDialog/0.0.1600.860@0.0.1600.860" timestamp="1578416535026" />
-    <state x="595" y="307" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1578418603758" />
-    <state x="769" y="437" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1578417365257">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="769" y="437" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040" timestamp="1578417365257" />
+    <state x="690" y="315" width="570" height="442" key="git4idea.merge.GitPullDialog/40.0.1880.1080@40.0.1880.1080" timestamp="1578437829157" />
     <state x="396" y="162" width="1157" height="748" key="new project wizard" timestamp="1578328589089">
       <screen x="40" y="0" width="1880" height="1080" />
     </state>
