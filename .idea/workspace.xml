@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="58d67246-922a-4d2d-a1d0-7b772984c9e2" name="Default Changelist" comment="Mise en place UI (commit pré-changement de plugin UI)">
+    <list default="true" id="58d67246-922a-4d2d-a1d0-7b772984c9e2" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/../Igru/src/fr/igru/windows/ConnectionDialog/connectionDialog.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Igru/src/fr/igru/windows/ConnectionDialog/connectionDialog.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Igru/src/fr/igru/windows/ConnectionDialog/connectionDialog.jfd" beforeDir="false" afterPath="$PROJECT_DIR$/../Igru/src/fr/igru/windows/ConnectionDialog/connectionDialog.jfd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Igru/src/fr/igru/windows/MainWindow/MainWindow.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Igru/src/fr/igru/windows/MainWindow/MainWindow.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Igru/src/fr/igru/windows/MainWindow/MainWindow.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Igru/src/fr/igruserver/windows/MainServerWindow/MainServerWindow.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Igru/src/fr/igru/windows/MainWindow/MainWindow.jfd" beforeDir="false" afterPath="$PROJECT_DIR$/../Igru/src/fr/igruserver/windows/MainServerWindow/MainServerWindow.jfd" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -113,7 +114,14 @@
       <option name="project" value="LOCAL" />
       <updated>1578494799006</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Mise en place UI (commit pré-changement de plugin UI)">
+      <created>1578505315342</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1578505315342</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -148,19 +156,25 @@
     <state x="648" y="319" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.0.1600.860@0.0.1600.860" timestamp="1578350951568" />
     <state x="777" y="386" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1578494781577" />
     <state x="801" y="401" width="302" height="211" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/40.0.1880.1080@40.0.1880.1080" timestamp="1578421972058" />
-    <state x="788" y="467" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1578330266843">
-      <screen x="40" y="0" width="1880" height="1080" />
+    <state x="764" y="450" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1578506292567">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
+    <state x="764" y="450" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1578506292567" />
     <state x="788" y="467" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/40.0.1880.1080@40.0.1880.1080" timestamp="1578330266843" />
-    <state x="103" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1578343483816">
-      <screen x="0" y="0" width="1600" height="860" />
+    <state x="124" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1578506264687">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="103" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1600.860@0.0.1600.860" timestamp="1578343483816" />
-    <state x="590" y="60" width="714" height="798" key="CommitChangelistDialog2" timestamp="1578505225931">
+    <state x="124" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1578506264687" />
+    <state x="690" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1578506306773">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="690" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1578506306773" />
+    <state x="590" y="60" width="714" height="798" key="CommitChangelistDialog2" timestamp="1578505314429">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="492" y="50" key="CommitChangelistDialog2/0.0.1600.860@0.0.1600.860" timestamp="1578351877573" />
-    <state x="590" y="60" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1578505225931" />
+    <state x="590" y="60" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1578505314429" />
     <state x="618" y="137" width="714" height="798" key="CommitChangelistDialog2/40.0.1880.1080@40.0.1880.1080" timestamp="1578329899430" />
     <state x="140" y="99" width="1680" height="880" key="DiffContextDialog" timestamp="1578358078345">
       <screen x="40" y="0" width="1880" height="1080" />
@@ -178,11 +192,11 @@
       <screen x="40" y="0" width="1880" height="1080" />
     </state>
     <state x="618" y="241" width="713" height="591" key="NewModule_or_Project.wizard/40.0.1880.1080@40.0.1880.1080" timestamp="1578329872429" />
-    <state x="546" y="265" width="800" height="523" key="Vcs.Push.Dialog.v2" timestamp="1578494804442">
+    <state x="546" y="265" width="800" height="523" key="Vcs.Push.Dialog.v2" timestamp="1578505316677">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="455" y="219" key="Vcs.Push.Dialog.v2/0.0.1600.860@0.0.1600.860" timestamp="1578350768820" />
-    <state x="546" y="265" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1578494804442" />
+    <state x="546" y="265" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1578505316677" />
     <state x="575" y="275" width="800" height="523" key="Vcs.Push.Dialog.v2/40.0.1880.1080@40.0.1880.1080" timestamp="1578329915903" />
     <state x="769" y="437" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1578505203019">
       <screen x="0" y="0" width="1920" height="1040" />
