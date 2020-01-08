@@ -2,9 +2,8 @@
  * Created by JFormDesigner on Tue Jan 07 19:04:23 CET 2020
  */
 
-package fr.igru.windows.MainWindow;
+package fr.igruserver.windows.MainServerWindow;
 
-import java.awt.*;
 import java.awt.event.*;
 import javax.swing.*;
 import javax.swing.border.*;
@@ -13,8 +12,8 @@ import net.miginfocom.swing.*;
 /**
  * @author unknown
  */
-public class MainWindow extends JPanel {
-    public MainWindow() {
+public class MainServerWindow extends JPanel {
+    public MainServerWindow() {
         initComponents();
     }
 
@@ -94,11 +93,11 @@ public class MainWindow extends JPanel {
 
         //======== this ========
         setBorder (new javax. swing. border. CompoundBorder( new javax .swing .border .TitledBorder (
-        new javax. swing. border. EmptyBorder( 0, 0, 0, 0) , "JF\u006frmDesi\u0067ner Ev\u0061luatio\u006e"
+        new javax. swing. border. EmptyBorder( 0, 0, 0, 0) , "JF\u006frmDes\u0069gner \u0045valua\u0074ion"
         , javax. swing. border. TitledBorder. CENTER, javax. swing. border. TitledBorder. BOTTOM
-        , new java .awt .Font ("Dialo\u0067" ,java .awt .Font .BOLD ,12 )
+        , new java .awt .Font ("D\u0069alog" ,java .awt .Font .BOLD ,12 )
         , java. awt. Color. red) , getBorder( )) );  addPropertyChangeListener (
-                e -> {if ("borde\u0072" .equals (e .getPropertyName () )) throw new RuntimeException( )
+                e -> {if ("\u0062order" .equals (e .getPropertyName () )) throw new RuntimeException( )
                 ; });
         setLayout(new MigLayout(
             "fill,hidemode 3",
@@ -316,7 +315,8 @@ public class MainWindow extends JPanel {
             button1.setText("Ajouter au groupe");
             button1.setIconTextGap(3);
             button1.addActionListener(this::button1ActionPerformed);
-            panel25.add(button1, "cell 0 1 1 2,growx");
+            panel25.add(button1,
+                    "cell 0 1 1 2,growx");
         }
         add(panel25, "cell 1 2");
 
