@@ -2,13 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="58d67246-922a-4d2d-a1d0-7b772984c9e2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/fr/igruserver/server/IMessageReceived.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fr/igruserver/server/dataTypes/PacketHeader.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Igru/src/fr/igru/client/NetworkHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Igru/src/fr/igru/client/NetworkHelper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fr/igruserver/windows/MainServerWindow/MainServerWindow.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fr/igruserver/windows/MainServerWindow/MainServerWindow.jfd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Igru/src/fr/igruserver/windows/MainServerWindow/MainServerWindow.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Igru/src/fr/igruserver/windows/MainServerWindow/MainServerWindow.jfd" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fr/igruserver/server/Server.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fr/igruserver/server/Server.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fr/igruserver/server/dataTypes/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fr/igruserver/server/dataTypes/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/fr/igruserver/windows/MainServerWindow.form" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/fr/igruserver/windows/MainServerWindow.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -111,7 +111,14 @@
       <option name="project" value="LOCAL" />
       <updated>1578350758739</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Ajout de getSHA256 dans NetworkHelper, et mise en place du serveur (coté code)">
+      <created>1578526985809</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1578526985809</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -133,7 +140,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Mise en place UI (commit pré-changement de plugin UI)" />
     <MESSAGE value="Mise en place UI (commit pré-changement de plugin UI)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Mise en place UI (commit pré-changement de plugin UI)" />
+    <MESSAGE value="Ajout de getSHA256 dans NetworkHelper, et mise en place du serveur (coté code)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Ajout de getSHA256 dans NetworkHelper, et mise en place du serveur (coté code)" />
   </component>
   <component name="WindowStateProjectService">
     <state x="788" y="245" width="374" height="582" key="#com.intellij.ide.util.MemberChooser" timestamp="1578523531281">
@@ -150,20 +158,20 @@
       <screen x="40" y="0" width="1880" height="1080" />
     </state>
     <state x="535" y="165" width="824" height="679" key="#com.intellij.openapi.projectRoots.ui.ProjectJdksEditor/40.0.1880.1080@40.0.1880.1080" timestamp="1578508205869" />
-    <state x="788" y="467" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1578330266843">
+    <state x="788" y="467" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1578527571973">
       <screen x="40" y="0" width="1880" height="1080" />
     </state>
-    <state x="788" y="467" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/40.0.1880.1080@40.0.1880.1080" timestamp="1578330266843" />
+    <state x="788" y="467" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/40.0.1880.1080@40.0.1880.1080" timestamp="1578527571973" />
     <state x="103" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1578343483816">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="103" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1600.860@0.0.1600.860" timestamp="1578343483816" />
-    <state x="590" y="60" width="714" height="798" key="CommitChangelistDialog2" timestamp="1578494727033">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="618" y="137" width="714" height="798" key="CommitChangelistDialog2" timestamp="1578526985412">
+      <screen x="40" y="0" width="1880" height="1080" />
     </state>
     <state x="492" y="50" key="CommitChangelistDialog2/0.0.1600.860@0.0.1600.860" timestamp="1578351877573" />
     <state x="590" y="60" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1578494727033" />
-    <state x="618" y="137" width="714" height="798" key="CommitChangelistDialog2/40.0.1880.1080@40.0.1880.1080" timestamp="1578329899430" />
+    <state x="618" y="137" width="714" height="798" key="CommitChangelistDialog2/40.0.1880.1080@40.0.1880.1080" timestamp="1578526985412" />
     <state x="140" y="99" width="1680" height="880" key="DiffContextDialog" timestamp="1578358078345">
       <screen x="40" y="0" width="1880" height="1080" />
     </state>
@@ -176,6 +184,10 @@
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="630" y="332" key="GitRewordDialog/0.0.1600.860@0.0.1600.860" timestamp="1578350426764" />
+    <state x="686" y="249" width="578" height="575" key="MultipleFileMergeDialog" timestamp="1578527006940">
+      <screen x="40" y="0" width="1880" height="1080" />
+    </state>
+    <state x="686" y="249" width="578" height="575" key="MultipleFileMergeDialog/40.0.1880.1080@40.0.1880.1080" timestamp="1578527006940" />
     <state x="618" y="241" width="713" height="591" key="NewModule_or_Project.wizard" timestamp="1578329872429">
       <screen x="40" y="0" width="1880" height="1080" />
     </state>
@@ -184,15 +196,16 @@
       <screen x="40" y="0" width="1880" height="1080" />
     </state>
     <state x="484" y="174" key="SettingsEditor/40.0.1880.1080@40.0.1880.1080" timestamp="1578508156710" />
-    <state x="455" y="219" width="800" height="523" key="Vcs.Push.Dialog.v2" timestamp="1578350768820">
-      <screen x="0" y="0" width="1600" height="860" />
+    <state x="575" y="275" width="800" height="523" key="Vcs.Push.Dialog.v2" timestamp="1578527027066">
+      <screen x="40" y="0" width="1880" height="1080" />
     </state>
     <state x="455" y="219" key="Vcs.Push.Dialog.v2/0.0.1600.860@0.0.1600.860" timestamp="1578350768820" />
-    <state x="575" y="275" width="800" height="523" key="Vcs.Push.Dialog.v2/40.0.1880.1080@40.0.1880.1080" timestamp="1578329915903" />
-    <state x="769" y="437" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1578494704093">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="575" y="275" width="800" height="523" key="Vcs.Push.Dialog.v2/40.0.1880.1080@40.0.1880.1080" timestamp="1578527027066" />
+    <state x="793" y="454" width="398" height="165" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1578526991271">
+      <screen x="40" y="0" width="1880" height="1080" />
     </state>
     <state x="769" y="437" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040" timestamp="1578494704093" />
+    <state x="793" y="454" width="398" height="165" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/40.0.1880.1080@40.0.1880.1080" timestamp="1578526991271" />
     <state x="690" y="315" width="570" height="442" key="git4idea.merge.GitPullDialog" timestamp="1578437829157">
       <screen x="40" y="0" width="1880" height="1080" />
     </state>
