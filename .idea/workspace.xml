@@ -35,6 +35,7 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../Igru" />
+    <option name="UPDATE_TYPE" value="MERGE" />
   </component>
   <component name="ProjectId" id="1W1sgyVr14xF8AfKbJZIEojMe2g" />
   <component name="ProjectLevelVcsManager">
@@ -51,6 +52,8 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../Igru" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -132,10 +135,11 @@
       <screen x="40" y="0" width="1880" height="1080" />
     </state>
     <state x="788" y="245" width="374" height="582" key="#com.intellij.ide.util.MemberChooser/40.0.1880.1080@40.0.1880.1080" timestamp="1578358910450" />
-    <state x="801" y="401" width="302" height="211" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1578421972058">
-      <screen x="40" y="0" width="1880" height="1080" />
+    <state x="777" y="386" width="302" height="211" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1578494781577">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="648" y="319" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.0.1600.860@0.0.1600.860" timestamp="1578350951568" />
+    <state x="777" y="386" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1578494781577" />
     <state x="801" y="401" width="302" height="211" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/40.0.1880.1080@40.0.1880.1080" timestamp="1578421972058" />
     <state x="788" y="467" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1578330266843">
       <screen x="40" y="0" width="1880" height="1080" />
@@ -145,10 +149,11 @@
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="103" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1600.860@0.0.1600.860" timestamp="1578343483816" />
-    <state x="492" y="50" width="714" height="798" key="CommitChangelistDialog2" timestamp="1578351877573">
-      <screen x="0" y="0" width="1600" height="860" />
+    <state x="590" y="60" width="714" height="798" key="CommitChangelistDialog2" timestamp="1578494727033">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="492" y="50" key="CommitChangelistDialog2/0.0.1600.860@0.0.1600.860" timestamp="1578351877573" />
+    <state x="590" y="60" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1578494727033" />
     <state x="618" y="137" width="714" height="798" key="CommitChangelistDialog2/40.0.1880.1080@40.0.1880.1080" timestamp="1578329899430" />
     <state x="140" y="99" width="1680" height="880" key="DiffContextDialog" timestamp="1578358078345">
       <screen x="40" y="0" width="1880" height="1080" />
@@ -171,6 +176,10 @@
     </state>
     <state x="455" y="219" key="Vcs.Push.Dialog.v2/0.0.1600.860@0.0.1600.860" timestamp="1578350768820" />
     <state x="575" y="275" width="800" height="523" key="Vcs.Push.Dialog.v2/40.0.1880.1080@40.0.1880.1080" timestamp="1578329915903" />
+    <state x="769" y="437" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1578494704093">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="769" y="437" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040" timestamp="1578494704093" />
     <state x="690" y="315" width="570" height="442" key="git4idea.merge.GitPullDialog" timestamp="1578437829157">
       <screen x="40" y="0" width="1880" height="1080" />
     </state>
