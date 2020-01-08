@@ -2,9 +2,8 @@
  * Created by JFormDesigner on Tue Jan 07 19:04:23 CET 2020
  */
 
-package fr.igru.windows.MainWindow;
+package fr.igruserver.windows.MainServerWindow;
 
-import java.awt.*;
 import java.awt.event.*;
 import javax.swing.*;
 import javax.swing.border.*;
@@ -13,8 +12,8 @@ import net.miginfocom.swing.*;
 /**
  * @author unknown
  */
-public class MainWindow extends JPanel {
-    public MainWindow() {
+public class MainServerWindow extends JPanel {
+    public MainServerWindow() {
         initComponents();
     }
 

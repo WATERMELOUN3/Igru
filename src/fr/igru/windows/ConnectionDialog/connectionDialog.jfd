@@ -35,8 +35,8 @@ new FormModel {
 				"value": "cell 0 1"
 			} )
 			add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class org.jdesktop.layout.GroupLayout ) {
-				"$horizontalGroup": "par l {seq l {space :p:24:p, par t {par l {seq l {space :p:37:p, comp label1:::p::p}, comp label2:::p::p}, comp label4:::p:98:p}, space :::p, par l {seq l {comp comboBox1:::p:316:p, space ::82:x}, seq l {par l {comp textField2:::::x, comp textField1:::p:322:p}, space ::76:x}}}}"
-				"$verticalGroup": "par l {seq l {space :p:27:p, par b {comp comboBox1::b:p::p, comp label4::b:p::p}, space u:::p, par b {comp textField1::b:p::p, comp label1::b:p::p}, space s:::p, par b {comp label2::b:p::p, comp textField2::b:p::p}, space ::20:x}}"
+				"$horizontalGroup": "par l {seq l {space :p:18:p, par t {par l:t {seq l {space :p:37:p, comp label1:::p::p}, comp label2:::p::p}, seq t {comp label4:::p:98:p, space :p:6:p}}, par l {seq {par t {comp textField2::l:::x, seq l {comp textField1:::p:322:p, space :0:0:x}}, space ::76:x}, seq {comp comboBox1:::p:316:p, space ::82:x}}}}"
+				"$verticalGroup": "par l {seq l {space :p:35:p, par b {comp comboBox1::b:p::p, comp label4::b:p::p}, space :::p, par b {comp textField1::b:p::p, comp label1::b:p::p}, space s:::p, par b {comp label2::b:p::p, comp textField2::b:p::p}, space ::18:x}}"
 			} ) {
 				name: "panel9"
 				add( new FormComponent( "javax.swing.JComboBox" ) {
