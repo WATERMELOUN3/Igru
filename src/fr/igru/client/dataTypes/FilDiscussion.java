@@ -69,4 +69,8 @@ public class FilDiscussion {
 
         return new FilDiscussion(id, title, dateCreated, status);
     }
+
+    public ArrayList<Message> getMessages() {
+        return _messages;
+    }
 }

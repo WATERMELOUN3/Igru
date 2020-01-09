@@ -24,12 +24,6 @@ public class NetworkHelper implements Runnable {
     public NetworkHelper(String ip, int port) {
         this._ip = ip;
         this._port = port;
-
-        try {
-            _socket = SocketChannel.open(new InetSocketAddress(_ip, _port));
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
     }
 
     public void close() {
@@ -39,6 +33,35 @@ public class NetworkHelper implements Runnable {
         } catch (IOException e) {
             e.printStackTrace();
         }
+    }
+
+    public boolean Authenticate(String username, String password) {
+        try {
+            _socket = SocketChannel.open(new InetSocketAddress(_ip, _port));
+
+            // Authentication
+            ByteBuffer buffer = ByteBuffer.allocate(64);
+            BuildAuthPacket(buffer, username, password);
+            _socket.write(buffer);
+
+            buffer = ByteBuffer.allocate(2);
+            _socket.read(buffer);
+            byte a, b;
+            a = buffer.get();
+            b = buffer.get();
+
+            return (a == PacketHeader.AuthAnswer.getValue() && b == 1);
+        } catch (IOException e) {
+            e.printStackTrace();
+            return false;
+        }
+    }
+
+    private void BuildAuthPacket(ByteBuffer buffer, String username, String password) {
+        buffer.put(PacketHeader.Auth.getValue());
+        buffer.putInt(username.length());
+        buffer.put(username.getBytes(StandardCharsets.UTF_8));
+        buffer.put(getSHA256(password).getBytes(StandardCharsets.UTF_8));
     }
 
     private void messageReceived(ByteBuffer buffer) {
