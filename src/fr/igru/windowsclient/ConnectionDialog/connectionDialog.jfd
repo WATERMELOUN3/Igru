@@ -8,7 +8,8 @@ new FormModel {
 			"$columnConstraints": "[524:n,fill]"
 			"$rowConstraints": "[top][][167:159,grow,fill]0[]"
 		} ) {
-			name: "panel5"
+			name: "this"
+			"border": new javax.swing.border.LineBorder( sfield java.awt.SystemColor activeCaption, 4, true )
 			add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class net.miginfocom.swing.MigLayout ) {
 				"$layoutConstraints": "fill,hidemode 3"
 				"$columnConstraints": "[fill]"
@@ -35,8 +36,8 @@ new FormModel {
 				"value": "cell 0 1"
 			} )
 			add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class org.jdesktop.layout.GroupLayout ) {
-				"$horizontalGroup": "par l {seq l {space :p:18:p, par t {comp label2::t:p::p, seq t {par t {comp label1:::p::p, comp label4:::p:98:p}, space :p:6:p}}, par l:::p {comp textFieldLogin::::322:x, comp textFieldMDP::::322:x, comp comboBoxUserType::l::322:x}, space ::82:x}}"
-				"$verticalGroup": "par l {seq l {space :p:35:p, par b {comp label4::b:p::p, comp comboBoxUserType::b:p::p}, space :p:13:p, par b {comp label1::b:p::p, comp textFieldLogin::b:p::p}, space s:::p, par b {comp label2::b:p::p, comp textFieldMDP::b:p::p}, space ::11:x}}"
+				"$horizontalGroup": "par l {seq l {space :p:18:p, par t {comp label2::t:p::p, seq t {par t {comp label1:::p::p, comp label4:::p:98:p}, space :p:6:p}}, par l:::p {comp textFieldLogin::::322:x, comp comboBoxUserType::l::322:x, comp passwordField1::::322:x}, space ::80:x}}"
+				"$verticalGroup": "par l {seq l {space :p:35:p, par b {comp label4::b:p::p, comp comboBoxUserType::b:p::p}, space :p:13:p, par b {comp label1::b:p::p, comp textFieldLogin::b:p::p}, space s:::p, par b {comp label2::b:p::p, comp passwordField1::b:p::p}, space ::11:x}}"
 			} ) {
 				name: "panel9"
 				add( new FormComponent( "javax.swing.JComboBox" ) {
@@ -53,12 +54,12 @@ new FormModel {
 					name: "label2"
 					"text": "Mot de Passe : "
 				} )
-				add( new FormComponent( "javax.swing.JTextField" ) {
-					name: "textFieldMDP"
-				} )
 				add( new FormComponent( "javax.swing.JLabel" ) {
 					name: "label4"
 					"text": "Type d'Utilisateur :"
+				} )
+				add( new FormComponent( "javax.swing.JPasswordField" ) {
+					name: "passwordField1"
 				} )
 			}, new FormLayoutConstraints( class net.miginfocom.layout.CC ) {
 				"value": "cell 0 2,grow"
@@ -107,7 +108,7 @@ new FormModel {
 			} )
 		}, new FormLayoutConstraints( null ) {
 			"location": new java.awt.Point( 65, 40 )
-			"size": new java.awt.Dimension( 540, 275 )
+			"size": new java.awt.Dimension( 540, 285 )
 		} )
 	}
 }
