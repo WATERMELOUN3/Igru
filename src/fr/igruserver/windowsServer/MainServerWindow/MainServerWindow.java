@@ -11,6 +11,7 @@ import java.util.Arrays;
 import javax.swing.*;
 import javax.swing.border.*;
 
+import fr.igruserver.windowsServer.Champs.ch_Grp.ch_Grp;
 import fr.igruserver.windowsServer.Champs.ch_Util.ch_Util;
 import net.miginfocom.swing.*;
 
@@ -487,4 +488,12 @@ public class MainServerWindow extends JPanel {
     private JPanel panel28;
     private JButton buttonDelUtil;
     // JFormDesigner - End of variables declaration  //GEN-END:variables
+
+    public void displayGrp(String nomGrp){
+        ch_Grp instanceGrp = new ch_Grp(nomGrp);
+        instanceGrp.setVisible(true);
+        scrollPaneGrp.add(instanceGrp);
+        scrollPaneGrp.revalidate();
+        this.revalidate();
+    }
 }
