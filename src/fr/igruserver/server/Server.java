@@ -1,7 +1,7 @@
 package fr.igruserver.server;
 
 import fr.igru.client.dataTypes.PacketHeader;
-import fr.igruserver.server.dataTypes.User;
+import fr.igruserver.server.dataTypes.ServerUser;
 
 import java.io.IOException;
 import java.net.*;
@@ -13,11 +13,12 @@ import java.util.*;
 public class Server implements Runnable, IMessageReceived{
     private ServerSocketChannel _socket;
     private int _port;
-    private ArrayList<User> _users;
+    private ArrayList<ServerUser> _users;
+    private SQLHelper _sql;
 
     public Server(int port) {
         this._port = port;
-        _users = new ArrayList<User>();
+        _users = new ArrayList<ServerUser>();
 
         try {
             _socket = ServerSocketChannel.open();
@@ -44,7 +45,7 @@ public class Server implements Runnable, IMessageReceived{
 
                 byte answer = 0;
                 if (CheckCredentials(usrname, usrBytes)) {
-                    _users.add(new User(client, usrname, this));
+                    _users.add(new ServerUser(client, usrname, this));
                     answer = 1;
                 }
 
@@ -73,6 +74,7 @@ public class Server implements Runnable, IMessageReceived{
     // Runnable interface
     @Override
     public void run() {
+        _sql = new SQLHelper("admin", "admin");
         new Thread(new Runnable() {
             public void run() {
                 while (_socket.isOpen()) {
@@ -88,18 +90,20 @@ public class Server implements Runnable, IMessageReceived{
     }
 
     @Override
-    public void MessageReceived(User user, ByteBuffer message) {
+    public void MessageReceived(ServerUser user, ByteBuffer message) {
+        ByteBuffer buf;
         byte header = message.get();
         try {
             switch (header) {
                 case 0: // Ping
-                    ByteBuffer buf = ByteBuffer.allocate(1);
+                    buf = ByteBuffer.allocate(1);
                     buf.put((byte) 1);
                     user.GetChannel().write(buf);
                     break;
 
                 case 4: // GetSync
-
+                    buf = ByteBuffer.allocate(1024);
+                    user.BuildSyncPacket(buf, _sql);
 
                 default:
                     user.close();
