@@ -1,41 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="58d67246-922a-4d2d-a1d0-7b772984c9e2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../Igru/src/fr/igru/windowsclient/Champs/ch_FilDiscu/ch_FilDiscu.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Igru/src/fr/igru/windowsclient/Champs/ch_FilDiscu/ch_FilDiscu.jfd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Igru/src/fr/igru/windowsclient/Champs/ch_Message/ch_Message.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Igru/src/fr/igru/windowsclient/Champs/ch_Message/ch_Message.jfd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Igru/src/fr/igru/windowsclient/Champs/ch_MyGroups/ch_MyGroups.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Igru/src/fr/igru/windowsclient/Champs/ch_MyGroups/ch_MyGroups.jfd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Igru/src/fr/igru/windowsclient/MainWindow/MainWindow.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Igru/src/fr/igru/windowsclient/MainWindow/MainWindow.jfd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fr/igruserver/windowsServer/Champs/ch_Grp/ch_Grp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fr/igruserver/windowsServer/Champs/ch_Grp/ch_Grp.jfd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fr/igruserver/windowsServer/Champs/ch_Util/ch_Util.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fr/igruserver/windowsServer/Champs/ch_Util/ch_Util.jfd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fr/igruserver/windowsServer/Dialog/dia_add_UtilToGrp/dia_add_UtilToGrp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fr/igruserver/windowsServer/Dialog/dia_add_UtilToGrp/dia_add_UtilToGrp.jfd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fr/igruserver/windowsServer/Dialog/dia_newGrp/dia_newGrp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fr/igruserver/windowsServer/Dialog/dia_newGrp/dia_newGrp.jfd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fr/igruserver/windowsServer/Dialog/dia_newUtil/dia_newUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fr/igruserver/windowsServer/Dialog/dia_newUtil/dia_newUtil.jfd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fr/igruserver/windowsServer/Dialog/dia_rmGrp/dia_rmGrp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fr/igruserver/windowsServer/Dialog/dia_rmGrp/dia_rmGrp.jfd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fr/igruserver/windowsServer/Dialog/dia_rmUtil/dia_rmUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fr/igruserver/windowsServer/Dialog/dia_rmUtil/dia_rmUtil.jfd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fr/igruserver/windowsServer/Dialog/dia_rmUtilFromGrp/dia_rmUtilFromGrp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fr/igruserver/windowsServer/Dialog/dia_rmUtilFromGrp/dia_rmUtilFromGrp.jfd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fr/igruserver/windowsServer/TableVisu/TableVisu.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fr/igruserver/windowsServer/TableVisu/TableVisu.jfd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Igru/Igru.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../Igru/Igru.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Igru/src/fr/igru/windows/ConnectionDialog/connectionDialog.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Igru/src/fr/igru/windowsclient/ConnectionDialog/connectionDialog.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Igru/src/fr/igru/windows/ConnectionDialog/connectionDialog.jfd" beforeDir="false" afterPath="$PROJECT_DIR$/../Igru/src/fr/igru/windowsclient/ConnectionDialog/connectionDialog.jfd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="58d67246-922a-4d2d-a1d0-7b772984c9e2" name="Default Changelist" comment="Codages des types">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/IgruServer.iml" beforeDir="false" afterPath="$PROJECT_DIR$/IgruServer.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fr/igruserver/windows/MainServerWindow/MainServerWindow.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fr/igruserver/windowsServer/MainServerWindow/MainServerWindow.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fr/igruserver/windows/MainServerWindow/MainServerWindow.jfd" beforeDir="false" afterPath="$PROJECT_DIR$/src/fr/igruserver/windowsServer/MainServerWindow/MainServerWindow.jfd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/fr/igruserver/windowsServer/Champs/ch_Grp/ch_Grp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fr/igruserver/windowsServer/Champs/ch_Grp/ch_Grp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/fr/igruserver/windowsServer/Champs/ch_Grp/ch_Grp.jfd" beforeDir="false" afterPath="$PROJECT_DIR$/src/fr/igruserver/windowsServer/Champs/ch_Grp/ch_Grp.jfd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/fr/igruserver/windowsServer/Champs/ch_Util/ch_Util.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fr/igruserver/windowsServer/Champs/ch_Util/ch_Util.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/fr/igruserver/windowsServer/Champs/ch_Util/ch_Util.jfd" beforeDir="false" afterPath="$PROJECT_DIR$/src/fr/igruserver/windowsServer/Champs/ch_Util/ch_Util.jfd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/fr/igruserver/windowsServer/MainServerWindow/MainServerWindow.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fr/igruserver/windowsServer/MainServerWindow/MainServerWindow.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/fr/igruserver/windowsServer/MainServerWindow/MainServerWindow.jfd" beforeDir="false" afterPath="$PROJECT_DIR$/src/fr/igruserver/windowsServer/MainServerWindow/MainServerWindow.jfd" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -166,7 +139,14 @@
       <option name="project" value="LOCAL" />
       <updated>1578533579202</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Codages des types">
+      <created>1578562669634</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1578562669634</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -198,10 +178,14 @@
       <screen x="40" y="0" width="1880" height="1080" />
     </state>
     <state x="575" y="200" width="800" height="672" key="#Project_Structure/40.0.1880.1080@40.0.1880.1080" timestamp="1578532382735" />
-    <state x="740" y="323" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1578560885973">
+    <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1578577328530">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="740" y="323" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1578560885973" />
+    <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1578577328530" />
+    <state x="740" y="323" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1578578825518">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="740" y="323" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1578578825518" />
     <state x="788" y="245" width="374" height="582" key="#com.intellij.ide.util.MemberChooser" timestamp="1578534289896">
       <screen x="40" y="0" width="1880" height="1080" />
     </state>
@@ -225,11 +209,11 @@
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="103" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1600.860@0.0.1600.860" timestamp="1578343483816" />
-    <state x="590" y="60" width="714" height="798" key="CommitChangelistDialog2" timestamp="1578562650078">
+    <state x="590" y="60" width="714" height="798" key="CommitChangelistDialog2" timestamp="1578575314237">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="492" y="50" key="CommitChangelistDialog2/0.0.1600.860@0.0.1600.860" timestamp="1578351877573" />
-    <state x="590" y="60" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1578562650078" />
+    <state x="590" y="60" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1578575314237" />
     <state x="618" y="137" width="714" height="798" key="CommitChangelistDialog2/40.0.1880.1080@40.0.1880.1080" timestamp="1578533579135" />
     <state x="140" y="99" width="1680" height="880" key="DiffContextDialog" timestamp="1578358078345">
       <screen x="40" y="0" width="1880" height="1080" />
@@ -261,15 +245,20 @@
     </state>
     <state x="453" y="168" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1578554016495" />
     <state x="484" y="174" key="SettingsEditor/40.0.1880.1080@40.0.1880.1080" timestamp="1578532250227" />
-    <state x="575" y="275" width="800" height="523" key="Vcs.Push.Dialog.v2" timestamp="1578533581012">
-      <screen x="40" y="0" width="1880" height="1080" />
-    </state>
-    <state x="455" y="219" key="Vcs.Push.Dialog.v2/0.0.1600.860@0.0.1600.860" timestamp="1578350768820" />
-    <state x="575" y="275" width="800" height="523" key="Vcs.Push.Dialog.v2/40.0.1880.1080@40.0.1880.1080" timestamp="1578533581012" />
-    <state x="769" y="437" width="398" height="165" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1578552937641">
+    <state width="498" height="446" key="SwitcherDM" timestamp="1578578917012">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="769" y="437" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040" timestamp="1578552937641" />
+    <state width="498" height="446" key="SwitcherDM/0.0.1920.1040@0.0.1920.1040" timestamp="1578578917012" />
+    <state x="546" y="265" width="800" height="523" key="Vcs.Push.Dialog.v2" timestamp="1578562995834">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="455" y="219" key="Vcs.Push.Dialog.v2/0.0.1600.860@0.0.1600.860" timestamp="1578350768820" />
+    <state x="546" y="265" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1578562995834" />
+    <state x="575" y="275" width="800" height="523" key="Vcs.Push.Dialog.v2/40.0.1880.1080@40.0.1880.1080" timestamp="1578533581012" />
+    <state x="769" y="437" width="398" height="165" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1578575318267">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="769" y="437" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040" timestamp="1578575318267" />
     <state x="793" y="454" width="398" height="165" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/40.0.1880.1080@40.0.1880.1080" timestamp="1578526991271" />
     <state x="657" y="118" width="736" height="804" key="find.popup" timestamp="1578553848733">
       <screen x="0" y="0" width="1920" height="1040" />
@@ -291,10 +280,11 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="666" y="139" key="refactoring.ChangeSignatureDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1578558787882" />
-    <state x="456" y="195" key="run.anything.popup" timestamp="1578343364876">
-      <screen x="0" y="0" width="1600" height="860" />
+    <state x="547" y="236" key="run.anything.popup" timestamp="1578576483571">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="456" y="195" key="run.anything.popup/0.0.1600.860@0.0.1600.860" timestamp="1578343364876" />
+    <state x="547" y="236" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1578576483571" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

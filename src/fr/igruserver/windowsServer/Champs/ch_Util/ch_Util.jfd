@@ -4,14 +4,41 @@ new FormModel {
 	contentType: "form/swing"
 	root: new FormRoot {
 		add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class net.miginfocom.swing.MigLayout ) {
-			"$layoutConstraints": "hidemode 3"
-			"$columnConstraints": "[fill][fill]"
-			"$rowConstraints": "[][][]"
+			"$layoutConstraints": "fill,hidemode 3"
+			"$columnConstraints": "[fill]"
+			"$rowConstraints": "[]"
 		} ) {
-			name: "this"
+			name: "panel1"
+			add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class org.jdesktop.layout.GroupLayout ) {
+				"$horizontalGroup": "par l {seq t {space :::p, par t {comp labelTypeGrp:::::x, seq {space :0:0:x, comp labelNomUtil:::p:155:p, space s:::p, comp panelImg:::p:29:p}, comp textAreaGrp::t:::x}, space :p:18:p}}"
+				"$verticalGroup": "par l {seq l {space :p:14:p, par l:::p {comp panelImg::::29:x, comp labelNomUtil::::29:x}, space :::p, comp labelTypeGrp:::p:16:p, space :::p, comp textAreaGrp::::40:x}}"
+			} ) {
+				name: "panel2"
+				add( new FormComponent( "javax.swing.JLabel" ) {
+					name: "labelNomUtil"
+					"font": new com.jformdesigner.model.SwingDerivedFont( null, 1, 3, false )
+				} )
+				add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class net.miginfocom.swing.MigLayout ) {
+					"$layoutConstraints": "fill,hidemode 3"
+					"$columnConstraints": "0[34,fill]0"
+					"$rowConstraints": "0[]0"
+				} ) {
+					name: "panelImg"
+				} )
+				add( new FormComponent( "javax.swing.JLabel" ) {
+					name: "labelTypeGrp"
+					"text": "  "
+				} )
+				add( new FormComponent( "javax.swing.JTextArea" ) {
+					name: "textAreaGrp"
+					"editable": false
+				} )
+			}, new FormLayoutConstraints( class net.miginfocom.layout.CC ) {
+				"value": "cell 0 0,grow"
+			} )
 		}, new FormLayoutConstraints( null ) {
-			"location": new java.awt.Point( 0, 0 )
-			"size": new java.awt.Dimension( 400, 300 )
+			"location": new java.awt.Point( 105, 135 )
+			"size": new java.awt.Dimension( 245, 125 )
 		} )
 	}
 }

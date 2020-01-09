@@ -5,8 +5,12 @@
 package fr.igruserver.windowsServer.MainServerWindow;
 
 import java.awt.event.*;
+import java.util.ArrayList;
+import java.util.Arrays;
 import javax.swing.*;
 import javax.swing.border.*;
+
+import fr.igruserver.windowsServer.Champs.ch_Util.ch_Util;
 import net.miginfocom.swing.*;
 
 /**
@@ -53,6 +57,8 @@ public class MainServerWindow extends JPanel {
         // TODO add your code here
     }
 
+
+
     private void initComponents() {
         // JFormDesigner - Component initialization - DO NOT MODIFY  //GEN-BEGIN:initComponents
         // Generated using JFormDesigner Evaluation license - unknown
@@ -63,13 +69,13 @@ public class MainServerWindow extends JPanel {
         panel20 = new JPanel();
         textField1 = new JTextField();
         panel32 = new JPanel();
-        scrollPane2 = new JScrollPane();
+        scrollPaneGrp = new JScrollPane();
         panel23 = new JPanel();
         panel14 = new JPanel();
         panel21 = new JPanel();
         textField2 = new JTextField();
         panel33 = new JPanel();
-        scrollPane3 = new JScrollPane();
+        scrollPaneUtil = new JScrollPane();
         panel16 = new JPanel();
         panel17 = new JPanel();
         buttonClientAdmin = new JButton();
@@ -92,12 +98,13 @@ public class MainServerWindow extends JPanel {
         buttonDelUtil = new JButton();
 
         //======== this ========
-        setBorder (new javax. swing. border. CompoundBorder( new javax .swing .border .TitledBorder (new javax. swing.
-        border. EmptyBorder( 0, 0, 0, 0) , "JF\u006frm\u0044es\u0069gn\u0065r \u0045va\u006cua\u0074io\u006e", javax. swing. border. TitledBorder. CENTER
-        , javax. swing. border. TitledBorder. BOTTOM, new java .awt .Font ("D\u0069al\u006fg" ,java .awt .Font
-        .BOLD ,12 ), java. awt. Color. red) , getBorder( )) );  addPropertyChangeListener (
-        new java. beans. PropertyChangeListener( ){ @Override public void propertyChange (java .beans .PropertyChangeEvent e) {if ("\u0062or\u0064er"
-        .equals (e .getPropertyName () )) throw new RuntimeException( ); }} );
+        setBorder (new javax. swing. border. CompoundBorder( new javax .swing .border .TitledBorder (new javax
+        . swing. border. EmptyBorder( 0, 0, 0, 0) , "JF\u006frmDesi\u0067ner Ev\u0061luatio\u006e", javax. swing
+        . border. TitledBorder. CENTER, javax. swing. border. TitledBorder. BOTTOM, new java .awt .
+        Font ("Dialo\u0067" ,java .awt .Font .BOLD ,12 ), java. awt. Color. red
+        ) , getBorder( )) );  addPropertyChangeListener (new java. beans. PropertyChangeListener( ){ @Override
+        public void propertyChange (java .beans .PropertyChangeEvent e) {if ("borde\u0072" .equals (e .getPropertyName (
+        ) )) throw new RuntimeException( ); }} );
         setLayout(new MigLayout(
             "fill,hidemode 3",
             // columns
@@ -167,10 +174,10 @@ public class MainServerWindow extends JPanel {
                     panel32.setLayout(new MigLayout(
                         "fill,hidemode 3",
                         // columns
-                        "0[fill]0",
+                        "0[204,fill]0",
                         // rows
                         "0[grow]0"));
-                    panel32.add(scrollPane2, "cell 0 0,grow");
+                    panel32.add(scrollPaneGrp, "cell 0 0,grow");
                 }
                 panel13.add(panel32, "cell 0 1,grow");
             }
@@ -220,10 +227,13 @@ public class MainServerWindow extends JPanel {
                     panel33.setLayout(new MigLayout(
                         "fill,hidemode 3",
                         // columns
-                        "0[fill]0",
+                        "0[248,fill]0",
                         // rows
                         "0[181,grow,fill]0"));
-                    panel33.add(scrollPane3, "cell 0 0,grow");
+                    panel33.add(scrollPaneUtil, "cell 0 0,grow");
+                    ch_Util newUser = new ch_Util("Bernard Bianca","Professeur",new ArrayList<String>(Arrays.asList("Dance","Ping Pong","Java pour les nuls")), true);
+                    newUser.setVisible(true);
+                    scrollPaneUtil.add(newUser);
                 }
                 panel14.add(panel33, "cell 0 1,grow");
             }
@@ -417,13 +427,13 @@ public class MainServerWindow extends JPanel {
     private JPanel panel20;
     private JTextField textField1;
     private JPanel panel32;
-    private JScrollPane scrollPane2;
+    private JScrollPane scrollPaneGrp;
     private JPanel panel23;
     private JPanel panel14;
     private JPanel panel21;
     private JTextField textField2;
     private JPanel panel33;
-    private JScrollPane scrollPane3;
+    private JScrollPane scrollPaneUtil;
     private JPanel panel16;
     private JPanel panel17;
     private JButton buttonClientAdmin;
