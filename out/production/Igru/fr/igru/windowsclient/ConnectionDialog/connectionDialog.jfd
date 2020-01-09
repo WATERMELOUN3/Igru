@@ -1,0 +1,114 @@
+JFDML JFormDesigner: "7.0.0.6.255" Java: "11.0.5" encoding: "UTF-8"
+
+new FormModel {
+	contentType: "form/swing"
+	root: new FormRoot {
+		add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class net.miginfocom.swing.MigLayout ) {
+			"$layoutConstraints": "fillx,hidemode 3"
+			"$columnConstraints": "[524:n,fill]"
+			"$rowConstraints": "[top][][167:159,grow,fill]0[]"
+		} ) {
+			name: "this"
+			"border": new javax.swing.border.LineBorder( sfield java.awt.SystemColor activeCaption, 4, true )
+			add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class net.miginfocom.swing.MigLayout ) {
+				"$layoutConstraints": "fill,hidemode 3"
+				"$columnConstraints": "[fill]"
+				"$rowConstraints": "[13:n]"
+			} ) {
+				name: "panel10"
+				"border": new javax.swing.border.EtchedBorder( 1, null, null )
+				add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class net.miginfocom.swing.MigLayout ) {
+					"$layoutConstraints": "fill,hidemode 3"
+					"$columnConstraints": "[fill]"
+					"$rowConstraints": "0[18:20]0"
+				} ) {
+					name: "panel11"
+					add( new FormComponent( "javax.swing.JLabel" ) {
+						name: "label3"
+						"text": "Se Connecter"
+					}, new FormLayoutConstraints( class net.miginfocom.layout.CC ) {
+						"value": "cell 0 0,alignx center,growx 0"
+					} )
+				}, new FormLayoutConstraints( class net.miginfocom.layout.CC ) {
+					"value": "cell 0 0"
+				} )
+			}, new FormLayoutConstraints( class net.miginfocom.layout.CC ) {
+				"value": "cell 0 1"
+			} )
+			add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class org.jdesktop.layout.GroupLayout ) {
+				"$horizontalGroup": "par l {seq l {space :p:18:p, par t {comp label2::t:p::p, seq t {par t {comp label1:::p::p, comp label4:::p:98:p}, space :p:6:p}}, par l:::p {comp textFieldLogin::::322:x, comp comboBoxUserType::l::322:x, comp passwordField1::::322:x}, space ::80:x}}"
+				"$verticalGroup": "par l {seq l {space :p:35:p, par b {comp label4::b:p::p, comp comboBoxUserType::b:p::p}, space :p:13:p, par b {comp label1::b:p::p, comp textFieldLogin::b:p::p}, space s:::p, par b {comp label2::b:p::p, comp passwordField1::b:p::p}, space ::11:x}}"
+			} ) {
+				name: "panel9"
+				add( new FormComponent( "javax.swing.JComboBox" ) {
+					name: "comboBoxUserType"
+				} )
+				add( new FormComponent( "javax.swing.JLabel" ) {
+					name: "label1"
+					"text": "Login :"
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "textFieldLogin"
+				} )
+				add( new FormComponent( "javax.swing.JLabel" ) {
+					name: "label2"
+					"text": "Mot de Passe : "
+				} )
+				add( new FormComponent( "javax.swing.JLabel" ) {
+					name: "label4"
+					"text": "Type d'Utilisateur :"
+				} )
+				add( new FormComponent( "javax.swing.JPasswordField" ) {
+					name: "passwordField1"
+				} )
+			}, new FormLayoutConstraints( class net.miginfocom.layout.CC ) {
+				"value": "cell 0 2,grow"
+			} )
+			add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class net.miginfocom.swing.MigLayout ) {
+				"$layoutConstraints": "hidemode 3,alignx center"
+				"$columnConstraints": "[fill][fill]"
+				"$rowConstraints": "0[]"
+			} ) {
+				name: "panel6"
+				add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class net.miginfocom.swing.MigLayout ) {
+					"$layoutConstraints": "hidemode 3"
+					"$columnConstraints": "[fill]"
+					"$rowConstraints": "[]"
+				} ) {
+					name: "panel7"
+					add( new FormComponent( "javax.swing.JButton" ) {
+						name: "buttonCancel"
+						"text": "Annuler"
+						"background": new java.awt.Color( 255, 0, 0, 255 )
+						addEvent( new FormEvent( "java.awt.event.ActionListener", "actionPerformed", "buttonCancelActionPerformed", true ) )
+					}, new FormLayoutConstraints( class net.miginfocom.layout.CC ) {
+						"value": "cell 0 0"
+					} )
+				}, new FormLayoutConstraints( class net.miginfocom.layout.CC ) {
+					"value": "cell 0 0"
+				} )
+				add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class net.miginfocom.swing.MigLayout ) {
+					"$layoutConstraints": "hidemode 3"
+					"$columnConstraints": "[fill]"
+					"$rowConstraints": "[]"
+				} ) {
+					name: "panel8"
+					add( new FormComponent( "javax.swing.JButton" ) {
+						name: "buttonConnect"
+						"text": "Se connecter"
+						addEvent( new FormEvent( "java.awt.event.ActionListener", "actionPerformed", "buttonConnectActionPerformed", true ) )
+					}, new FormLayoutConstraints( class net.miginfocom.layout.CC ) {
+						"value": "cell 0 0"
+					} )
+				}, new FormLayoutConstraints( class net.miginfocom.layout.CC ) {
+					"value": "cell 1 0"
+				} )
+			}, new FormLayoutConstraints( class net.miginfocom.layout.CC ) {
+				"value": "cell 0 3,growx"
+			} )
+		}, new FormLayoutConstraints( null ) {
+			"location": new java.awt.Point( 65, 40 )
+			"size": new java.awt.Dimension( 540, 285 )
+		} )
+	}
+}
