@@ -1,6 +1,6 @@
 package fr.igru;
 
-import fr.igru.windowsclient.ConnectionDialog.ConnectionDialog;
+import fr.igru.windowsclient.ConnectionDialog.connectionDialog;
 import fr.igru.windowsclient.MainWindow.MainWindow;
 
 import javax.swing.*;
@@ -8,12 +8,12 @@ import java.awt.*;
 
 public class Launcher {
     public static void main(String[] args) {
-        JFrame ecran = new JFrame();
-        ecran.setMinimumSize(new Dimension(780, 400));
-
-        ConnectionDialog connectionDialog = new ConnectionDialog();
-        connectionDialog.setVisible(true);
-        ecran.add(connectionDialog);
-        ecran.setVisible(true);
+        JFrame Ecran = new JFrame();
+        Ecran.setMinimumSize(new Dimension(600,400));
+        connectionDialog gui = new connectionDialog();
+        Ecran.pack();
+        gui.setVisible(true);
+        Ecran.add(gui);
+        Ecran.setVisible(true);
     }
 }
