@@ -9,5 +9,6 @@
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module" module-name="Igru" />
     <orderEntry type="library" name="miglayout-core" level="application" />
+    <orderEntry type="library" name="MigLayout" level="project" />
   </component>
 </module>

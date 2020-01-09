@@ -136,7 +136,7 @@ new FormModel {
 				} ) {
 					name: "panel17"
 					add( new FormComponent( "javax.swing.JButton" ) {
-						name: "button9"
+						name: "buttonClientAdmin"
 						"text": "Client Administrateur"
 						addEvent( new FormEvent( "java.awt.event.ActionListener", "actionPerformed", "button9ActionPerformed", true ) )
 					}, new FormLayoutConstraints( class net.miginfocom.layout.CC ) {
@@ -152,7 +152,7 @@ new FormModel {
 				} ) {
 					name: "panel19"
 					add( new FormComponent( "javax.swing.JButton" ) {
-						name: "button10"
+						name: "buttonSaveData"
 						"text": "Sauvegarder Données"
 						addEvent( new FormEvent( "java.awt.event.ActionListener", "actionPerformed", "button10ActionPerformed", true ) )
 					}, new FormLayoutConstraints( class net.miginfocom.layout.CC ) {
@@ -168,7 +168,7 @@ new FormModel {
 				} ) {
 					name: "panel18"
 					add( new FormComponent( "javax.swing.JButton" ) {
-						name: "button11"
+						name: "buttonTableVisual"
 						"text": "Visualisateur des tables"
 						addEvent( new FormEvent( "java.awt.event.ActionListener", "actionPerformed", "button11ActionPerformed", true ) )
 					}, new FormLayoutConstraints( class net.miginfocom.layout.CC ) {
@@ -187,14 +187,14 @@ new FormModel {
 			} ) {
 				name: "panel25"
 				add( new FormComponent( "javax.swing.JButton" ) {
-					name: "button2"
+					name: "buttonRMfromGrp"
 					"text": "Enlever du groupe"
 					addEvent( new FormEvent( "java.awt.event.ActionListener", "actionPerformed", "button2ActionPerformed", true ) )
 				}, new FormLayoutConstraints( class net.miginfocom.layout.CC ) {
 					"value": "cell 1 0 1 4"
 				} )
 				add( new FormComponent( "javax.swing.JButton" ) {
-					name: "button1"
+					name: "buttonAddtoGrp"
 					"text": "Ajouter au groupe"
 					"iconTextGap": 3
 					addEvent( new FormEvent( "java.awt.event.ActionListener", "actionPerformed", "button1ActionPerformed", true ) )
@@ -217,7 +217,7 @@ new FormModel {
 				} ) {
 					name: "panel29"
 					add( new FormComponent( "javax.swing.JButton" ) {
-						name: "button14"
+						name: "buttonAddNewGrp"
 						"text": "Ajouter"
 						addEvent( new FormEvent( "java.awt.event.ActionListener", "actionPerformed", "button14ActionPerformed", true ) )
 					}, new FormLayoutConstraints( class net.miginfocom.layout.CC ) {
@@ -233,7 +233,7 @@ new FormModel {
 				} ) {
 					name: "panel30"
 					add( new FormComponent( "javax.swing.JButton" ) {
-						name: "button15"
+						name: "buttonDelGrp"
 						"text": "Supprimer"
 						addEvent( new FormEvent( "java.awt.event.ActionListener", "actionPerformed", "button15ActionPerformed", true ) )
 					}, new FormLayoutConstraints( class net.miginfocom.layout.CC ) {
@@ -258,7 +258,7 @@ new FormModel {
 				} ) {
 					name: "panel27"
 					add( new FormComponent( "javax.swing.JButton" ) {
-						name: "button12"
+						name: "buttonAddUtil"
 						"text": "Ajouter"
 						addEvent( new FormEvent( "java.awt.event.ActionListener", "actionPerformed", "button12ActionPerformed", true ) )
 					}, new FormLayoutConstraints( class net.miginfocom.layout.CC ) {
@@ -274,7 +274,7 @@ new FormModel {
 				} ) {
 					name: "panel28"
 					add( new FormComponent( "javax.swing.JButton" ) {
-						name: "button13"
+						name: "buttonDelUtil"
 						"text": "Supprimer"
 						addEvent( new FormEvent( "java.awt.event.ActionListener", "actionPerformed", "button13ActionPerformed", true ) )
 					}, new FormLayoutConstraints( class net.miginfocom.layout.CC ) {
