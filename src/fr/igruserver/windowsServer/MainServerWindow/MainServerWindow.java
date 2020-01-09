@@ -263,7 +263,7 @@ public class MainServerWindow extends JPanel {
 
                 //---- buttonClientAdmin ----
                 buttonClientAdmin.setText("Client Administrateur");
-                buttonClientAdmin.addActionListener(e -> buttonClientAdminActionPerformed(e));
+                buttonClientAdmin.addActionListener(this::buttonClientAdminActionPerformed);
                 panel17.add(buttonClientAdmin, "cell 0 0");
             }
             panel16.add(panel17, "cell 0 0");
