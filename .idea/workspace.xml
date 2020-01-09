@@ -2,14 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="58d67246-922a-4d2d-a1d0-7b772984c9e2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../Igru/src/fr/igru/Launcher.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Igru/src/fr/igru/client/dataTypes/FilDiscussion.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Igru/src/fr/igru/client/dataTypes/Message.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Igru/src/fr/igru/client/dataTypes/MessageStatus.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Igru/Igru.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../Igru/Igru.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Igru/src/fr/igru/client/dataTypes/PacketHeader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Igru/src/fr/igru/client/NetworkHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Igru/src/fr/igru/client/NetworkHelper.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/IgruServer.iml" beforeDir="false" afterPath="$PROJECT_DIR$/IgruServer.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fr/igruserver/server/dataTypes/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fr/igruserver/server/dataTypes/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/fr/igruserver/server/Server.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fr/igruserver/server/Server.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/fr/igruserver/server/dataTypes/PacketHeader.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,7 +37,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../Igru" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="UPDATE_TYPE" value="MERGE" />
   </component>
   <component name="ProjectId" id="1W1sgyVr14xF8AfKbJZIEojMe2g" />
@@ -131,7 +128,14 @@
       <option name="project" value="LOCAL" />
       <updated>1578527644894</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Codages des types">
+      <created>1578533579202</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1578533579202</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -155,17 +159,18 @@
     <MESSAGE value="Mise en place UI (commit pré-changement de plugin UI)" />
     <MESSAGE value="Ajout de getSHA256 dans NetworkHelper, et mise en place du serveur (coté code)" />
     <MESSAGE value="Changement du package de MainServerWindow" />
-    <option name="LAST_COMMIT_MESSAGE" value="Changement du package de MainServerWindow" />
+    <MESSAGE value="Codages des types" />
+    <option name="LAST_COMMIT_MESSAGE" value="Codages des types" />
   </component>
   <component name="WindowStateProjectService">
     <state x="575" y="200" width="800" height="672" key="#Project_Structure" timestamp="1578532382735">
       <screen x="40" y="0" width="1880" height="1080" />
     </state>
     <state x="575" y="200" width="800" height="672" key="#Project_Structure/40.0.1880.1080@40.0.1880.1080" timestamp="1578532382735" />
-    <state x="788" y="245" width="374" height="582" key="#com.intellij.ide.util.MemberChooser" timestamp="1578523531281">
+    <state x="788" y="245" width="374" height="582" key="#com.intellij.ide.util.MemberChooser" timestamp="1578534289896">
       <screen x="40" y="0" width="1880" height="1080" />
     </state>
-    <state x="788" y="245" width="374" height="582" key="#com.intellij.ide.util.MemberChooser/40.0.1880.1080@40.0.1880.1080" timestamp="1578523531281" />
+    <state x="788" y="245" width="374" height="582" key="#com.intellij.ide.util.MemberChooser/40.0.1880.1080@40.0.1880.1080" timestamp="1578534289896" />
     <state x="801" y="401" width="302" height="211" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1578508207107">
       <screen x="40" y="0" width="1880" height="1080" />
     </state>
@@ -184,12 +189,12 @@
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="103" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1600.860@0.0.1600.860" timestamp="1578343483816" />
-    <state x="618" y="137" width="714" height="798" key="CommitChangelistDialog2" timestamp="1578527644821">
+    <state x="618" y="137" width="714" height="798" key="CommitChangelistDialog2" timestamp="1578533579135">
       <screen x="40" y="0" width="1880" height="1080" />
     </state>
     <state x="492" y="50" key="CommitChangelistDialog2/0.0.1600.860@0.0.1600.860" timestamp="1578351877573" />
     <state x="590" y="60" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1578494727033" />
-    <state x="618" y="137" width="714" height="798" key="CommitChangelistDialog2/40.0.1880.1080@40.0.1880.1080" timestamp="1578527644821" />
+    <state x="618" y="137" width="714" height="798" key="CommitChangelistDialog2/40.0.1880.1080@40.0.1880.1080" timestamp="1578533579135" />
     <state x="140" y="99" width="1680" height="880" key="DiffContextDialog" timestamp="1578358078345">
       <screen x="40" y="0" width="1880" height="1080" />
     </state>
@@ -214,11 +219,11 @@
       <screen x="40" y="0" width="1880" height="1080" />
     </state>
     <state x="484" y="174" key="SettingsEditor/40.0.1880.1080@40.0.1880.1080" timestamp="1578532250227" />
-    <state x="575" y="275" width="800" height="523" key="Vcs.Push.Dialog.v2" timestamp="1578527648267">
+    <state x="575" y="275" width="800" height="523" key="Vcs.Push.Dialog.v2" timestamp="1578533581012">
       <screen x="40" y="0" width="1880" height="1080" />
     </state>
     <state x="455" y="219" key="Vcs.Push.Dialog.v2/0.0.1600.860@0.0.1600.860" timestamp="1578350768820" />
-    <state x="575" y="275" width="800" height="523" key="Vcs.Push.Dialog.v2/40.0.1880.1080@40.0.1880.1080" timestamp="1578527648267" />
+    <state x="575" y="275" width="800" height="523" key="Vcs.Push.Dialog.v2/40.0.1880.1080@40.0.1880.1080" timestamp="1578533581012" />
     <state x="793" y="454" width="398" height="165" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1578526991271">
       <screen x="40" y="0" width="1880" height="1080" />
     </state>

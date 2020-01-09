@@ -1,18 +1,14 @@
 package fr.igruserver.server;
 
-import fr.igruserver.server.dataTypes.PacketHeader;
+import fr.igru.client.dataTypes.PacketHeader;
 import fr.igruserver.server.dataTypes.User;
 
-import javax.net.ServerSocketFactory;
-import java.io.DataOutputStream;
 import java.io.IOException;
 import java.net.*;
 import java.nio.ByteBuffer;
 import java.nio.channels.*;
 import java.nio.charset.StandardCharsets;
 import java.util.*;
-import java.util.concurrent.Future;
-import java.util.logging.Logger;
 
 public class Server implements Runnable, IMessageReceived{
     private ServerSocketChannel _socket;
@@ -59,6 +55,10 @@ public class Server implements Runnable, IMessageReceived{
 
                 if (answer == 0)
                     client.close();
+                else {
+                    Thread uThd = new Thread(_users.get(_users.size() - 1));
+                    uThd.start();
+                }
             }
 
         } catch (IOException e) {
