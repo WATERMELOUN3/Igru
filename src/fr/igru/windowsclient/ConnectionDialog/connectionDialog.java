@@ -14,7 +14,7 @@ import java.awt.*;
 /**
  * @author unknown
  */
-public class connectionDialog extends JPanel {
+public class connectionDialog extends JFrame {
     public connectionDialog() {
         initComponents();
     }
