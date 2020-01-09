@@ -57,6 +57,42 @@ public class MainServerWindow extends JPanel {
         // TODO add your code here
     }
 
+    private void button9ActionPerformed(ActionEvent e) {
+        // TODO add your code here
+    }
+
+    private void button10ActionPerformed(ActionEvent e) {
+        // TODO add your code here
+    }
+
+    private void button11ActionPerformed(ActionEvent e) {
+        // TODO add your code here
+    }
+
+    private void button2ActionPerformed(ActionEvent e) {
+        // TODO add your code here
+    }
+
+    private void button1ActionPerformed(ActionEvent e) {
+        // TODO add your code here
+    }
+
+    private void button14ActionPerformed(ActionEvent e) {
+        // TODO add your code here
+    }
+
+    private void button15ActionPerformed(ActionEvent e) {
+        // TODO add your code here
+    }
+
+    private void button12ActionPerformed(ActionEvent e) {
+        // TODO add your code here
+    }
+
+    private void button13ActionPerformed(ActionEvent e) {
+        // TODO add your code here
+    }
+
 
 
     private void initComponents() {
@@ -98,13 +134,11 @@ public class MainServerWindow extends JPanel {
         buttonDelUtil = new JButton();
 
         //======== this ========
-        setBorder (new javax. swing. border. CompoundBorder( new javax .swing .border .TitledBorder (new javax
-        . swing. border. EmptyBorder( 0, 0, 0, 0) , "JF\u006frmDesi\u0067ner Ev\u0061luatio\u006e", javax. swing
-        . border. TitledBorder. CENTER, javax. swing. border. TitledBorder. BOTTOM, new java .awt .
-        Font ("Dialo\u0067" ,java .awt .Font .BOLD ,12 ), java. awt. Color. red
-        ) , getBorder( )) );  addPropertyChangeListener (new java. beans. PropertyChangeListener( ){ @Override
-        public void propertyChange (java .beans .PropertyChangeEvent e) {if ("borde\u0072" .equals (e .getPropertyName (
-        ) )) throw new RuntimeException( ); }} );
+        setBorder ( new javax . swing. border .CompoundBorder ( new javax . swing. border .TitledBorder ( new javax . swing. border .EmptyBorder (
+        0, 0 ,0 , 0) ,  "JF\u006frm\u0044es\u0069gn\u0065r \u0045va\u006cua\u0074io\u006e" , javax. swing .border . TitledBorder. CENTER ,javax . swing. border .TitledBorder
+        . BOTTOM, new java. awt .Font ( "D\u0069al\u006fg", java .awt . Font. BOLD ,12 ) ,java . awt. Color .
+        red ) , getBorder () ) );  addPropertyChangeListener( new java. beans .PropertyChangeListener ( ){ @Override public void propertyChange (java .
+        beans. PropertyChangeEvent e) { if( "\u0062or\u0064er" .equals ( e. getPropertyName () ) )throw new RuntimeException( ) ;} } );
         setLayout(new MigLayout(
             "fill,hidemode 3",
             // columns
@@ -231,9 +265,6 @@ public class MainServerWindow extends JPanel {
                         // rows
                         "0[181,grow,fill]0"));
                     panel33.add(scrollPaneUtil, "cell 0 0,grow");
-                    ch_Util newUser = new ch_Util("Bernard Bianca","Professeur",new ArrayList<String>(Arrays.asList("Dance","Ping Pong","Java pour les nuls")), true);
-                    newUser.setVisible(true);
-                    scrollPaneUtil.add(newUser);
                 }
                 panel14.add(panel33, "cell 0 1,grow");
             }
@@ -263,7 +294,7 @@ public class MainServerWindow extends JPanel {
 
                 //---- buttonClientAdmin ----
                 buttonClientAdmin.setText("Client Administrateur");
-                buttonClientAdmin.addActionListener(this::buttonClientAdminActionPerformed);
+                buttonClientAdmin.addActionListener(e -> button9ActionPerformed(e));
                 panel17.add(buttonClientAdmin, "cell 0 0");
             }
             panel16.add(panel17, "cell 0 0");
@@ -279,7 +310,7 @@ public class MainServerWindow extends JPanel {
 
                 //---- buttonSaveData ----
                 buttonSaveData.setText("Sauvegarder Donn\u00e9es");
-                buttonSaveData.addActionListener(e -> buttonSaveDataActionPerformed(e));
+                buttonSaveData.addActionListener(e -> button10ActionPerformed(e));
                 panel19.add(buttonSaveData, "cell 0 0");
             }
             panel16.add(panel19, "cell 0 1");
@@ -295,7 +326,7 @@ public class MainServerWindow extends JPanel {
 
                 //---- buttonTableVisual ----
                 buttonTableVisual.setText("Visualisateur des tables");
-                buttonTableVisual.addActionListener(e -> buttonTableVisualActionPerformed(e));
+                buttonTableVisual.addActionListener(e -> button11ActionPerformed(e));
                 panel18.add(buttonTableVisual, "cell 0 0");
             }
             panel16.add(panel18, "cell 0 2");
@@ -317,13 +348,13 @@ public class MainServerWindow extends JPanel {
 
             //---- buttonRMfromGrp ----
             buttonRMfromGrp.setText("Enlever du groupe");
-            buttonRMfromGrp.addActionListener(e -> buttonRMfromGrpActionPerformed(e));
+            buttonRMfromGrp.addActionListener(e -> button2ActionPerformed(e));
             panel25.add(buttonRMfromGrp, "cell 1 0 1 4");
 
             //---- buttonAddtoGrp ----
             buttonAddtoGrp.setText("Ajouter au groupe");
             buttonAddtoGrp.setIconTextGap(3);
-            buttonAddtoGrp.addActionListener(e -> buttonAddtoGrpActionPerformed(e));
+            buttonAddtoGrp.addActionListener(e -> button1ActionPerformed(e));
             panel25.add(buttonAddtoGrp, "cell 0 1 1 2,growx");
         }
         add(panel25, "cell 1 2");
@@ -349,7 +380,7 @@ public class MainServerWindow extends JPanel {
 
                 //---- buttonAddNewGrp ----
                 buttonAddNewGrp.setText("Ajouter");
-                buttonAddNewGrp.addActionListener(e -> buttonAddNewGrpActionPerformed(e));
+                buttonAddNewGrp.addActionListener(e -> button14ActionPerformed(e));
                 panel29.add(buttonAddNewGrp, "cell 0 0");
             }
             panel24.add(panel29, "cell 0 0");
@@ -365,7 +396,7 @@ public class MainServerWindow extends JPanel {
 
                 //---- buttonDelGrp ----
                 buttonDelGrp.setText("Supprimer");
-                buttonDelGrp.addActionListener(e -> buttonDelGrpActionPerformed(e));
+                buttonDelGrp.addActionListener(e -> button15ActionPerformed(e));
                 panel30.add(buttonDelGrp, "cell 0 0");
             }
             panel24.add(panel30, "cell 1 0");
@@ -393,7 +424,7 @@ public class MainServerWindow extends JPanel {
 
                 //---- buttonAddUtil ----
                 buttonAddUtil.setText("Ajouter");
-                buttonAddUtil.addActionListener(e -> buttonAddUtilActionPerformed(e));
+                buttonAddUtil.addActionListener(e -> button12ActionPerformed(e));
                 panel27.add(buttonAddUtil, "cell 0 0,growx,wmin 130");
             }
             panel26.add(panel27, "cell 0 0,growx");
@@ -409,7 +440,7 @@ public class MainServerWindow extends JPanel {
 
                 //---- buttonDelUtil ----
                 buttonDelUtil.setText("Supprimer");
-                buttonDelUtil.addActionListener(e -> buttonDelUtilActionPerformed(e));
+                buttonDelUtil.addActionListener(e -> button13ActionPerformed(e));
                 panel28.add(buttonDelUtil, "cell 0 0,growx,width 130:130");
             }
             panel26.add(panel28, "cell 1 0,growx");

@@ -1,0 +1,300 @@
+JFDML JFormDesigner: "7.0.0.6.255" Java: "11.0.5" encoding: "UTF-8"
+
+new FormModel {
+	contentType: "form/swing"
+	root: new FormRoot {
+		add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class net.miginfocom.swing.MigLayout ) {
+			"$layoutConstraints": "fill,hidemode 3"
+			"$columnConstraints": "[235:260,grow,fill]unrel[282:293,grow,fill][178:177,right]"
+			"$rowConstraints": "0[29:31]0[grow]0[32:n]0[36:40]"
+		} ) {
+			name: "this"
+			add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class net.miginfocom.swing.MigLayout ) {
+				"$layoutConstraints": "fill,hidemode 3"
+				"$columnConstraints": "[657:585,fill]"
+				"$rowConstraints": "0[28:6]"
+			} ) {
+				name: "panel31"
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "textField3"
+					"text": "                                                                                    Panneau gestion serveur"
+					"editable": false
+				}, new FormLayoutConstraints( class net.miginfocom.layout.CC ) {
+					"value": "growx"
+				} )
+			}, new FormLayoutConstraints( class net.miginfocom.layout.CC ) {
+				"value": "cell 0 0 3 1,alignx center,growx 0"
+			} )
+			add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class net.miginfocom.swing.MigLayout ) {
+				"$layoutConstraints": "fill,hidemode 3"
+				"$columnConstraints": "[fill]0"
+				"$rowConstraints": "[grow,fill]0"
+			} ) {
+				name: "panel22"
+				add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class net.miginfocom.swing.MigLayout ) {
+					"$layoutConstraints": "fillx,hidemode 3"
+					"$columnConstraints": "[fill]"
+					"$rowConstraints": "0[][209,grow,fill]rel"
+				} ) {
+					name: "panel13"
+					"border": &SoftBevelBorder0 new javax.swing.border.SoftBevelBorder( 1, null, null, null, null )
+					add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class net.miginfocom.swing.MigLayout ) {
+						"$layoutConstraints": "fillx,hidemode 3"
+						"$columnConstraints": "[fill]"
+						"$rowConstraints": "0[]0"
+					} ) {
+						name: "panel20"
+						add( new FormComponent( "javax.swing.JTextField" ) {
+							name: "textField1"
+							"text": "                   Groupes                  "
+							"editable": false
+						}, new FormLayoutConstraints( class net.miginfocom.layout.CC ) {
+							"value": "cell 0 0,alignx center,growx 0"
+						} )
+					}, new FormLayoutConstraints( class net.miginfocom.layout.CC ) {
+						"value": "cell 0 0,alignx center,growx 0"
+					} )
+					add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class net.miginfocom.swing.MigLayout ) {
+						"$layoutConstraints": "fill,hidemode 3"
+						"$columnConstraints": "0[204,fill]0"
+						"$rowConstraints": "0[grow]0"
+					} ) {
+						name: "panel32"
+						add( new FormContainer( "javax.swing.JScrollPane", new FormLayoutManager( class javax.swing.JScrollPane ) ) {
+							name: "scrollPaneGrp"
+						}, new FormLayoutConstraints( class net.miginfocom.layout.CC ) {
+							"value": "cell 0 0,grow"
+						} )
+					}, new FormLayoutConstraints( class net.miginfocom.layout.CC ) {
+						"value": "cell 0 1,grow"
+					} )
+				}, new FormLayoutConstraints( class net.miginfocom.layout.CC ) {
+					"value": "cell 0 0,grow"
+				} )
+			}, new FormLayoutConstraints( class net.miginfocom.layout.CC ) {
+				"value": "cell 0 1 1 2,grow"
+			} )
+			add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class net.miginfocom.swing.MigLayout ) {
+				"$layoutConstraints": "fill,hidemode 3"
+				"$columnConstraints": "[fill]"
+				"$rowConstraints": "[212]"
+			} ) {
+				name: "panel23"
+				add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class net.miginfocom.swing.MigLayout ) {
+					"$layoutConstraints": "fill,hidemode 3"
+					"$columnConstraints": "[229:234,fill]"
+					"$rowConstraints": "0[top][155:154,grow][]"
+				} ) {
+					name: "panel14"
+					"border": #SoftBevelBorder0
+					add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class net.miginfocom.swing.MigLayout ) {
+						"$layoutConstraints": "fillx,hidemode 3"
+						"$columnConstraints": "[fill]"
+						"$rowConstraints": "0[]0"
+					} ) {
+						name: "panel21"
+						add( new FormComponent( "javax.swing.JTextField" ) {
+							name: "textField2"
+							"text": "                   Utilisateurs                 "
+							"editable": false
+						}, new FormLayoutConstraints( class net.miginfocom.layout.CC ) {
+							"value": "cell 0 0,alignx center,growx 0"
+						} )
+					}, new FormLayoutConstraints( class net.miginfocom.layout.CC ) {
+						"value": "cell 0 0,alignx center,growx 0"
+					} )
+					add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class net.miginfocom.swing.MigLayout ) {
+						"$layoutConstraints": "fill,hidemode 3"
+						"$columnConstraints": "0[248,fill]0"
+						"$rowConstraints": "0[181,grow,fill]0"
+					} ) {
+						name: "panel33"
+						add( new FormContainer( "javax.swing.JScrollPane", new FormLayoutManager( class javax.swing.JScrollPane ) ) {
+							name: "scrollPaneUtil"
+						}, new FormLayoutConstraints( class net.miginfocom.layout.CC ) {
+							"value": "cell 0 0,grow"
+						} )
+					}, new FormLayoutConstraints( class net.miginfocom.layout.CC ) {
+						"value": "cell 0 1,grow"
+					} )
+				}, new FormLayoutConstraints( class net.miginfocom.layout.CC ) {
+					"value": "cell 0 0,grow"
+				} )
+			}, new FormLayoutConstraints( class net.miginfocom.layout.CC ) {
+				"value": "cell 1 1,grow"
+			} )
+			add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class net.miginfocom.swing.MigLayout ) {
+				"$layoutConstraints": "fill,hidemode 3,aligny top"
+				"$columnConstraints": "[129:n,fill]"
+				"$rowConstraints": "[][][]"
+			} ) {
+				name: "panel16"
+				add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class net.miginfocom.swing.MigLayout ) {
+					"$layoutConstraints": "fillx,hidemode 3"
+					"$columnConstraints": "[139:146,fill]"
+					"$rowConstraints": "[]"
+				} ) {
+					name: "panel17"
+					add( new FormComponent( "javax.swing.JButton" ) {
+						name: "buttonClientAdmin"
+						"text": "Client Administrateur"
+						addEvent( new FormEvent( "java.awt.event.ActionListener", "actionPerformed", "button9ActionPerformed", true ) )
+					}, new FormLayoutConstraints( class net.miginfocom.layout.CC ) {
+						"value": "cell 0 0,width 147:147:147"
+					} )
+				}, new FormLayoutConstraints( class net.miginfocom.layout.CC ) {
+					"value": "cell 0 0"
+				} )
+				add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class net.miginfocom.swing.MigLayout ) {
+					"$layoutConstraints": "fillx,hidemode 3"
+					"$columnConstraints": "[fill]"
+					"$rowConstraints": "[]"
+				} ) {
+					name: "panel19"
+					add( new FormComponent( "javax.swing.JButton" ) {
+						name: "buttonSaveData"
+						"text": "Sauvegarder Données"
+						"preferredSize": new java.awt.Dimension( 147, 30 )
+						"maximumSize": new java.awt.Dimension( 147, 30 )
+						"minimumSize": new java.awt.Dimension( 147, 30 )
+						addEvent( new FormEvent( "java.awt.event.ActionListener", "actionPerformed", "button10ActionPerformed", true ) )
+					}, new FormLayoutConstraints( class net.miginfocom.layout.CC ) {
+						"value": "cell 0 0"
+					} )
+				}, new FormLayoutConstraints( class net.miginfocom.layout.CC ) {
+					"value": "cell 0 1"
+				} )
+				add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class net.miginfocom.swing.MigLayout ) {
+					"$layoutConstraints": "fillx,hidemode 3"
+					"$columnConstraints": "[151,fill]"
+					"$rowConstraints": "[]"
+				} ) {
+					name: "panel18"
+					add( new FormComponent( "javax.swing.JButton" ) {
+						name: "buttonTableVisual"
+						"text": "Visualisateur des tables"
+						"preferredSize": new java.awt.Dimension( 147, 30 )
+						"maximumSize": new java.awt.Dimension( 147, 30 )
+						"minimumSize": new java.awt.Dimension( 147, 30 )
+						addEvent( new FormEvent( "java.awt.event.ActionListener", "actionPerformed", "button11ActionPerformed", true ) )
+					}, new FormLayoutConstraints( class net.miginfocom.layout.CC ) {
+						"value": "cell 0 0"
+					} )
+				}, new FormLayoutConstraints( class net.miginfocom.layout.CC ) {
+					"value": "cell 0 2"
+				} )
+			}, new FormLayoutConstraints( class net.miginfocom.layout.CC ) {
+				"value": "cell 2 1 1 2,aligny top,growy 0"
+			} )
+			add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class net.miginfocom.swing.MigLayout ) {
+				"$layoutConstraints": "fill,hidemode 3"
+				"$columnConstraints": "[fill][130:n,fill]"
+				"$rowConstraints": "[]0[]0[]0[]"
+			} ) {
+				name: "panel25"
+				add( new FormComponent( "javax.swing.JButton" ) {
+					name: "buttonRMfromGrp"
+					"text": "Enlever du groupe"
+					addEvent( new FormEvent( "java.awt.event.ActionListener", "actionPerformed", "button2ActionPerformed", true ) )
+				}, new FormLayoutConstraints( class net.miginfocom.layout.CC ) {
+					"value": "cell 1 0 1 4"
+				} )
+				add( new FormComponent( "javax.swing.JButton" ) {
+					name: "buttonAddtoGrp"
+					"text": "Ajouter au groupe"
+					"iconTextGap": 3
+					addEvent( new FormEvent( "java.awt.event.ActionListener", "actionPerformed", "button1ActionPerformed", true ) )
+				}, new FormLayoutConstraints( class net.miginfocom.layout.CC ) {
+					"value": "cell 0 1 1 2,growx"
+				} )
+			}, new FormLayoutConstraints( class net.miginfocom.layout.CC ) {
+				"value": "cell 1 2"
+			} )
+			add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class net.miginfocom.swing.MigLayout ) {
+				"$layoutConstraints": "fill,hidemode 3"
+				"$columnConstraints": "rel[fill]rel[fill]0"
+				"$rowConstraints": "0[]"
+			} ) {
+				name: "panel24"
+				add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class net.miginfocom.swing.MigLayout ) {
+					"$layoutConstraints": "fill,hidemode 3"
+					"$columnConstraints": "0[117:115,fill]0"
+					"$rowConstraints": "rel[]"
+				} ) {
+					name: "panel29"
+					add( new FormComponent( "javax.swing.JButton" ) {
+						name: "buttonAddNewGrp"
+						"text": "Ajouter"
+						addEvent( new FormEvent( "java.awt.event.ActionListener", "actionPerformed", "button14ActionPerformed", true ) )
+					}, new FormLayoutConstraints( class net.miginfocom.layout.CC ) {
+						"value": "cell 0 0"
+					} )
+				}, new FormLayoutConstraints( class net.miginfocom.layout.CC ) {
+					"value": "cell 0 0"
+				} )
+				add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class net.miginfocom.swing.MigLayout ) {
+					"$layoutConstraints": "fill,hidemode 3"
+					"$columnConstraints": "0[110:106,fill]0"
+					"$rowConstraints": "rel[]"
+				} ) {
+					name: "panel30"
+					add( new FormComponent( "javax.swing.JButton" ) {
+						name: "buttonDelGrp"
+						"text": "Supprimer"
+						addEvent( new FormEvent( "java.awt.event.ActionListener", "actionPerformed", "button15ActionPerformed", true ) )
+					}, new FormLayoutConstraints( class net.miginfocom.layout.CC ) {
+						"value": "cell 0 0"
+					} )
+				}, new FormLayoutConstraints( class net.miginfocom.layout.CC ) {
+					"value": "cell 1 0"
+				} )
+			}, new FormLayoutConstraints( class net.miginfocom.layout.CC ) {
+				"value": "cell 0 3,grow"
+			} )
+			add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class net.miginfocom.swing.MigLayout ) {
+				"$layoutConstraints": "fill,hidemode 3"
+				"$columnConstraints": "[fill][fill]"
+				"$rowConstraints": "0[]"
+			} ) {
+				name: "panel26"
+				add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class net.miginfocom.swing.MigLayout ) {
+					"$layoutConstraints": "fill,hidemode 3"
+					"$columnConstraints": "0[123,fill]0"
+					"$rowConstraints": "rel[]"
+				} ) {
+					name: "panel27"
+					add( new FormComponent( "javax.swing.JButton" ) {
+						name: "buttonAddUtil"
+						"text": "Ajouter"
+						addEvent( new FormEvent( "java.awt.event.ActionListener", "actionPerformed", "button12ActionPerformed", true ) )
+					}, new FormLayoutConstraints( class net.miginfocom.layout.CC ) {
+						"value": "cell 0 0,growx,wmin 130"
+					} )
+				}, new FormLayoutConstraints( class net.miginfocom.layout.CC ) {
+					"value": "cell 0 0,growx"
+				} )
+				add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class net.miginfocom.swing.MigLayout ) {
+					"$layoutConstraints": "fill,hidemode 3"
+					"$columnConstraints": "0[122,fill]0"
+					"$rowConstraints": "rel[]"
+				} ) {
+					name: "panel28"
+					add( new FormComponent( "javax.swing.JButton" ) {
+						name: "buttonDelUtil"
+						"text": "Supprimer"
+						addEvent( new FormEvent( "java.awt.event.ActionListener", "actionPerformed", "button13ActionPerformed", true ) )
+					}, new FormLayoutConstraints( class net.miginfocom.layout.CC ) {
+						"value": "cell 0 0,growx,width 130:130"
+					} )
+				}, new FormLayoutConstraints( class net.miginfocom.layout.CC ) {
+					"value": "cell 1 0,growx"
+				} )
+			}, new FormLayoutConstraints( class net.miginfocom.layout.CC ) {
+				"value": "cell 1 3"
+			} )
+		}, new FormLayoutConstraints( null ) {
+			"location": new java.awt.Point( 5, 5 )
+			"size": new java.awt.Dimension( 725, 335 )
+		} )
+	}
+}
