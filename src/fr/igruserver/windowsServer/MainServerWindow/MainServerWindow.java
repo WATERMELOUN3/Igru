@@ -11,6 +11,7 @@ import java.util.Arrays;
 import javax.swing.*;
 import javax.swing.border.*;
 
+import fr.igruserver.server.Server;
 import fr.igruserver.windowsServer.Champs.ch_Grp.ch_Grp;
 import fr.igruserver.windowsServer.Champs.ch_Util.ch_Util;
 import net.miginfocom.swing.*;
@@ -19,8 +20,13 @@ import net.miginfocom.swing.*;
  * @author unknown
  */
 public class MainServerWindow extends JPanel {
+    private Server _server = null;
+
     public MainServerWindow() {
         initComponents();
+        _server = new Server(42066);
+        Thread sThd = new Thread(_server);
+        sThd.start();
     }
 
     private void buttonRMfromGrpActionPerformed(ActionEvent e) {

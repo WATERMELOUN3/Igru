@@ -78,7 +78,24 @@ public class ServerUser implements Runnable {
         for (String s : groups) {
             Statement stmt = sql.createStatement();
             try {
-                ResultSet rs = stmt.executeQuery("SELECT * FROM FilDeDiscussion WHERE FilDeDiscussion.dateCreat >= " + date);
+                ResultSet rs = stmt.executeQuery("SELECT * FROM FilDeDiscussion WHERE FilDeDiscussion.dateCreat >= " + date +
+                        " AND FilDeDiscussion.groupe == " + s);
+                while (rs.next()) {
+                    int id = rs.getInt("idFdD");
+                    String title = rs.getString("titre");
+                    Date dateCreated = rs.getDate("dateCreat");
+                    FilDiscussion fd = new FilDiscussion(id, title, dateCreated);
+
+                    ResultSet rs2 = stmt.executeQuery("SELECT * FROM message WHERE idFdD == " + id + " AND datePost >= " + date);
+                    while (rs2.next()) {
+                        id = rs2.getInt("idMsg");
+                        title = rs2.getString("texte");
+                        dateCreated = rs2.getDate("datePost");
+                        int idAuthor = rs2.getInt("idUser");
+
+                        fd.getMessages().add(new Message(id, dateCreated, title));
+                    }
+                }
             } catch (SQLException e) {
                 e.printStackTrace();
             }
