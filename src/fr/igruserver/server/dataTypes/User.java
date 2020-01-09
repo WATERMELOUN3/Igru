@@ -2,12 +2,10 @@ package fr.igruserver.server.dataTypes;
 
 import fr.igruserver.server.IMessageReceived;
 
-import java.io.DataInputStream;
-import java.io.DataOutputStream;
 import java.io.IOException;
 import java.nio.ByteBuffer;
-import java.nio.channels.AsynchronousSocketChannel;
 import java.nio.channels.SocketChannel;
+import java.nio.charset.StandardCharsets;
 import java.sql.Date;
 
 public class User implements Runnable {
@@ -58,6 +56,15 @@ public class User implements Runnable {
         } catch (IOException e) {
             e.printStackTrace();
         }
+    }
+
+    public void BuildSyncPacket(ByteBuffer buffer) {
+        byte[] strBytes = new byte[10];
+        buffer.get(strBytes);
+        Date date = Date.valueOf(new String(strBytes, StandardCharsets.UTF_8));
+
+        // Do sql request
+
     }
 
     public SocketChannel GetChannel() {

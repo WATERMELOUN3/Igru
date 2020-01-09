@@ -8,5 +8,6 @@
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module" module-name="Igru" />
+    <orderEntry type="library" name="miglayout-core" level="application" />
   </component>
 </module>
