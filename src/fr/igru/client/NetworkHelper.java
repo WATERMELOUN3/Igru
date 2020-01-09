@@ -1,8 +1,12 @@
 package fr.igru.client;
 
+import fr.igru.client.dataTypes.PacketHeader;
+
 import javax.net.ssl.*;
 import java.io.*;
 import java.net.*;
+import java.nio.ByteBuffer;
+import java.nio.channels.SocketChannel;
 import java.nio.charset.StandardCharsets;
 import java.security.MessageDigest;
 import java.security.NoSuchAlgorithmException;
@@ -10,25 +14,19 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
-public class NetworkHelper {
-    private SSLSocket _socket;
+public class NetworkHelper implements Runnable {
+    private SocketChannel _socket;
     private String _ip;
     private int _port;
-    private DataOutputStream _streamWriter;
-    private DataInputStream _streamReader;
+
+    private boolean _running = true;
 
     public NetworkHelper(String ip, int port) {
         this._ip = ip;
         this._port = port;
-    }
 
-    public void initialize() {
         try {
-            SSLSocketFactory factory = (SSLSocketFactory) SSLSocketFactory.getDefault();
-            _socket = (SSLSocket) factory.createSocket(_ip, _port);
-            _socket.startHandshake();
-            _streamWriter = new DataOutputStream(_socket.getOutputStream());
-            _streamReader = new DataInputStream(_socket.getInputStream());
+            _socket = SocketChannel.open(new InetSocketAddress(_ip, _port));
         } catch (IOException e) {
             e.printStackTrace();
         }
@@ -36,32 +34,49 @@ public class NetworkHelper {
 
     public void close() {
         try {
-            _streamReader.close();
-            _streamWriter.close();
+            _running = false;
             _socket.close();
         } catch (IOException e) {
             e.printStackTrace();
         }
     }
 
-    public byte[] readMessage() {
+    private void messageReceived(ByteBuffer buffer) {
+        byte header = buffer.get();
+        switch (header) {
+            case 0: // Ping
+                break;
+
+            case 6: // SyncMsg
+                break;
+
+            case 7: // SyncFil
+                break;
+
+            default:
+                System.exit(99);
+        }
+    }
+
+    public ByteBuffer readMessage() {
         return readMessage(256);
     }
 
-    public byte[] readMessage(int bufferSize) {
-        ByteArrayOutputStream output = new ByteArrayOutputStream();
-        byte[] buffer = new byte[bufferSize];
-        int bytes = bufferSize;
+    public ByteBuffer readMessage(int bufferSize) {
+        ByteBuffer buffer = ByteBuffer.allocate(bufferSize);
+        int size = bufferSize;
         do {
             try {
-                bytes = _streamReader.read(buffer, 0, bufferSize);
-                output.write(buffer, 0, bytes);
+                size = _socket.read(buffer);
+                if (size == bufferSize)
+                    buffer.limit(buffer.limit() + bufferSize);
             } catch (IOException e) {
                 e.printStackTrace();
             }
-        } while (bytes == bufferSize);
+        } while (size == bufferSize);
 
-        return output.toByteArray();
+        buffer.rewind();
+        return buffer;
     }
 
     public static String getSHA256(String input) {
@@ -83,5 +98,15 @@ public class NetworkHelper {
             hexString.append(hex);
         }
         return hexString.toString();
+    }
+
+    @Override
+    public void run() {
+        while (_running) {
+            ByteBuffer buffer = readMessage();
+
+            buffer.rewind();
+            messageReceived(buffer);
+        }
     }
 }
