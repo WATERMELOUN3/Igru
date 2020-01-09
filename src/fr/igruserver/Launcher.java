@@ -14,5 +14,6 @@ public class Launcher {
         mainServerWindow.setVisible(true);
         ecran.add(mainServerWindow);
         ecran.setVisible(true);
+        mainServerWindow.displayGrp("Chasse");
     }
 }

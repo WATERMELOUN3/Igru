@@ -8,7 +8,7 @@ new FormModel {
 			"$columnConstraints": "[fill]"
 			"$rowConstraints": "[]"
 		} ) {
-			name: "panel1"
+			name: "this"
 			add( new FormComponent( "javax.swing.JLabel" ) {
 				name: "labelNomGrp"
 				"font": new com.jformdesigner.model.SwingDerivedFont( null, 1, 4, false )
