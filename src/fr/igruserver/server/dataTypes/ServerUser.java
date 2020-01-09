@@ -70,7 +70,6 @@ public class ServerUser implements Runnable {
         buffer.get(strBytes);
         Date date = Date.valueOf(new String(strBytes, StandardCharsets.UTF_8));
 
-        ArrayList<Message> messages = new ArrayList<>();
         ArrayList<FilDiscussion> fils = new ArrayList<>();
         // Do sql request
         // First we get the groups ids
@@ -79,7 +78,7 @@ public class ServerUser implements Runnable {
             Statement stmt = sql.createStatement();
             try {
                 ResultSet rs = stmt.executeQuery("SELECT * FROM FilDeDiscussion WHERE FilDeDiscussion.dateCreat >= " + date +
-                        " AND FilDeDiscussion.groupe == " + s);
+                        " AND FilDeDiscussion.nomGroupe == " + s);
                 while (rs.next()) {
                     int id = rs.getInt("idFdD");
                     String title = rs.getString("titre");
