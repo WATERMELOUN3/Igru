@@ -2,8 +2,9 @@
  * Created by JFormDesigner on Tue Jan 07 18:56:54 CET 2020
  */
 
-package fr.igru.windows.ConnectionDialog;
+package fr.igru.windowsclient.ConnectionDialog;
 
+import java.awt.event.*;
 import net.miginfocom.swing.MigLayout;
 
 import javax.swing.*;
@@ -18,6 +19,14 @@ public class connectionDialog extends JPanel {
         initComponents();
     }
 
+    private void buttonCancelActionPerformed(ActionEvent e) {
+        // TODO add your code here
+    }
+
+    private void buttonConnectActionPerformed(ActionEvent e) {
+        // TODO add your code here
+    }
+
     private void initComponents() {
         // JFormDesigner - Component initialization - DO NOT MODIFY  //GEN-BEGIN:initComponents
         // Generated using JFormDesigner Evaluation license - unknown
@@ -26,26 +35,25 @@ public class connectionDialog extends JPanel {
         panel11 = new JPanel();
         label3 = new JLabel();
         panel9 = new JPanel();
-        comboBox1 = new JComboBox();
+        comboBoxUserType = new JComboBox();
         label1 = new JLabel();
-        textField1 = new JTextField();
+        textFieldLogin = new JTextField();
         label2 = new JLabel();
-        textField2 = new JTextField();
+        textFieldMDP = new JTextField();
         label4 = new JLabel();
         panel6 = new JPanel();
         panel7 = new JPanel();
-        button2 = new JButton();
+        buttonCancel = new JButton();
         panel8 = new JPanel();
-        button3 = new JButton();
+        buttonConnect = new JButton();
 
         //======== panel5 ========
         {
-            panel5.setBorder(new javax.swing.border.CompoundBorder(new javax.swing.border.TitledBorder(new javax.swing.border.
-            EmptyBorder(0,0,0,0), "JF\u006frmDesi\u0067ner Ev\u0061luatio\u006e",javax.swing.border.TitledBorder.CENTER,javax.swing
-            .border.TitledBorder.BOTTOM,new java.awt.Font("Dialo\u0067",java.awt.Font.BOLD,12),
-            java.awt.Color.red),panel5. getBorder()));panel5. addPropertyChangeListener(new java.beans.PropertyChangeListener()
-            {@Override public void propertyChange(java.beans.PropertyChangeEvent e){if("borde\u0072".equals(e.getPropertyName()))
-            throw new RuntimeException();}});
+            panel5.setBorder ( new javax . swing. border .CompoundBorder ( new javax . swing. border .TitledBorder ( new javax . swing. border .EmptyBorder (
+            0, 0 ,0 , 0) ,  "JF\u006frm\u0044es\u0069gn\u0065r \u0045va\u006cua\u0074io\u006e" , javax. swing .border . TitledBorder. CENTER ,javax . swing. border .TitledBorder
+            . BOTTOM, new java. awt .Font ( "D\u0069al\u006fg", java .awt . Font. BOLD ,12 ) ,java . awt. Color .
+            red ) ,panel5. getBorder () ) ); panel5. addPropertyChangeListener( new java. beans .PropertyChangeListener ( ){ @Override public void propertyChange (java .
+            beans. PropertyChangeEvent e) { if( "\u0062or\u0064er" .equals ( e. getPropertyName () ) )throw new RuntimeException( ) ;} } );
             panel5.setLayout(new MigLayout(
                 "fillx,hidemode 3",
                 // columns
@@ -102,42 +110,34 @@ public class connectionDialog extends JPanel {
                         .addGroup(panel9Layout.createSequentialGroup()
                             .addGap(18, 18, 18)
                             .addGroup(panel9Layout.createParallelGroup(GroupLayout.Alignment.TRAILING)
-                                .addGroup(panel9Layout.createParallelGroup()
-                                    .addGroup(panel9Layout.createSequentialGroup()
-                                        .addGap(37, 37, 37)
-                                        .addComponent(label1))
-                                    .addComponent(label2))
-                                .addGroup(panel9Layout.createSequentialGroup()
-                                    .addComponent(label4, GroupLayout.PREFERRED_SIZE, 98, GroupLayout.PREFERRED_SIZE)
-                                    .addGap(6, 6, 6)))
-                            .addGroup(panel9Layout.createParallelGroup()
+                                .addComponent(label2)
                                 .addGroup(panel9Layout.createSequentialGroup()
                                     .addGroup(panel9Layout.createParallelGroup(GroupLayout.Alignment.TRAILING)
-                                        .addComponent(textField2, GroupLayout.Alignment.LEADING)
-                                        .addGroup(GroupLayout.Alignment.LEADING, panel9Layout.createSequentialGroup()
-                                            .addComponent(textField1, GroupLayout.PREFERRED_SIZE, 322, GroupLayout.PREFERRED_SIZE)
-                                            .addGap(0, 0, Short.MAX_VALUE)))
-                                    .addContainerGap(76, Short.MAX_VALUE))
-                                .addGroup(panel9Layout.createSequentialGroup()
-                                    .addComponent(comboBox1, GroupLayout.PREFERRED_SIZE, 316, GroupLayout.PREFERRED_SIZE)
-                                    .addContainerGap(82, Short.MAX_VALUE))))
+                                        .addComponent(label1)
+                                        .addComponent(label4, GroupLayout.PREFERRED_SIZE, 98, GroupLayout.PREFERRED_SIZE))
+                                    .addGap(6, 6, 6)))
+                            .addGroup(panel9Layout.createParallelGroup(GroupLayout.Alignment.LEADING, false)
+                                .addComponent(textFieldLogin, GroupLayout.DEFAULT_SIZE, 322, Short.MAX_VALUE)
+                                .addComponent(textFieldMDP, GroupLayout.DEFAULT_SIZE, 322, Short.MAX_VALUE)
+                                .addComponent(comboBoxUserType, GroupLayout.DEFAULT_SIZE, 322, Short.MAX_VALUE))
+                            .addContainerGap(82, Short.MAX_VALUE))
                 );
                 panel9Layout.setVerticalGroup(
                     panel9Layout.createParallelGroup()
                         .addGroup(panel9Layout.createSequentialGroup()
                             .addGap(35, 35, 35)
                             .addGroup(panel9Layout.createParallelGroup(GroupLayout.Alignment.BASELINE)
-                                .addComponent(comboBox1, GroupLayout.PREFERRED_SIZE, GroupLayout.DEFAULT_SIZE, GroupLayout.PREFERRED_SIZE)
-                                .addComponent(label4))
-                            .addPreferredGap(LayoutStyle.ComponentPlacement.RELATED)
+                                .addComponent(label4)
+                                .addComponent(comboBoxUserType, GroupLayout.PREFERRED_SIZE, GroupLayout.DEFAULT_SIZE, GroupLayout.PREFERRED_SIZE))
+                            .addGap(13, 13, 13)
                             .addGroup(panel9Layout.createParallelGroup(GroupLayout.Alignment.BASELINE)
-                                .addComponent(textField1, GroupLayout.PREFERRED_SIZE, GroupLayout.DEFAULT_SIZE, GroupLayout.PREFERRED_SIZE)
-                                .addComponent(label1))
+                                .addComponent(label1)
+                                .addComponent(textFieldLogin, GroupLayout.PREFERRED_SIZE, GroupLayout.DEFAULT_SIZE, GroupLayout.PREFERRED_SIZE))
                             .addGap(18, 18, 18)
                             .addGroup(panel9Layout.createParallelGroup(GroupLayout.Alignment.BASELINE)
                                 .addComponent(label2)
-                                .addComponent(textField2, GroupLayout.PREFERRED_SIZE, GroupLayout.DEFAULT_SIZE, GroupLayout.PREFERRED_SIZE))
-                            .addContainerGap(18, Short.MAX_VALUE))
+                                .addComponent(textFieldMDP, GroupLayout.PREFERRED_SIZE, GroupLayout.DEFAULT_SIZE, GroupLayout.PREFERRED_SIZE))
+                            .addContainerGap(11, Short.MAX_VALUE))
                 );
             }
             panel5.add(panel9, "cell 0 2,grow");
@@ -161,10 +161,11 @@ public class connectionDialog extends JPanel {
                         // rows
                         "[]"));
 
-                    //---- button2 ----
-                    button2.setText("Annuler");
-                    button2.setBackground(Color.red);
-                    panel7.add(button2, "cell 0 0");
+                    //---- buttonCancel ----
+                    buttonCancel.setText("Annuler");
+                    buttonCancel.setBackground(Color.red);
+                    buttonCancel.addActionListener(e -> buttonCancelActionPerformed(e));
+                    panel7.add(buttonCancel, "cell 0 0");
                 }
                 panel6.add(panel7, "cell 0 0");
 
@@ -177,9 +178,10 @@ public class connectionDialog extends JPanel {
                         // rows
                         "[]"));
 
-                    //---- button3 ----
-                    button3.setText("Se connecter");
-                    panel8.add(button3, "cell 0 0");
+                    //---- buttonConnect ----
+                    buttonConnect.setText("Se connecter");
+                    buttonConnect.addActionListener(e -> buttonConnectActionPerformed(e));
+                    panel8.add(buttonConnect, "cell 0 0");
                 }
                 panel6.add(panel8, "cell 1 0");
             }
@@ -195,16 +197,16 @@ public class connectionDialog extends JPanel {
     private JPanel panel11;
     private JLabel label3;
     private JPanel panel9;
-    private JComboBox comboBox1;
+    private JComboBox comboBoxUserType;
     private JLabel label1;
-    private JTextField textField1;
+    private JTextField textFieldLogin;
     private JLabel label2;
-    private JTextField textField2;
+    private JTextField textFieldMDP;
     private JLabel label4;
     private JPanel panel6;
     private JPanel panel7;
-    private JButton button2;
+    private JButton buttonCancel;
     private JPanel panel8;
-    private JButton button3;
+    private JButton buttonConnect;
     // JFormDesigner - End of variables declaration  //GEN-END:variables
 }
