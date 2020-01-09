@@ -3,10 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="58d67246-922a-4d2d-a1d0-7b772984c9e2" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fr/igruserver/Launcher.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fr/igruserver/Launcher.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fr/igruserver/windowsServer/Champs/ch_Grp/ch_Grp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fr/igruserver/windowsServer/Champs/ch_Grp/ch_Grp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fr/igruserver/windowsServer/Champs/ch_Grp/ch_Grp.jfd" beforeDir="false" afterPath="$PROJECT_DIR$/src/fr/igruserver/windowsServer/Champs/ch_Grp/ch_Grp.jfd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fr/igruserver/windowsServer/MainServerWindow/MainServerWindow.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fr/igruserver/windowsServer/MainServerWindow/MainServerWindow.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,6 +33,7 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="PUSH_UPDATE_ALL_ROOTS" value="false" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../Igru" />
     <option name="ROOT_SYNC" value="SYNC" />
     <option name="UPDATE_TYPE" value="MERGE" />
@@ -135,7 +132,7 @@
       <option name="presentableId" value="Default" />
       <updated>1578328550821</updated>
       <workItem from="1578335320646" duration="9893000" />
-      <workItem from="1578595613901" duration="9840000" />
+      <workItem from="1578595613901" duration="10332000" />
     </task>
     <task id="LOCAL-00001" summary="Encore tentative de fusion + efficace">
       <created>1578329899467</created>
@@ -221,7 +218,21 @@
       <option name="project" value="LOCAL" />
       <updated>1578605323995</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Ajout proprement de mysql connector">
+      <created>1578605784314</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1578605784314</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Ajout proprement de mysql connector">
+      <created>1578605832414</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1578605832414</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -304,11 +315,11 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="690" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1578601743991" />
-    <state x="590" y="60" width="1254" height="810" key="CommitChangelistDialog2" timestamp="1578605806210">
+    <state x="590" y="60" width="1254" height="810" key="CommitChangelistDialog2" timestamp="1578605831856">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="492" y="50" key="CommitChangelistDialog2/0.0.1600.860@0.0.1600.860" timestamp="1578351877573" />
-    <state x="590" y="60" width="1254" height="810" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1578605806210" />
+    <state x="590" y="60" width="1254" height="810" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1578605831856" />
     <state x="618" y="137" width="714" height="798" key="CommitChangelistDialog2/40.0.1880.1080@40.0.1880.1080" timestamp="1578594283874" />
     <state x="102" y="95" width="1716" height="848" key="DiffContextDialog" timestamp="1578585482656">
       <screen x="0" y="0" width="1920" height="1040" />
@@ -385,16 +396,16 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="745" y="236" width="550" height="567" key="VCS.ChangeListViewerDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1578603098603" />
-    <state x="546" y="265" width="800" height="523" key="Vcs.Push.Dialog.v2" timestamp="1578605785461">
+    <state x="546" y="265" width="800" height="523" key="Vcs.Push.Dialog.v2" timestamp="1578605842118">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="455" y="219" key="Vcs.Push.Dialog.v2/0.0.1600.860@0.0.1600.860" timestamp="1578350768820" />
-    <state x="546" y="265" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1578605785461" />
+    <state x="546" y="265" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1578605842118" />
     <state x="575" y="275" width="800" height="523" key="Vcs.Push.Dialog.v2/40.0.1880.1080@40.0.1880.1080" timestamp="1578594286466" />
-    <state x="769" y="437" width="398" height="165" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1578603050108">
+    <state x="769" y="437" width="398" height="165" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1578605952671">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="769" y="437" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040" timestamp="1578603050108" />
+    <state x="769" y="437" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040" timestamp="1578605952671" />
     <state x="793" y="454" width="398" height="165" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/40.0.1880.1080@40.0.1880.1080" timestamp="1578591162375" />
     <state x="657" y="118" width="736" height="804" key="find.popup" timestamp="1578553848733">
       <screen x="0" y="0" width="1920" height="1040" />
