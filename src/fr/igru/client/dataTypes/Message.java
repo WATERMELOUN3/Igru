@@ -8,6 +8,7 @@ public class Message {
     private int _id;
     private Date _date;
     private String _content;
+    private String _author;
 
     public Message(Date date, String content) {
         _id = -1;

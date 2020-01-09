@@ -6,6 +6,8 @@ package fr.igru.windowsclient.ConnectionDialog;
 
 import java.awt.event.*;
 import javax.swing.border.*;
+
+import fr.igru.client.NetworkHelper;
 import net.miginfocom.swing.MigLayout;
 
 import javax.swing.*;
@@ -16,19 +18,29 @@ import java.awt.*;
  * @author unknown
  */
 public class connectionDialog extends JPanel {
+    private NetworkHelper _helper = null;
+
     public connectionDialog() {
         initComponents();
+        _helper = new NetworkHelper("127.0.0.1", 42066);
     }
 
     private void buttonCancelActionPerformed(ActionEvent e) {
         this.setVisible(false);
+        System.exit(0);
     }
 
     private void buttonConnectActionPerformed(ActionEvent e) {
        String username = textFieldLogin.getText();
        String password = new String(passwordField1.getPassword());
        String typeUtil = (String) comboBoxUserType.getSelectedItem();
-        System.out.println(username+password.toString()+typeUtil);
+
+       if (_helper.Authenticate(username, password)) {
+           Thread hThd = new Thread(_helper);
+           hThd.start();
+       } else {
+           // Erreur connexion, afficher sur GUI ?
+       }
     }
 
     private void initComponents() {
