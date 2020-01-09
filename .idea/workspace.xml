@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="58d67246-922a-4d2d-a1d0-7b772984c9e2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.18.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fr/igruserver/Launcher.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Igru/src/fr/igru/Launcher.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Igru/src/fr/igru/Launcher.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Igru/src/fr/igru/windowsclient/ConnectionDialog/connectionDialog.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Igru/src/fr/igru/windowsclient/ConnectionDialog/connectionDialog.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/projet.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/projet.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -35,7 +37,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../Igru" />
     <option name="UPDATE_TYPE" value="MERGE" />
   </component>
   <component name="ProjectId" id="1W1sgyVr14xF8AfKbJZIEojMe2g" />
@@ -56,7 +58,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/lib/mysql-connector-java-8.0.18.jar!/" />
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="project.structure.last.edited" value="Global Libraries" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
@@ -72,6 +74,38 @@
       <recent name="C:\Users\Guillaume DELBOULBES\IdeaProjects\Igru\src\fr\igru\windowsclient" />
       <recent name="$PROJECT_DIR$/../Igru/src/fr/igru/windows/MainWindow" />
     </key>
+  </component>
+  <component name="RunManager" selected="Application.ClientLauncher">
+    <configuration name="ClientLauncher" type="Application" factoryName="Application">
+      <option name="ALTERNATIVE_JRE_PATH" value="11" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="MAIN_CLASS_NAME" value="fr.igru.Launcher" />
+      <module name="Igru" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ServerLauncher" type="Application" factoryName="Application">
+      <option name="ALTERNATIVE_JRE_PATH" value="11" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="MAIN_CLASS_NAME" value="fr.igruserver.Launcher" />
+      <module name="projet" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="ALTERNATIVE_JRE_PATH" value="11" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="MAIN_CLASS_NAME" value="fr.igruserver.Launcher" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.ClientLauncher" />
+      <item itemvalue="Application.ServerLauncher" />
+    </list>
   </component>
   <component name="ServiceViewManager">
     <option name="viewStates">
@@ -153,7 +187,14 @@
       <option name="project" value="LOCAL" />
       <updated>1578591962518</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Ajout proprement de mysql connector">
+      <created>1578592458160</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1578592458160</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -179,17 +220,27 @@
     <MESSAGE value="Changement du package de MainServerWindow" />
     <MESSAGE value="Codages des types" />
     <MESSAGE value="Réparation du git" />
-    <option name="LAST_COMMIT_MESSAGE" value="Réparation du git" />
+    <MESSAGE value="Ajout proprement de mysql connector" />
+    <option name="LAST_COMMIT_MESSAGE" value="Ajout proprement de mysql connector" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="490" y="207" width="800" height="672" key="#Project_Structure" timestamp="1578592438876">
+    <state x="679" y="176" width="618" height="720" key="#ClientLauncher" timestamp="1578593379315">
       <screen x="40" y="0" width="1880" height="1080" />
     </state>
-    <state x="490" y="207" width="800" height="672" key="#Project_Structure/40.0.1880.1080@40.0.1880.1080" timestamp="1578592438876" />
-    <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1578577328530">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="679" y="176" width="618" height="720" key="#ClientLauncher/40.0.1880.1080@40.0.1880.1080" timestamp="1578593379315" />
+    <state x="490" y="207" width="800" height="672" key="#Project_Structure" timestamp="1578592666663">
+      <screen x="40" y="0" width="1880" height="1080" />
+    </state>
+    <state x="490" y="207" width="800" height="672" key="#Project_Structure/40.0.1880.1080@40.0.1880.1080" timestamp="1578592666663" />
+    <state x="679" y="176" width="618" height="720" key="#ServerLauncher" timestamp="1578593349906">
+      <screen x="40" y="0" width="1880" height="1080" />
+    </state>
+    <state x="679" y="176" width="618" height="720" key="#ServerLauncher/40.0.1880.1080@40.0.1880.1080" timestamp="1578593349906" />
+    <state x="445" y="182" width="1084" height="701" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1578593401748">
+      <screen x="40" y="0" width="1880" height="1080" />
     </state>
     <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1578577328530" />
+    <state x="445" y="182" width="1084" height="701" key="#com.intellij.execution.impl.EditConfigurationsDialog/40.0.1880.1080@40.0.1880.1080" timestamp="1578593401748" />
     <state x="740" y="323" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1578578825518">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -198,6 +249,10 @@
       <screen x="40" y="0" width="1880" height="1080" />
     </state>
     <state x="788" y="245" width="374" height="582" key="#com.intellij.ide.util.MemberChooser/40.0.1880.1080@40.0.1880.1080" timestamp="1578534289896" />
+    <state x="719" y="316" width="525" height="421" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1578593141797">
+      <screen x="40" y="0" width="1880" height="1080" />
+    </state>
+    <state x="719" y="316" width="525" height="421" key="#com.intellij.ide.util.TreeClassChooserDialog/40.0.1880.1080@40.0.1880.1080" timestamp="1578593141797" />
     <state x="801" y="401" width="302" height="211" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1578592142693">
       <screen x="40" y="0" width="1880" height="1080" />
     </state>
@@ -217,12 +272,12 @@
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="103" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1600.860@0.0.1600.860" timestamp="1578343483816" />
-    <state x="618" y="137" width="714" height="798" key="CommitChangelistDialog2" timestamp="1578591962351">
+    <state x="618" y="137" width="714" height="798" key="CommitChangelistDialog2" timestamp="1578592458122">
       <screen x="40" y="0" width="1880" height="1080" />
     </state>
     <state x="492" y="50" key="CommitChangelistDialog2/0.0.1600.860@0.0.1600.860" timestamp="1578351877573" />
     <state x="590" y="60" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1578575314237" />
-    <state x="618" y="137" width="714" height="798" key="CommitChangelistDialog2/40.0.1880.1080@40.0.1880.1080" timestamp="1578591962351" />
+    <state x="618" y="137" width="714" height="798" key="CommitChangelistDialog2/40.0.1880.1080@40.0.1880.1080" timestamp="1578592458122" />
     <state x="102" y="95" width="1716" height="848" key="DiffContextDialog" timestamp="1578585482656">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -237,6 +292,22 @@
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="630" y="332" key="GitRewordDialog/0.0.1600.860@0.0.1600.860" timestamp="1578350426764" />
+    <state width="1838" height="267" key="GridCell.Tab.0.bottom" timestamp="1578594151594">
+      <screen x="40" y="0" width="1880" height="1080" />
+    </state>
+    <state width="1838" height="267" key="GridCell.Tab.0.bottom/40.0.1880.1080@40.0.1880.1080" timestamp="1578594151594" />
+    <state width="1838" height="267" key="GridCell.Tab.0.center" timestamp="1578594151594">
+      <screen x="40" y="0" width="1880" height="1080" />
+    </state>
+    <state width="1838" height="267" key="GridCell.Tab.0.center/40.0.1880.1080@40.0.1880.1080" timestamp="1578594151594" />
+    <state width="1838" height="267" key="GridCell.Tab.0.left" timestamp="1578594151594">
+      <screen x="40" y="0" width="1880" height="1080" />
+    </state>
+    <state width="1838" height="267" key="GridCell.Tab.0.left/40.0.1880.1080@40.0.1880.1080" timestamp="1578594151594" />
+    <state width="1838" height="267" key="GridCell.Tab.0.right" timestamp="1578594151594">
+      <screen x="40" y="0" width="1880" height="1080" />
+    </state>
+    <state width="1838" height="267" key="GridCell.Tab.0.right/40.0.1880.1080@40.0.1880.1080" timestamp="1578594151594" />
     <state x="540" y="255" key="IDE.errors.dialog" timestamp="1578561053954">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -262,12 +333,12 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="745" y="236" width="550" height="567" key="VCS.ChangeListViewerDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1578585614526" />
-    <state x="575" y="275" width="800" height="523" key="Vcs.Push.Dialog.v2" timestamp="1578592031542">
+    <state x="575" y="275" width="800" height="523" key="Vcs.Push.Dialog.v2" timestamp="1578592469303">
       <screen x="40" y="0" width="1880" height="1080" />
     </state>
     <state x="455" y="219" key="Vcs.Push.Dialog.v2/0.0.1600.860@0.0.1600.860" timestamp="1578350768820" />
     <state x="546" y="265" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1578562995834" />
-    <state x="575" y="275" width="800" height="523" key="Vcs.Push.Dialog.v2/40.0.1880.1080@40.0.1880.1080" timestamp="1578592031542" />
+    <state x="575" y="275" width="800" height="523" key="Vcs.Push.Dialog.v2/40.0.1880.1080@40.0.1880.1080" timestamp="1578592469303" />
     <state x="793" y="454" width="398" height="165" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1578591162375">
       <screen x="40" y="0" width="1880" height="1080" />
     </state>
