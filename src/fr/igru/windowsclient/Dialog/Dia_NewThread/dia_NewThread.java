@@ -14,7 +14,8 @@ import net.miginfocom.swing.*;
  * @author unknown
  */
 public class dia_NewThread extends JPanel {
-    public dia_NewThread() {
+    public dia_NewThread(String nameCreator) {
+        this.nomCreateur = nameCreator;
         initComponents();
     }
 
@@ -24,7 +25,9 @@ public class dia_NewThread extends JPanel {
     }
 
     private void buttonConfirmActionPerformed(ActionEvent e) {
-        // TODO add your code here
+        String titre = textFieldTitre.getText(), grp = textFieldGrp.getText(), message = textAreaMsg.getText();
+        this.setVisible(false);
+        this.setEnabled(false);
     }
 
 
@@ -167,4 +170,5 @@ public class dia_NewThread extends JPanel {
     private JButton buttonCancel;
     private JButton buttonConfirm;
     // JFormDesigner - End of variables declaration  //GEN-END:variables
+    String nomCreateur;
 }
