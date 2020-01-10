@@ -3,18 +3,14 @@ JFDML JFormDesigner: "7.0.0.6.255" Java: "11.0.5" encoding: "UTF-8"
 new FormModel {
 	contentType: "form/swing"
 	root: new FormRoot {
-		add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class net.miginfocom.swing.MigLayout ) {
-			"$layoutConstraints": "fill,hidemode 3"
-			"$columnConstraints": "[260:260,fill]"
-			"$rowConstraints": "[grow]"
-		} ) {
-			name: "panel1"
+		add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class javax.swing.BoxLayout ) ) {
+			name: "this"
+			"border": new javax.swing.border.LineBorder( sfield java.awt.SystemColor activeCaption, 2, true )
 			add( new FormComponent( "javax.swing.JTextArea" ) {
 				name: "textArea1"
-				"opaque": false
 				"editable": false
-			}, new FormLayoutConstraints( class net.miginfocom.layout.CC ) {
-				"value": "cell 0 0,grow"
+				"font": new java.awt.Font( "Segoe UI", 0, 12 )
+				"border": sfield com.jformdesigner.model.FormObject NULL_VALUE
 			} )
 		}, new FormLayoutConstraints( null ) {
 			"location": new java.awt.Point( 55, 75 )

@@ -8,7 +8,7 @@ new FormModel {
 			"$columnConstraints": "para[113:86,fill]unrel[251:340,fill]para"
 			"$rowConstraints": "[13:12][196:182][38:49]0[30:12]"
 		} ) {
-			name: "panel1"
+			name: "this"
 			add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class net.miginfocom.swing.MigLayout ) {
 				"$layoutConstraints": "fillx,hidemode 3"
 				"$columnConstraints": "[fill]"
@@ -33,7 +33,9 @@ new FormModel {
 				"border": new javax.swing.border.LineBorder( sfield java.awt.SystemColor activeCaption, 1, true )
 				add( new FormContainer( "javax.swing.JScrollPane", new FormLayoutManager( class javax.swing.JScrollPane ) ) {
 					name: "scrollPaneThread"
-					add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class javax.swing.BoxLayout ) ) {
+					add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class javax.swing.BoxLayout ) {
+						"axis": 1
+					} ) {
 						name: "panelFildeDiscussion"
 					} )
 				}, new FormLayoutConstraints( class net.miginfocom.layout.CC ) {
@@ -51,7 +53,9 @@ new FormModel {
 				"border": new javax.swing.border.LineBorder( sfield java.awt.SystemColor activeCaption, 1, false )
 				add( new FormContainer( "javax.swing.JScrollPane", new FormLayoutManager( class javax.swing.JScrollPane ) ) {
 					name: "scrollPaneMsg"
-					add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class javax.swing.BoxLayout ) ) {
+					add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class javax.swing.BoxLayout ) {
+						"axis": 1
+					} ) {
 						name: "panelMsg"
 					} )
 				}, new FormLayoutConstraints( class net.miginfocom.layout.CC ) {
