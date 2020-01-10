@@ -4,14 +4,21 @@ new FormModel {
 	contentType: "form/swing"
 	root: new FormRoot {
 		add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class net.miginfocom.swing.MigLayout ) {
-			"$layoutConstraints": "hidemode 3"
-			"$columnConstraints": "[fill][fill]"
-			"$rowConstraints": "[][][]"
+			"$layoutConstraints": "fill,hidemode 3"
+			"$columnConstraints": "[260:260,fill]"
+			"$rowConstraints": "[grow]"
 		} ) {
-			name: "this"
+			name: "panel1"
+			add( new FormComponent( "javax.swing.JTextArea" ) {
+				name: "textArea1"
+				"opaque": false
+				"editable": false
+			}, new FormLayoutConstraints( class net.miginfocom.layout.CC ) {
+				"value": "cell 0 0,grow"
+			} )
 		}, new FormLayoutConstraints( null ) {
-			"location": new java.awt.Point( 0, 0 )
-			"size": new java.awt.Dimension( 400, 300 )
+			"location": new java.awt.Point( 55, 75 )
+			"size": new java.awt.Dimension( 470, 85 )
 		} )
 	}
 }
