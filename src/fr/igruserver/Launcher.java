@@ -13,7 +13,7 @@ public class Launcher {
         JFrame ecran = new JFrame();
         ecran.setMinimumSize(new Dimension(780, 400));
 
-        MainServerWindow mainServerWindow = new MainServerWindow();
+        MainServerWindow mainServerWindow = new MainServerWindow(ecran);
         mainServerWindow.setVisible(true);
         ecran.add(mainServerWindow);
         ecran.setVisible(true);

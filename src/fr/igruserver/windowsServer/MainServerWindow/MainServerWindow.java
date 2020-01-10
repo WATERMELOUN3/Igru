@@ -13,42 +13,79 @@ import javax.swing.border.*;
 
 import fr.igruserver.windowsServer.Champs.ch_Grp.ch_Grp;
 import fr.igruserver.windowsServer.Champs.ch_Util.ch_Util;
+import fr.igruserver.windowsServer.Dialog.dia_add_UtilToGrp.dia_add_UtilToGrp;
+import fr.igruserver.windowsServer.Dialog.dia_newGrp.dia_newGrp;
+import fr.igruserver.windowsServer.Dialog.dia_newUtil.dia_newUtil;
+import fr.igruserver.windowsServer.Dialog.dia_rmGrp.dia_rmGrp;
+import fr.igruserver.windowsServer.Dialog.dia_rmUtil.dia_rmUtil;
+import fr.igruserver.windowsServer.Dialog.dia_rmUtilFromGrp.dia_rmUtilFromGrp;
 import net.miginfocom.swing.*;
 
 /**
  * @author unknown
  */
 public class MainServerWindow extends JPanel {
-    public MainServerWindow() {
+    public MainServerWindow(JFrame ecran) {
+        this.ecran = ecran;
         initComponents();
     }
 
     private void buttonRMfromGrpActionPerformed(ActionEvent e) {
-        // TODO add your code here
+        dia_rmUtilFromGrp panelMenu = new dia_rmUtilFromGrp();
+        panelMenu.setVisible(true);
+        ecran.setGlassPane(panelMenu);
+        ecran.getGlassPane().setVisible(true);
+        ecran.revalidate();
+        ecran.repaint();
     }
 
     private void buttonAddtoGrpActionPerformed(ActionEvent e) {
-        // TODO add your code here
+        dia_add_UtilToGrp panelMenu = new dia_add_UtilToGrp();
+        panelMenu.setVisible(true);
+        ecran.setGlassPane(panelMenu);
+        ecran.getGlassPane().setVisible(true);
+        ecran.revalidate();
+        ecran.repaint();
     }
 
     private void buttonAddNewGrpActionPerformed(ActionEvent e) {
-        // TODO add your code here
+        dia_newGrp panelMenu = new dia_newGrp();
+        panelMenu.setVisible(true);
+        ecran.setGlassPane(panelMenu);
+        ecran.getGlassPane().setVisible(true);
+        ecran.revalidate();
+        ecran.repaint();
     }
 
     private void buttonDelGrpActionPerformed(ActionEvent e) {
-        // TODO add your code here
+        dia_rmGrp panelMenu = new dia_rmGrp();
+        panelMenu.setVisible(true);
+        ecran.setGlassPane(panelMenu);
+        ecran.getGlassPane().setVisible(true);
+        ecran.revalidate();
+        ecran.repaint();
     }
 
     private void buttonAddUtilActionPerformed(ActionEvent e) {
-        // TODO add your code here
+        dia_newUtil panelMenu = new dia_newUtil();
+        panelMenu.setVisible(true);
+        ecran.setGlassPane(panelMenu);
+        ecran.getGlassPane().setVisible(true);
+        ecran.revalidate();
+        ecran.repaint();
     }
 
     private void buttonDelUtilActionPerformed(ActionEvent e) {
-        // TODO add your code here
+        dia_rmUtil panelMenu = new dia_rmUtil();
+        panelMenu.setVisible(true);
+        ecran.setGlassPane(panelMenu);
+        ecran.getGlassPane().setVisible(true);
+        ecran.revalidate();
+        ecran.repaint();
     }
 
     private void buttonClientAdminActionPerformed(ActionEvent e) {
-        // TODO add your code here
+       //TODO
     }
 
     private void buttonSaveDataActionPerformed(ActionEvent e) {
@@ -56,42 +93,6 @@ public class MainServerWindow extends JPanel {
     }
 
     private void buttonTableVisualActionPerformed(ActionEvent e) {
-        // TODO add your code here
-    }
-
-    private void button9ActionPerformed(ActionEvent e) {
-        // TODO add your code here
-    }
-
-    private void button10ActionPerformed(ActionEvent e) {
-        // TODO add your code here
-    }
-
-    private void button11ActionPerformed(ActionEvent e) {
-        // TODO add your code here
-    }
-
-    private void button2ActionPerformed(ActionEvent e) {
-        // TODO add your code here
-    }
-
-    private void button1ActionPerformed(ActionEvent e) {
-        // TODO add your code here
-    }
-
-    private void button14ActionPerformed(ActionEvent e) {
-        // TODO add your code here
-    }
-
-    private void button15ActionPerformed(ActionEvent e) {
-        // TODO add your code here
-    }
-
-    private void button12ActionPerformed(ActionEvent e) {
-        // TODO add your code here
-    }
-
-    private void button13ActionPerformed(ActionEvent e) {
         // TODO add your code here
     }
 
@@ -138,12 +139,12 @@ public class MainServerWindow extends JPanel {
         buttonDelUtil = new JButton();
 
         //======== this ========
-        setBorder(new javax.swing.border.CompoundBorder(new javax.swing.border.TitledBorder(new javax.swing.border
-        .EmptyBorder(0,0,0,0), "JF\u006frmD\u0065sig\u006eer \u0045val\u0075ati\u006fn",javax.swing.border.TitledBorder.CENTER,javax
-        .swing.border.TitledBorder.BOTTOM,new java.awt.Font("Dia\u006cog",java.awt.Font.BOLD,
-        12),java.awt.Color.red), getBorder())); addPropertyChangeListener(new java.beans
-        .PropertyChangeListener(){@Override public void propertyChange(java.beans.PropertyChangeEvent e){if("\u0062ord\u0065r".equals(e.
-        getPropertyName()))throw new RuntimeException();}});
+        setBorder (new javax. swing. border. CompoundBorder( new javax .swing .border .TitledBorder (new javax. swing.
+        border. EmptyBorder( 0, 0, 0, 0) , "JF\u006frmD\u0065sig\u006eer \u0045val\u0075ati\u006fn", javax. swing. border. TitledBorder. CENTER
+        , javax. swing. border. TitledBorder. BOTTOM, new java .awt .Font ("Dia\u006cog" ,java .awt .Font
+        .BOLD ,12 ), java. awt. Color. red) , getBorder( )) );  addPropertyChangeListener (
+        new java. beans. PropertyChangeListener( ){ @Override public void propertyChange (java .beans .PropertyChangeEvent e) {if ("\u0062ord\u0065r"
+        .equals (e .getPropertyName () )) throw new RuntimeException( ); }} );
         setLayout(new MigLayout(
             "fill,hidemode 3",
             // columns
@@ -319,7 +320,7 @@ public class MainServerWindow extends JPanel {
 
                 //---- buttonClientAdmin ----
                 buttonClientAdmin.setText("Client Administrateur");
-                buttonClientAdmin.addActionListener(e -> button9ActionPerformed(e));
+                buttonClientAdmin.addActionListener(e -> buttonClientAdminActionPerformed(e));
                 panel17.add(buttonClientAdmin, "cell 0 0");
             }
             panel16.add(panel17, "cell 0 0");
@@ -335,7 +336,7 @@ public class MainServerWindow extends JPanel {
 
                 //---- buttonSaveData ----
                 buttonSaveData.setText("Sauvegarder Donn\u00e9es");
-                buttonSaveData.addActionListener(e -> button10ActionPerformed(e));
+                buttonSaveData.addActionListener(e -> buttonSaveDataActionPerformed(e));
                 panel19.add(buttonSaveData, "cell 0 0");
             }
             panel16.add(panel19, "cell 0 1");
@@ -351,7 +352,7 @@ public class MainServerWindow extends JPanel {
 
                 //---- buttonTableVisual ----
                 buttonTableVisual.setText("Visualisateur des tables");
-                buttonTableVisual.addActionListener(e -> button11ActionPerformed(e));
+                buttonTableVisual.addActionListener(e -> buttonTableVisualActionPerformed(e));
                 panel18.add(buttonTableVisual, "cell 0 0");
             }
             panel16.add(panel18, "cell 0 2");
@@ -373,13 +374,13 @@ public class MainServerWindow extends JPanel {
 
             //---- buttonRMfromGrp ----
             buttonRMfromGrp.setText("Enlever du groupe");
-            buttonRMfromGrp.addActionListener(e -> button2ActionPerformed(e));
+            buttonRMfromGrp.addActionListener(e -> buttonRMfromGrpActionPerformed(e));
             panel25.add(buttonRMfromGrp, "cell 1 0 1 4");
 
             //---- buttonAddtoGrp ----
             buttonAddtoGrp.setText("Ajouter au groupe");
             buttonAddtoGrp.setIconTextGap(3);
-            buttonAddtoGrp.addActionListener(e -> button1ActionPerformed(e));
+            buttonAddtoGrp.addActionListener(e -> buttonAddtoGrpActionPerformed(e));
             panel25.add(buttonAddtoGrp, "cell 0 1 1 2,growx");
         }
         add(panel25, "cell 1 2");
@@ -405,7 +406,7 @@ public class MainServerWindow extends JPanel {
 
                 //---- buttonAddNewGrp ----
                 buttonAddNewGrp.setText("Ajouter");
-                buttonAddNewGrp.addActionListener(e -> button14ActionPerformed(e));
+                buttonAddNewGrp.addActionListener(e -> buttonAddNewGrpActionPerformed(e));
                 panel29.add(buttonAddNewGrp, "cell 0 0");
             }
             panel24.add(panel29, "cell 0 0");
@@ -421,7 +422,7 @@ public class MainServerWindow extends JPanel {
 
                 //---- buttonDelGrp ----
                 buttonDelGrp.setText("Supprimer");
-                buttonDelGrp.addActionListener(e -> button15ActionPerformed(e));
+                buttonDelGrp.addActionListener(e -> buttonDelGrpActionPerformed(e));
                 panel30.add(buttonDelGrp, "cell 0 0");
             }
             panel24.add(panel30, "cell 1 0");
@@ -449,7 +450,7 @@ public class MainServerWindow extends JPanel {
 
                 //---- buttonAddUtil ----
                 buttonAddUtil.setText("Ajouter");
-                buttonAddUtil.addActionListener(e -> button12ActionPerformed(e));
+                buttonAddUtil.addActionListener(e -> buttonAddUtilActionPerformed(e));
                 panel27.add(buttonAddUtil, "cell 0 0,growx,wmin 130");
             }
             panel26.add(panel27, "cell 0 0,growx");
@@ -465,7 +466,7 @@ public class MainServerWindow extends JPanel {
 
                 //---- buttonDelUtil ----
                 buttonDelUtil.setText("Supprimer");
-                buttonDelUtil.addActionListener(e -> button13ActionPerformed(e));
+                buttonDelUtil.addActionListener(e -> buttonDelUtilActionPerformed(e));
                 panel28.add(buttonDelUtil, "cell 0 0,growx,width 130:130");
             }
             panel26.add(panel28, "cell 1 0,growx");
@@ -513,7 +514,7 @@ public class MainServerWindow extends JPanel {
     private JPanel panel28;
     private JButton buttonDelUtil;
     // JFormDesigner - End of variables declaration  //GEN-END:variables
-
+    private JFrame ecran;
     public void displayGrp(String nomGrp){
         ch_Grp instanceGrp = new ch_Grp(nomGrp);
         instanceGrp.setVisible(true);

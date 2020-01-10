@@ -8,7 +8,7 @@ new FormModel {
 			"$columnConstraints": "[220!,fill]"
 			"$rowConstraints": "rel[20!]0[40!][40!][40!][40!][40!]"
 		} ) {
-			name: "panel1"
+			name: "this"
 			add( new FormComponent( "javax.swing.JLabel" ) {
 				name: "label1"
 				"text": "Nouvel Utilisateur"
@@ -104,95 +104,15 @@ new FormModel {
 				add( new FormComponent( "javax.swing.JButton" ) {
 					name: "buttonCancel"
 					"text": "Annuler"
-					"border": &LineBorder0 new javax.swing.border.LineBorder( sfield java.awt.Color red, 2, true )
-					addEvent( new FormEvent( "java.awt.event.ActionListener", "actionPerformed", "button1ActionPerformed", true ) )
+					"border": new javax.swing.border.LineBorder( sfield java.awt.Color red, 2, true )
+					addEvent( new FormEvent( "java.awt.event.ActionListener", "actionPerformed", "buttonCancelActionPerformed", true ) )
 				}, new FormLayoutConstraints( class net.miginfocom.layout.CC ) {
 					"value": "cell 0 0"
 				} )
 				add( new FormComponent( "javax.swing.JButton" ) {
 					name: "buttonConfirm"
 					"text": "Confirmer"
-					addEvent( new FormEvent( "java.awt.event.ActionListener", "actionPerformed", "button2ActionPerformed", true ) )
-				}, new FormLayoutConstraints( class net.miginfocom.layout.CC ) {
-					"value": "cell 1 0"
-				} )
-			}, new FormLayoutConstraints( class net.miginfocom.layout.CC ) {
-				"value": "cell 0 5"
-			} )
-		}, new FormLayoutConstraints( null ) {
-			"location": new java.awt.Point( 0, 0 )
-			"size": new java.awt.Dimension( 230, 265 )
-		} )
-		add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class net.miginfocom.swing.MigLayout ) {
-			"$layoutConstraints": "fill,hidemode 3"
-			"$columnConstraints": "[fill]"
-			"$rowConstraints": "rel[15:17]0[][][][34][21:24]"
-		} ) {
-			name: "panel5"
-			add( new FormComponent( "javax.swing.JLabel" ) {
-				name: "label4"
-				"text": "Ajouter Utilisateur à un groupe"
-			}, new FormLayoutConstraints( class net.miginfocom.layout.CC ) {
-				"value": "cell 0 0,alignx center,growx 0"
-			} )
-			add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class net.miginfocom.swing.MigLayout ) {
-				"$layoutConstraints": "fill,hidemode 3"
-				"$columnConstraints": "[53:64,fill][137,fill]"
-				"$rowConstraints": "rel[]0"
-			} ) {
-				name: "panel6"
-				add( new FormComponent( "javax.swing.JLabel" ) {
-					name: "label5"
-					"text": "Username :"
-				}, new FormLayoutConstraints( class net.miginfocom.layout.CC ) {
-					"value": "cell 0 0,alignx left,growx 0"
-				} )
-				add( new FormComponent( "javax.swing.JTextField" ) {
-					name: "textField3"
-				}, new FormLayoutConstraints( class net.miginfocom.layout.CC ) {
-					"value": "cell 1 0"
-				} )
-			}, new FormLayoutConstraints( class net.miginfocom.layout.CC ) {
-				"value": "cell 0 1"
-			} )
-			add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class net.miginfocom.swing.MigLayout ) {
-				"$layoutConstraints": "fill,hidemode 3"
-				"$columnConstraints": "[64,fill][160,fill]"
-				"$rowConstraints": "0[]0"
-			} ) {
-				name: "panel7"
-				add( new FormComponent( "javax.swing.JLabel" ) {
-					name: "label6"
-					"text": "Groupe :"
-				}, new FormLayoutConstraints( class net.miginfocom.layout.CC ) {
-					"value": "cell 0 0,alignx left,growx 0"
-				} )
-				add( new FormComponent( "javax.swing.JTextField" ) {
-					name: "textField4"
-				}, new FormLayoutConstraints( class net.miginfocom.layout.CC ) {
-					"value": "cell 1 0"
-				} )
-			}, new FormLayoutConstraints( class net.miginfocom.layout.CC ) {
-				"value": "cell 0 2"
-			} )
-			add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class net.miginfocom.swing.MigLayout ) {
-				"$layoutConstraints": "fill,hidemode 3"
-				"$columnConstraints": "[fill][fill]"
-				"$rowConstraints": "0[19:24]"
-			} ) {
-				name: "panel8"
-				add( new FormComponent( "javax.swing.JButton" ) {
-					name: "button3"
-					"text": "Annuler"
-					"border": #LineBorder0
-					addEvent( new FormEvent( "java.awt.event.ActionListener", "actionPerformed", "button1ActionPerformed", true ) )
-				}, new FormLayoutConstraints( class net.miginfocom.layout.CC ) {
-					"value": "cell 0 0"
-				} )
-				add( new FormComponent( "javax.swing.JButton" ) {
-					name: "button4"
-					"text": "Confirmer"
-					addEvent( new FormEvent( "java.awt.event.ActionListener", "actionPerformed", "button2ActionPerformed", true ) )
+					addEvent( new FormEvent( "java.awt.event.ActionListener", "actionPerformed", "buttonConfirmActionPerformed", true ) )
 				}, new FormLayoutConstraints( class net.miginfocom.layout.CC ) {
 					"value": "cell 1 0"
 				} )
