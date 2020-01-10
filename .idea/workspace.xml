@@ -226,7 +226,14 @@
       <option name="project" value="LOCAL" />
       <updated>1578611895708</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Amélioration de la connexion, faire marcher MySQL sur Linux est toujours un mystère">
+      <created>1578614248002</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1578614248002</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -257,7 +264,8 @@
     <MESSAGE value="Implementation SQL" />
     <MESSAGE value="Réparation connectionDialog" />
     <MESSAGE value="Connexion normalement opérationnelle mais BDD non utilisable pour l'instant" />
-    <option name="LAST_COMMIT_MESSAGE" value="Connexion normalement opérationnelle mais BDD non utilisable pour l'instant" />
+    <MESSAGE value="Amélioration de la connexion, faire marcher MySQL sur Linux est toujours un mystère" />
+    <option name="LAST_COMMIT_MESSAGE" value="Amélioration de la connexion, faire marcher MySQL sur Linux est toujours un mystère" />
   </component>
   <component name="WindowStateProjectService">
     <state x="679" y="176" width="618" height="720" key="#ClientLauncher" timestamp="1578593379315">
@@ -309,12 +317,12 @@
     </state>
     <state x="103" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1600.860@0.0.1600.860" timestamp="1578343483816" />
     <state x="161" y="0" width="615" height="1075" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/40.0.1880.1080@40.0.1880.1080" timestamp="1578596928398" />
-    <state x="618" y="137" width="714" height="798" key="CommitChangelistDialog2" timestamp="1578611895242">
+    <state x="618" y="137" width="714" height="798" key="CommitChangelistDialog2" timestamp="1578614247964">
       <screen x="40" y="0" width="1880" height="1080" />
     </state>
     <state x="492" y="50" key="CommitChangelistDialog2/0.0.1600.860@0.0.1600.860" timestamp="1578351877573" />
     <state x="590" y="60" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1578575314237" />
-    <state x="618" y="137" width="714" height="798" key="CommitChangelistDialog2/40.0.1880.1080@40.0.1880.1080" timestamp="1578611895242" />
+    <state x="618" y="137" width="714" height="798" key="CommitChangelistDialog2/40.0.1880.1080@40.0.1880.1080" timestamp="1578614247964" />
     <state x="102" y="95" width="1716" height="848" key="DiffContextDialog" timestamp="1578585482656">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -370,12 +378,12 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="745" y="236" width="550" height="567" key="VCS.ChangeListViewerDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1578585614526" />
-    <state x="575" y="275" width="800" height="523" key="Vcs.Push.Dialog.v2" timestamp="1578611901159">
+    <state x="575" y="275" width="800" height="523" key="Vcs.Push.Dialog.v2" timestamp="1578614250028">
       <screen x="40" y="0" width="1880" height="1080" />
     </state>
     <state x="455" y="219" key="Vcs.Push.Dialog.v2/0.0.1600.860@0.0.1600.860" timestamp="1578350768820" />
     <state x="546" y="265" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1578562995834" />
-    <state x="575" y="275" width="800" height="523" key="Vcs.Push.Dialog.v2/40.0.1880.1080@40.0.1880.1080" timestamp="1578611901159" />
+    <state x="575" y="275" width="800" height="523" key="Vcs.Push.Dialog.v2/40.0.1880.1080@40.0.1880.1080" timestamp="1578614250028" />
     <state x="793" y="454" width="408" height="170" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1578605652331">
       <screen x="40" y="0" width="1880" height="1080" />
     </state>

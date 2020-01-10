@@ -95,6 +95,15 @@ public class ServerUser implements Runnable {
                         fd.getMessages().add(new Message(id, dateCreated, title));
                     }
                 }
+
+                buffer.putInt(fils.size());
+                for (FilDiscussion f : fils) {
+                    f.writeBytes(buffer);
+                    buffer.putInt(f.getMessages().size());
+                    for (Message m : f.getMessages()) {
+                        m.writeBytes(buffer);
+                    }
+                }
             } catch (SQLException e) {
                 e.printStackTrace();
             }
