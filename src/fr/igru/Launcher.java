@@ -10,7 +10,7 @@ public class Launcher {
     public static void main(String[] args) {
         JFrame Ecran = new JFrame();
         Ecran.setMinimumSize(new Dimension(800,500));
-        MainWindow gui = new MainWindow("Michel bergé");
+        MainWindow gui = new MainWindow("Michel bergé",Ecran);
         Ecran.add(gui);
         Ecran.pack();
         gui.setVisible(true);
