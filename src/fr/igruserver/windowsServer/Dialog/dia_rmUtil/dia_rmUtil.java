@@ -19,13 +19,14 @@ public class dia_rmUtil extends JPanel {
     }
 
     private void buttonCancelActionPerformed(ActionEvent e) {
-        // TODO add your code here
         this.setVisible(false);
         this.setEnabled(false);
     }
 
     private void buttonConfirmActionPerformed(ActionEvent e) {
-        // TODO add your code here
+        String username = textFieldUsername.getText();
+        this.setVisible(false);
+        this.setEnabled(false);
     }
 
 
@@ -36,17 +37,19 @@ public class dia_rmUtil extends JPanel {
         label1 = new JLabel();
         panel4 = new JPanel();
         label3 = new JLabel();
-        textFieldGrp = new JTextField();
+        textFieldUsername = new JTextField();
         panel3 = new JPanel();
         buttonCancel = new JButton();
         buttonConfirm = new JButton();
 
         //======== this ========
-        setBorder (new javax. swing. border. CompoundBorder( new javax .swing .border .TitledBorder (new javax. swing. border. EmptyBorder(
-        0, 0, 0, 0) , "JFor\u006dDesi\u0067ner \u0045valu\u0061tion", javax. swing. border. TitledBorder. CENTER, javax. swing. border. TitledBorder
-        . BOTTOM, new java .awt .Font ("Dia\u006cog" ,java .awt .Font .BOLD ,12 ), java. awt. Color.
-        red) , getBorder( )) );  addPropertyChangeListener (new java. beans. PropertyChangeListener( ){ @Override public void propertyChange (java .
-        beans .PropertyChangeEvent e) {if ("bord\u0065r" .equals (e .getPropertyName () )) throw new RuntimeException( ); }} );
+        setBorder(new javax.swing.border.CompoundBorder(new javax.swing.border.TitledBorder(new javax.swing
+        .border.EmptyBorder(0,0,0,0), "JF\u006frm\u0044es\u0069gn\u0065r \u0045va\u006cua\u0074io\u006e",javax.swing.border.TitledBorder
+        .CENTER,javax.swing.border.TitledBorder.BOTTOM,new java.awt.Font("D\u0069al\u006fg",java.
+        awt.Font.BOLD,12),java.awt.Color.red), getBorder()))
+        ; addPropertyChangeListener(new java.beans.PropertyChangeListener(){@Override public void propertyChange(java.beans.PropertyChangeEvent e
+        ){if("\u0062or\u0064er".equals(e.getPropertyName()))throw new RuntimeException();}})
+        ;
         setLayout(new MigLayout(
             "fill,hidemode 3",
             // columns
@@ -73,7 +76,7 @@ public class dia_rmUtil extends JPanel {
             //---- label3 ----
             label3.setText("Username :");
             panel4.add(label3, "cell 0 0,alignx left,growx 0");
-            panel4.add(textFieldGrp, "cell 1 0");
+            panel4.add(textFieldUsername, "cell 1 0");
         }
         add(panel4, "cell 0 1");
 
@@ -107,7 +110,7 @@ public class dia_rmUtil extends JPanel {
     private JLabel label1;
     private JPanel panel4;
     private JLabel label3;
-    private JTextField textFieldGrp;
+    private JTextField textFieldUsername;
     private JPanel panel3;
     private JButton buttonCancel;
     private JButton buttonConfirm;

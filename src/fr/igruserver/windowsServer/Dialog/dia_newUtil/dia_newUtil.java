@@ -19,13 +19,14 @@ public class dia_newUtil extends JPanel {
     }
 
     private void buttonCancelActionPerformed(ActionEvent e) {
-        // TODO add your code here
         this.setVisible(false);
         this.setEnabled(false);
     }
 
     private void buttonConfirmActionPerformed(ActionEvent e) {
-        // TODO add your code here
+       String username = textFieldUsername.getText(), prenom = textFieldPrenom.getText(), nom = textFieldNom.getText(), password = new String( passwordField.getPassword());
+        this.setVisible(false);
+        this.setEnabled(false);
     }
 
 

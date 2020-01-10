@@ -28,7 +28,7 @@ new FormModel {
 					"value": "cell 0 0,alignx left,growx 0"
 				} )
 				add( new FormComponent( "javax.swing.JTextField" ) {
-					name: "textFieldGrp"
+					name: "textFieldUsername"
 				}, new FormLayoutConstraints( class net.miginfocom.layout.CC ) {
 					"value": "cell 1 0"
 				} )

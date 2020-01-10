@@ -19,13 +19,14 @@ public class dia_rmGrp extends JPanel {
     }
 
     private void buttonCancelActionPerformed(ActionEvent e) {
-        // TODO add your code here
         this.setVisible(false);
         this.setEnabled(false);
     }
 
     private void buttonConfirmActionPerformed(ActionEvent e) {
-        // TODO add your code here
+       String grp = textFieldGrp.getText();
+        this.setVisible(false);
+        this.setEnabled(false);
     }
 
 

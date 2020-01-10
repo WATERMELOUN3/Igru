@@ -2,11 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="58d67246-922a-4d2d-a1d0-7b772984c9e2" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../Igru/src/fr/igru/Launcher.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Igru/src/fr/igru/Launcher.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Igru/src/fr/igru/windowsclient/Dialog/Dia_NewThread/dIa_NewThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Igru/src/fr/igru/windowsclient/Dialog/Dia_NewThread/dia_NewThread.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Igru/src/fr/igru/windowsclient/Dialog/Dia_NewThread/dIa_NewThread.jfd" beforeDir="false" afterPath="$PROJECT_DIR$/../Igru/src/fr/igru/windowsclient/Dialog/Dia_NewThread/dia_NewThread.jfd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Igru/src/fr/igru/windowsclient/MainWindow/MainWindow.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Igru/src/fr/igru/windowsclient/MainWindow/MainWindow.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Igru/src/fr/igru/windowsclient/Dialog/Dia_NewThread/dia_NewThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Igru/src/fr/igru/windowsclient/Dialog/Dia_NewThread/dia_NewThread.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/fr/igruserver/windowsServer/Dialog/dia_add_UtilToGrp/dia_add_UtilToGrp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fr/igruserver/windowsServer/Dialog/dia_add_UtilToGrp/dia_add_UtilToGrp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/fr/igruserver/windowsServer/Dialog/dia_newGrp/dia_newGrp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fr/igruserver/windowsServer/Dialog/dia_newGrp/dia_newGrp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/fr/igruserver/windowsServer/Dialog/dia_newUtil/dia_newUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fr/igruserver/windowsServer/Dialog/dia_newUtil/dia_newUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/fr/igruserver/windowsServer/Dialog/dia_rmGrp/dia_rmGrp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fr/igruserver/windowsServer/Dialog/dia_rmGrp/dia_rmGrp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/fr/igruserver/windowsServer/Dialog/dia_rmUtil/dia_rmUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fr/igruserver/windowsServer/Dialog/dia_rmUtil/dia_rmUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/fr/igruserver/windowsServer/Dialog/dia_rmUtil/dia_rmUtil.jfd" beforeDir="false" afterPath="$PROJECT_DIR$/src/fr/igruserver/windowsServer/Dialog/dia_rmUtil/dia_rmUtil.jfd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/fr/igruserver/windowsServer/Dialog/dia_rmUtilFromGrp/dia_rmUtilFromGrp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fr/igruserver/windowsServer/Dialog/dia_rmUtilFromGrp/dia_rmUtilFromGrp.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -268,7 +272,14 @@
       <option name="project" value="LOCAL" />
       <updated>1578637356630</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="J'avais oublié de commit un des formulaires">
+      <created>1578637728988</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1578637728988</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -303,7 +314,8 @@
     <MESSAGE value="Commit avec toutes les fenetres et champs utilisables et ajoutable dynamiquement" />
     <MESSAGE value="Ajout des formulaires" />
     <MESSAGE value="Affichaque des formulaire lors du clic du bouton" />
-    <option name="LAST_COMMIT_MESSAGE" value="Affichaque des formulaire lors du clic du bouton" />
+    <MESSAGE value="J'avais oublié de commit un des formulaires" />
+    <option name="LAST_COMMIT_MESSAGE" value="J'avais oublié de commit un des formulaires" />
   </component>
   <component name="WindowStateProjectService">
     <state x="679" y="176" width="618" height="720" key="#ClientLauncher" timestamp="1578593379315">
@@ -357,11 +369,11 @@
     <state x="103" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1600.860@0.0.1600.860" timestamp="1578343483816" />
     <state x="124" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1578631587333" />
     <state x="161" y="0" width="615" height="1075" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/40.0.1880.1080@40.0.1880.1080" timestamp="1578596928398" />
-    <state x="590" y="60" width="714" height="798" key="CommitChangelistDialog2" timestamp="1578637355634">
+    <state x="590" y="60" width="714" height="798" key="CommitChangelistDialog2" timestamp="1578637727843">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="492" y="50" key="CommitChangelistDialog2/0.0.1600.860@0.0.1600.860" timestamp="1578351877573" />
-    <state x="590" y="60" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1578637355634" />
+    <state x="590" y="60" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1578637727843" />
     <state x="618" y="137" width="714" height="798" key="CommitChangelistDialog2/40.0.1880.1080@40.0.1880.1080" timestamp="1578614247964" />
     <state x="102" y="95" width="1716" height="848" key="DiffContextDialog" timestamp="1578585482656">
       <screen x="0" y="0" width="1920" height="1040" />
@@ -422,11 +434,11 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="745" y="236" width="550" height="567" key="VCS.ChangeListViewerDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1578585614526" />
-    <state x="546" y="265" width="800" height="523" key="Vcs.Push.Dialog.v2" timestamp="1578637357994">
+    <state x="546" y="265" width="800" height="523" key="Vcs.Push.Dialog.v2" timestamp="1578637730422">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="455" y="219" key="Vcs.Push.Dialog.v2/0.0.1600.860@0.0.1600.860" timestamp="1578350768820" />
-    <state x="546" y="265" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1578637357994" />
+    <state x="546" y="265" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1578637730422" />
     <state x="575" y="275" width="800" height="523" key="Vcs.Push.Dialog.v2/40.0.1880.1080@40.0.1880.1080" timestamp="1578614250028" />
     <state x="769" y="437" width="408" height="170" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1578628183122">
       <screen x="0" y="0" width="1920" height="1040" />
