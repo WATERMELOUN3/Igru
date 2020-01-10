@@ -62,8 +62,13 @@ new FormModel {
 						name: "panel32"
 						add( new FormContainer( "javax.swing.JScrollPane", new FormLayoutManager( class javax.swing.JScrollPane ) ) {
 							name: "scrollPaneGrp"
+							add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class javax.swing.BoxLayout ) {
+								"axis": 1
+							} ) {
+								name: "panelGrp"
+							} )
 						}, new FormLayoutConstraints( class net.miginfocom.layout.CC ) {
-							"value": "cell 0 0,grow"
+							"value": "cell 0 0,aligny top,grow 100 0"
 						} )
 					}, new FormLayoutConstraints( class net.miginfocom.layout.CC ) {
 						"value": "cell 0 1,grow"
@@ -111,8 +116,13 @@ new FormModel {
 						name: "panel33"
 						add( new FormContainer( "javax.swing.JScrollPane", new FormLayoutManager( class javax.swing.JScrollPane ) ) {
 							name: "scrollPaneUtil"
+							add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class javax.swing.BoxLayout ) {
+								"axis": 1
+							} ) {
+								name: "panelUtil"
+							} )
 						}, new FormLayoutConstraints( class net.miginfocom.layout.CC ) {
-							"value": "cell 0 0,grow"
+							"value": "cell 0 0,aligny top,grow 100 0"
 						} )
 					}, new FormLayoutConstraints( class net.miginfocom.layout.CC ) {
 						"value": "cell 0 1,grow"
@@ -292,4 +302,3 @@ new FormModel {
 		} )
 	}
 }
-

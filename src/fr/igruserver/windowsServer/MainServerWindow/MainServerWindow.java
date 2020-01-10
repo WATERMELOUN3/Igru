@@ -11,7 +11,6 @@ import java.util.Arrays;
 import javax.swing.*;
 import javax.swing.border.*;
 
-import fr.igruserver.server.Server;
 import fr.igruserver.windowsServer.Champs.ch_Grp.ch_Grp;
 import fr.igruserver.windowsServer.Champs.ch_Util.ch_Util;
 import net.miginfocom.swing.*;
@@ -20,13 +19,8 @@ import net.miginfocom.swing.*;
  * @author unknown
  */
 public class MainServerWindow extends JPanel {
-    private Server _server = null;
-
     public MainServerWindow() {
         initComponents();
-        _server = new Server(42066);
-        Thread sThd = new Thread(_server);
-        sThd.start();
     }
 
     private void buttonRMfromGrpActionPerformed(ActionEvent e) {
@@ -114,12 +108,14 @@ public class MainServerWindow extends JPanel {
         textField1 = new JTextField();
         panel32 = new JPanel();
         scrollPaneGrp = new JScrollPane();
+        panelGrp = new JPanel();
         panel23 = new JPanel();
         panel14 = new JPanel();
         panel21 = new JPanel();
         textField2 = new JTextField();
         panel33 = new JPanel();
         scrollPaneUtil = new JScrollPane();
+        panelUtil = new JPanel();
         panel16 = new JPanel();
         panel17 = new JPanel();
         buttonClientAdmin = new JButton();
@@ -142,11 +138,12 @@ public class MainServerWindow extends JPanel {
         buttonDelUtil = new JButton();
 
         //======== this ========
-        setBorder ( new javax . swing. border .CompoundBorder ( new javax . swing. border .TitledBorder ( new javax . swing. border .EmptyBorder (
-        0, 0 ,0 , 0) ,  "JF\u006frmDes\u0069gner \u0045valua\u0074ion" , javax. swing .border . TitledBorder. CENTER ,javax . swing. border .TitledBorder
-        . BOTTOM, new java. awt .Font ( "D\u0069alog", java .awt . Font. BOLD ,12 ) ,java . awt. Color .
-        red ) , getBorder () ) );  addPropertyChangeListener( new java. beans .PropertyChangeListener ( ){ @Override public void propertyChange (java .
-        beans. PropertyChangeEvent e) { if( "\u0062order" .equals ( e. getPropertyName () ) )throw new RuntimeException( ) ;} } );
+        setBorder(new javax.swing.border.CompoundBorder(new javax.swing.border.TitledBorder(new javax.swing.border
+        .EmptyBorder(0,0,0,0), "JF\u006frmD\u0065sig\u006eer \u0045val\u0075ati\u006fn",javax.swing.border.TitledBorder.CENTER,javax
+        .swing.border.TitledBorder.BOTTOM,new java.awt.Font("Dia\u006cog",java.awt.Font.BOLD,
+        12),java.awt.Color.red), getBorder())); addPropertyChangeListener(new java.beans
+        .PropertyChangeListener(){@Override public void propertyChange(java.beans.PropertyChangeEvent e){if("\u0062ord\u0065r".equals(e.
+        getPropertyName()))throw new RuntimeException();}});
         setLayout(new MigLayout(
             "fill,hidemode 3",
             // columns
@@ -219,7 +216,17 @@ public class MainServerWindow extends JPanel {
                         "0[204,fill]0",
                         // rows
                         "0[grow]0"));
-                    panel32.add(scrollPaneGrp, "cell 0 0,grow");
+
+                    //======== scrollPaneGrp ========
+                    {
+
+                        //======== panelGrp ========
+                        {
+                            panelGrp.setLayout(new BoxLayout(panelGrp, BoxLayout.Y_AXIS));
+                        }
+                        scrollPaneGrp.setViewportView(panelGrp);
+                    }
+                    panel32.add(scrollPaneGrp, "cell 0 0,aligny top,grow 100 0");
                 }
                 panel13.add(panel32, "cell 0 1,grow");
             }
@@ -272,7 +279,17 @@ public class MainServerWindow extends JPanel {
                         "0[248,fill]0",
                         // rows
                         "0[181,grow,fill]0"));
-                    panel33.add(scrollPaneUtil, "cell 0 0,grow");
+
+                    //======== scrollPaneUtil ========
+                    {
+
+                        //======== panelUtil ========
+                        {
+                            panelUtil.setLayout(new BoxLayout(panelUtil, BoxLayout.Y_AXIS));
+                        }
+                        scrollPaneUtil.setViewportView(panelUtil);
+                    }
+                    panel33.add(scrollPaneUtil, "cell 0 0,aligny top,grow 100 0");
                 }
                 panel14.add(panel33, "cell 0 1,grow");
             }
@@ -467,12 +484,14 @@ public class MainServerWindow extends JPanel {
     private JTextField textField1;
     private JPanel panel32;
     private JScrollPane scrollPaneGrp;
+    private JPanel panelGrp;
     private JPanel panel23;
     private JPanel panel14;
     private JPanel panel21;
     private JTextField textField2;
     private JPanel panel33;
     private JScrollPane scrollPaneUtil;
+    private JPanel panelUtil;
     private JPanel panel16;
     private JPanel panel17;
     private JButton buttonClientAdmin;
@@ -498,7 +517,17 @@ public class MainServerWindow extends JPanel {
     public void displayGrp(String nomGrp){
         ch_Grp instanceGrp = new ch_Grp(nomGrp);
         instanceGrp.setVisible(true);
-        scrollPaneGrp.add(instanceGrp);
+        panelGrp.add(instanceGrp);
+        panelGrp.revalidate();
+        scrollPaneGrp.revalidate();
+        this.revalidate();
+    }
+
+    public void displayUtil(String username,String nomUtil, String typeUtil, ArrayList<String> groupes, boolean isConnected){
+        ch_Util instanceUtil = new ch_Util(username,nomUtil,typeUtil,groupes,isConnected);
+        instanceUtil.setVisible(true);
+        panelUtil.add(instanceUtil);
+        panelUtil.revalidate();
         scrollPaneGrp.revalidate();
         this.revalidate();
     }

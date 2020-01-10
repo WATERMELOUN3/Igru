@@ -5,39 +5,71 @@ new FormModel {
 	root: new FormRoot {
 		add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class net.miginfocom.swing.MigLayout ) {
 			"$layoutConstraints": "fill,hidemode 3"
-			"$columnConstraints": "[fill]"
-			"$rowConstraints": "[]"
+			"$columnConstraints": "[225,fill]"
+			"$rowConstraints": "[43:73,grow]0"
 		} ) {
-			name: "panel1"
-			add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class org.jdesktop.layout.GroupLayout ) {
-				"$horizontalGroup": "par l {seq t {space :::p, par t {comp labelTypeGrp:::::x, seq {space :0:0:x, comp labelNomUtil:::p:155:p, space s:::p, comp panelImg:::p:29:p}, comp textAreaGrp::t:::x}, space :p:18:p}}"
-				"$verticalGroup": "par l {seq l {space :p:14:p, par l:::p {comp panelImg::::29:x, comp labelNomUtil::::29:x}, space :::p, comp labelTypeGrp:::p:16:p, space :::p, comp textAreaGrp::::40:x}}"
+			name: "this"
+			"border": new javax.swing.border.LineBorder( sfield java.awt.SystemColor activeCaption, 3, true )
+			"minimumSize": new java.awt.Dimension( 238, 130 )
+			"preferredSize": new java.awt.Dimension( 245, 140 )
+			add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class net.miginfocom.swing.MigLayout ) {
+				"$layoutConstraints": "fill,hidemode 3"
+				"$columnConstraints": "0[fill]0"
+				"$rowConstraints": "0[39]5[15]5[35,grow]rel"
 			} ) {
-				name: "panel2"
-				add( new FormComponent( "javax.swing.JLabel" ) {
-					name: "labelNomUtil"
-					"font": new com.jformdesigner.model.SwingDerivedFont( null, 1, 3, false )
-				} )
+				name: "panel3"
 				add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class net.miginfocom.swing.MigLayout ) {
 					"$layoutConstraints": "fill,hidemode 3"
-					"$columnConstraints": "0[34,fill]0"
-					"$rowConstraints": "0[]0"
+					"$columnConstraints": "[171,fill][26:n,fill]"
+					"$rowConstraints": "0[][20:n]0"
 				} ) {
-					name: "panelImg"
+					name: "panel4"
+					add( new FormComponent( "javax.swing.JLabel" ) {
+						name: "labelUsername"
+						"text": " "
+						"font": new com.jformdesigner.model.SwingDerivedFont( null, 2, 0, false )
+					}, new FormLayoutConstraints( class net.miginfocom.layout.CC ) {
+						"value": "cell 0 0"
+					} )
+					add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class net.miginfocom.swing.MigLayout ) {
+						"$layoutConstraints": "hidemode 3"
+						"$columnConstraints": "0[32:26,fill]0"
+						"$rowConstraints": "0[32:26]0"
+					} ) {
+						name: "panelImg"
+					}, new FormLayoutConstraints( class net.miginfocom.layout.CC ) {
+						"value": "cell 1 0 1 2"
+					} )
+					add( new FormComponent( "javax.swing.JLabel" ) {
+						name: "labelNomUtil"
+						"font": new com.jformdesigner.model.SwingDerivedFont( null, 1, 3, false )
+						"text": " "
+					}, new FormLayoutConstraints( class net.miginfocom.layout.CC ) {
+						"value": "cell 0 1"
+					} )
+				}, new FormLayoutConstraints( class net.miginfocom.layout.CC ) {
+					"value": "cell 0 0"
 				} )
 				add( new FormComponent( "javax.swing.JLabel" ) {
 					name: "labelTypeGrp"
 					"text": "  "
+				}, new FormLayoutConstraints( class net.miginfocom.layout.CC ) {
+					"value": "cell 0 1"
 				} )
 				add( new FormComponent( "javax.swing.JTextArea" ) {
 					name: "textAreaGrp"
 					"editable": false
+					"opaque": false
+					"minimumSize": new java.awt.Dimension( 220, 17 )
+					"preferredSize": new java.awt.Dimension( 215, 17 )
+				}, new FormLayoutConstraints( class net.miginfocom.layout.CC ) {
+					"value": "cell 0 2,grow"
 				} )
 			}, new FormLayoutConstraints( class net.miginfocom.layout.CC ) {
 				"value": "cell 0 0,grow"
 			} )
 		}, new FormLayoutConstraints( null ) {
-			"location": new java.awt.Point( 105, 135 )
+			"location": new java.awt.Point( 105, 120 )
 			"size": new java.awt.Dimension( 245, 125 )
 		} )
 	}

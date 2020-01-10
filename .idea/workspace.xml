@@ -2,8 +2,32 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="58d67246-922a-4d2d-a1d0-7b772984c9e2" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Igru/src/fr/igru/windowsclient/Champs/ch_FilDiscu/ch_FilDiscu.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Igru/src/fr/igru/windowsclient/Champs/ch_FilDiscu/ch_FilDiscu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Igru/src/fr/igru/windowsclient/Champs/ch_FilDiscu/ch_FilDiscu.jfd" beforeDir="false" afterPath="$PROJECT_DIR$/../Igru/src/fr/igru/windowsclient/Champs/ch_FilDiscu/ch_FilDiscu.jfd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Igru/src/fr/igru/windowsclient/Champs/ch_Message/ch_Message.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Igru/src/fr/igru/windowsclient/Champs/ch_Message/ch_Message.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Igru/src/fr/igru/windowsclient/Champs/ch_Message/ch_Message.jfd" beforeDir="false" afterPath="$PROJECT_DIR$/../Igru/src/fr/igru/windowsclient/Champs/ch_Message/ch_Message.jfd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Igru/src/fr/igru/windowsclient/Champs/ch_MyGroups/ch_MyGroups.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Igru/src/fr/igru/windowsclient/Champs/ch_MyGroups/ch_MyGroups.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Igru/src/fr/igru/windowsclient/Champs/ch_MyGroups/ch_MyGroups.jfd" beforeDir="false" afterPath="$PROJECT_DIR$/../Igru/src/fr/igru/windowsclient/Champs/ch_MyGroups/ch_MyGroups.jfd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Igru/src/fr/igru/windowsclient/ConnectionDialog/connectionDialog.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Igru/src/fr/igru/windowsclient/ConnectionDialog/connectionDialog.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Igru/src/fr/igru/windowsclient/MainWindow/MainWindow.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Igru/src/fr/igru/windowsclient/MainWindow/MainWindow.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Igru/src/fr/igru/windowsclient/MainWindow/MainWindow.jfd" beforeDir="false" afterPath="$PROJECT_DIR$/../Igru/src/fr/igru/windowsclient/MainWindow/MainWindow.jfd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fr/igruserver/server/dataTypes/ServerUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fr/igruserver/server/dataTypes/ServerUser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Igru/fr/igru/Launcher.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Igru/fr/igru/Launcher.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Igru/fr/igru/client/NetworkHelper.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Igru/fr/igru/client/NetworkHelper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Igru/fr/igru/client/dataTypes/FilDiscussion.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Igru/fr/igru/client/dataTypes/FilDiscussion.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Igru/fr/igru/client/dataTypes/Message.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Igru/fr/igru/client/dataTypes/Message.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/fr/igruserver/Launcher.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fr/igruserver/Launcher.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/fr/igruserver/windowsServer/Champs/ch_Grp/ch_Grp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fr/igruserver/windowsServer/Champs/ch_Grp/ch_Grp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/fr/igruserver/windowsServer/Champs/ch_Grp/ch_Grp.jfd" beforeDir="false" afterPath="$PROJECT_DIR$/src/fr/igruserver/windowsServer/Champs/ch_Grp/ch_Grp.jfd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/fr/igruserver/windowsServer/Champs/ch_Util/ch_Util.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fr/igruserver/windowsServer/Champs/ch_Util/ch_Util.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/fr/igruserver/windowsServer/Champs/ch_Util/ch_Util.jfd" beforeDir="false" afterPath="$PROJECT_DIR$/src/fr/igruserver/windowsServer/Champs/ch_Util/ch_Util.jfd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/fr/igruserver/windowsServer/Champs/ch_Util/isConnected.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/fr/igruserver/windowsServer/Pictures/isConnected.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/fr/igruserver/windowsServer/Champs/ch_Util/isNotConnected.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/fr/igruserver/windowsServer/Pictures/isNotConnected.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/fr/igruserver/windowsServer/Dialog/dia_newGrp/dia_newGrp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fr/igruserver/windowsServer/Dialog/dia_newGrp/dia_newGrp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/fr/igruserver/windowsServer/MainServerWindow/MainServerWindow.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fr/igruserver/windowsServer/MainServerWindow/MainServerWindow.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/fr/igruserver/windowsServer/MainServerWindow/MainServerWindow.jfd" beforeDir="false" afterPath="$PROJECT_DIR$/src/fr/igruserver/windowsServer/MainServerWindow/MainServerWindow.jfd" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,6 +48,10 @@
     <expand />
     <select />
   </component>
+  <component name="ErrorTreeViewConfiguration">
+    <option name="autoscrollToSource" value="true" />
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="true" />
+  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
@@ -34,7 +62,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../Igru" />
     <option name="UPDATE_TYPE" value="MERGE" />
   </component>
   <component name="ProjectId" id="1W1sgyVr14xF8AfKbJZIEojMe2g" />
@@ -55,26 +83,26 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/lib/mysql-connector-java-8.0.18.jar!/" />
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="project.structure.last.edited" value="Global Libraries" />
+    <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/lib" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Guillaume DELBOULBES\IdeaProjects\IgruServer\src\fr\igruserver\windowsServer\Pictures" />
       <recent name="C:\Users\Guillaume DELBOULBES\IdeaProjects\projet\src\fr\igruserver\windowsServer\MainServerWindow" />
       <recent name="C:\Users\Guillaume DELBOULBES\IdeaProjects\Igru\src\fr\igru\windowsclient\Champs\ch_FilDiscu" />
       <recent name="C:\Users\Guillaume DELBOULBES\IdeaProjects\Igru\src\fr\igru\windowsclient\MainWindow" />
       <recent name="C:\Users\Guillaume DELBOULBES\IdeaProjects\Igru\src\fr\igru\windowsclient" />
-      <recent name="$PROJECT_DIR$/../Igru/src/fr/igru/windows/MainWindow" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/lib" />
     </key>
   </component>
   <component name="RunManager" selected="Application.ServerLauncher">
     <configuration name="ClientLauncher" type="Application" factoryName="Application">
-      <option name="ALTERNATIVE_JRE_PATH" value="11" />
+      <option name="ALTERNATIVE_JRE_PATH" value="C:/Program Files/Java/jdk1.8.0_231" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
       <option name="MAIN_CLASS_NAME" value="fr.igru.Launcher" />
       <module name="Igru" />
@@ -83,7 +111,7 @@
       </method>
     </configuration>
     <configuration name="ServerLauncher" type="Application" factoryName="Application">
-      <option name="ALTERNATIVE_JRE_PATH" value="11" />
+      <option name="ALTERNATIVE_JRE_PATH" value="C:/Program Files/Java/jdk1.8.0_231" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
       <option name="MAIN_CLASS_NAME" value="fr.igruserver.Launcher" />
       <module name="projet" />
@@ -272,18 +300,19 @@
       <screen x="40" y="0" width="1880" height="1080" />
     </state>
     <state x="679" y="176" width="618" height="720" key="#ClientLauncher/40.0.1880.1080@40.0.1880.1080" timestamp="1578593379315" />
-    <state x="490" y="207" width="800" height="672" key="#Project_Structure" timestamp="1578596823459">
-      <screen x="40" y="0" width="1880" height="1080" />
+    <state x="460" y="199" width="800" height="672" key="#Project_Structure" timestamp="1578619167558">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
+    <state x="460" y="199" key="#Project_Structure/0.0.1920.1040@0.0.1920.1040" timestamp="1578619167558" />
     <state x="490" y="207" width="800" height="672" key="#Project_Structure/40.0.1880.1080@40.0.1880.1080" timestamp="1578596823459" />
     <state x="679" y="176" width="618" height="720" key="#ServerLauncher" timestamp="1578593349906">
       <screen x="40" y="0" width="1880" height="1080" />
     </state>
     <state x="679" y="176" width="618" height="720" key="#ServerLauncher/40.0.1880.1080@40.0.1880.1080" timestamp="1578593349906" />
-    <state x="445" y="182" width="1084" height="701" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1578593401748">
-      <screen x="40" y="0" width="1880" height="1080" />
+    <state x="414" y="175" width="1084" height="701" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1578619352029">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1578577328530" />
+    <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1578619352029" />
     <state x="445" y="182" width="1084" height="701" key="#com.intellij.execution.impl.EditConfigurationsDialog/40.0.1880.1080@40.0.1880.1080" timestamp="1578593401748" />
     <state x="740" y="323" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1578578825518">
       <screen x="0" y="0" width="1920" height="1040" />
@@ -307,10 +336,10 @@
       <screen x="40" y="0" width="1880" height="1080" />
     </state>
     <state x="535" y="165" width="824" height="679" key="#com.intellij.openapi.projectRoots.ui.ProjectJdksEditor/40.0.1880.1080@40.0.1880.1080" timestamp="1578508205869" />
-    <state x="764" y="450" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1578560761078">
+    <state x="764" y="450" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1578622459429">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="764" y="450" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1578560761078" />
+    <state x="764" y="450" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1578622459429" />
     <state x="788" y="467" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/40.0.1880.1080@40.0.1880.1080" timestamp="1578527571973" />
     <state x="161" y="0" width="615" height="1075" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1578596928398">
       <screen x="40" y="0" width="1880" height="1080" />
@@ -328,30 +357,34 @@
     </state>
     <state x="102" y="95" width="1716" height="848" key="DiffContextDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1578585482656" />
     <state x="140" y="99" width="1680" height="880" key="DiffContextDialog/40.0.1880.1080@40.0.1880.1080" timestamp="1578358078345" />
-    <state x="763" y="251" width="637" height="570" key="FileChooserDialogImpl" timestamp="1578592431775">
-      <screen x="40" y="0" width="1880" height="1080" />
+    <state x="507" y="219" width="637" height="570" key="FileChooserDialogImpl" timestamp="1578619345769">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="738" y="242" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1578553990212" />
+    <state x="507" y="219" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1578619345769" />
     <state x="763" y="251" width="637" height="570" key="FileChooserDialogImpl/40.0.1880.1080@40.0.1880.1080" timestamp="1578592431775" />
     <state x="630" y="332" key="GitRewordDialog" timestamp="1578350426764">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="630" y="332" key="GitRewordDialog/0.0.1600.860@0.0.1600.860" timestamp="1578350426764" />
-    <state width="1838" height="267" key="GridCell.Tab.0.bottom" timestamp="1578611595767">
-      <screen x="40" y="0" width="1880" height="1080" />
+    <state width="1077" height="281" key="GridCell.Tab.0.bottom" timestamp="1578623166041">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
+    <state width="1077" height="281" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1578623166041" />
     <state width="1838" height="267" key="GridCell.Tab.0.bottom/40.0.1880.1080@40.0.1880.1080" timestamp="1578611595767" />
-    <state width="1838" height="267" key="GridCell.Tab.0.center" timestamp="1578611595767">
-      <screen x="40" y="0" width="1880" height="1080" />
+    <state width="1077" height="281" key="GridCell.Tab.0.center" timestamp="1578623166041">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
+    <state width="1077" height="281" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1578623166041" />
     <state width="1838" height="267" key="GridCell.Tab.0.center/40.0.1880.1080@40.0.1880.1080" timestamp="1578611595767" />
-    <state width="1838" height="267" key="GridCell.Tab.0.left" timestamp="1578611595767">
-      <screen x="40" y="0" width="1880" height="1080" />
+    <state width="1077" height="281" key="GridCell.Tab.0.left" timestamp="1578623166041">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
+    <state width="1077" height="281" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1578623166041" />
     <state width="1838" height="267" key="GridCell.Tab.0.left/40.0.1880.1080@40.0.1880.1080" timestamp="1578611595767" />
-    <state width="1838" height="267" key="GridCell.Tab.0.right" timestamp="1578611595767">
-      <screen x="40" y="0" width="1880" height="1080" />
+    <state width="1077" height="281" key="GridCell.Tab.0.right" timestamp="1578623166041">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
+    <state width="1077" height="281" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1578623166041" />
     <state width="1838" height="267" key="GridCell.Tab.0.right/40.0.1880.1080@40.0.1880.1080" timestamp="1578611595767" />
     <state x="540" y="255" key="IDE.errors.dialog" timestamp="1578561053954">
       <screen x="0" y="0" width="1920" height="1040" />
@@ -365,10 +398,10 @@
       <screen x="40" y="0" width="1880" height="1080" />
     </state>
     <state x="618" y="241" width="713" height="591" key="NewModule_or_Project.wizard/40.0.1880.1080@40.0.1880.1080" timestamp="1578591759735" />
-    <state x="453" y="168" key="SettingsEditor" timestamp="1578554016495">
+    <state x="873" y="162" key="SettingsEditor" timestamp="1578619485758">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="453" y="168" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1578554016495" />
+    <state x="873" y="162" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1578619485758" />
     <state x="484" y="174" key="SettingsEditor/40.0.1880.1080@40.0.1880.1080" timestamp="1578532250227" />
     <state width="498" height="446" key="SwitcherDM" timestamp="1578578917012">
       <screen x="0" y="0" width="1920" height="1040" />
@@ -384,11 +417,15 @@
     <state x="455" y="219" key="Vcs.Push.Dialog.v2/0.0.1600.860@0.0.1600.860" timestamp="1578350768820" />
     <state x="546" y="265" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1578562995834" />
     <state x="575" y="275" width="800" height="523" key="Vcs.Push.Dialog.v2/40.0.1880.1080@40.0.1880.1080" timestamp="1578614250028" />
-    <state x="793" y="454" width="408" height="170" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1578605652331">
-      <screen x="40" y="0" width="1880" height="1080" />
+    <state x="769" y="437" width="408" height="170" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1578628183122">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="769" y="437" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040" timestamp="1578585791681" />
+    <state x="769" y="437" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040" timestamp="1578628183122" />
     <state x="793" y="454" width="408" height="170" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/40.0.1880.1080@40.0.1880.1080" timestamp="1578605652331" />
+    <state x="690" y="300" key="extract.method.dialog" timestamp="1578626998452">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="690" y="300" key="extract.method.dialog/0.0.1920.1040@0.0.1920.1040" timestamp="1578626998452" />
     <state x="657" y="118" width="736" height="804" key="find.popup" timestamp="1578553848733">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
