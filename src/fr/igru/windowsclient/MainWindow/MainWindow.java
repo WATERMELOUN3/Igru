@@ -31,7 +31,7 @@ public class MainWindow extends JPanel {
     }
 
     private void buttonNewThreadActionPerformed(ActionEvent e) {
-        dia_NewThread panelMenu = new dia_NewThread();
+        dia_NewThread panelMenu = new dia_NewThread(nom);
         panelMenu.setVisible(true);
         ecran.setGlassPane(panelMenu);
         ecran.getGlassPane().setVisible(true);
